@@ -1,0 +1,361 @@
+2025-01-28 00:36:59.577 -05:00 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-28 00:37:00.009 -05:00 [INF] Now listening on: https://localhost:7195
+2025-01-28 00:37:00.012 -05:00 [INF] Now listening on: http://localhost:5121
+2025-01-28 00:37:00.022 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-28 00:37:00.026 -05:00 [INF] Hosting environment: Development
+2025-01-28 00:37:00.029 -05:00 [INF] Content root path: C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Northwind3
+2025-01-28 00:37:02.046 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-28 00:37:05.611 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 3570.9927ms
+2025-01-28 00:37:05.611 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-28 00:37:05.626 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-28 00:37:05.676 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 64.3183ms
+2025-01-28 00:37:06.023 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 396.06ms
+2025-01-28 00:37:06.661 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-28 00:37:07.393 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 732.151ms
+2025-01-28 00:37:26.410 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/.well-known/openid-configuration - null null
+2025-01-28 00:37:26.435 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-01-28 00:37:26.441 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-01-28 00:37:26.445 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/.well-known/openid-configuration - 401 0 null 35.1396ms
+2025-01-28 15:26:04.881 -05:00 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-28 15:26:05.282 -05:00 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address https://127.0.0.1:7195: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Une seule utilisation de chaque adresse de socket (protocole/adresse réseau/port) est habituellement autorisée.
+ ---> System.Net.Sockets.SocketException (10048): Une seule utilisation de chaque adresse de socket (protocole/adresse réseau/port) est habituellement autorisée.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2025-01-28 18:21:36.077 -05:00 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-28 18:21:36.469 -05:00 [INF] Now listening on: https://localhost:7195
+2025-01-28 18:21:36.472 -05:00 [INF] Now listening on: http://localhost:5121
+2025-01-28 18:21:36.479 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-28 18:21:36.481 -05:00 [INF] Hosting environment: Development
+2025-01-28 18:21:36.482 -05:00 [INF] Content root path: C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Northwind3
+2025-01-28 18:21:38.611 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-28 18:21:39.262 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 662.2772ms
+2025-01-28 18:21:39.463 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-28 18:21:39.463 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-28 18:21:39.487 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 23.8914ms
+2025-01-28 18:21:39.641 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 177.4803ms
+2025-01-28 18:21:51.259 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-28 18:21:51.584 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 324.4059ms
+2025-01-28 18:22:54.586 -05:00 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-28 18:22:54.915 -05:00 [INF] Now listening on: https://localhost:7195
+2025-01-28 18:22:54.919 -05:00 [INF] Now listening on: http://localhost:5121
+2025-01-28 18:22:54.925 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-28 18:22:54.928 -05:00 [INF] Hosting environment: Development
+2025-01-28 18:22:54.929 -05:00 [INF] Content root path: C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Northwind3
+2025-01-28 18:22:55.511 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-28 18:22:56.062 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 556.6587ms
+2025-01-28 18:22:56.085 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-28 18:22:56.085 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-28 18:22:56.099 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 13.8559ms
+2025-01-28 18:22:56.146 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 61.2955ms
+2025-01-28 18:22:56.860 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-28 18:22:58.082 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1222.5613ms
+2025-01-28 18:23:07.136 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-28 18:23:07.200 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 63.7634ms
+2025-01-28 18:23:07.233 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-28 18:23:07.233 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-28 18:23:07.283 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 49.8367ms
+2025-01-28 18:23:07.304 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 70.5475ms
+2025-01-28 18:23:07.584 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-28 18:23:07.626 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 41.6964ms
+2025-01-28 18:23:15.565 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/api/Employes - null null
+2025-01-28 18:23:15.594 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-01-28 18:23:15.598 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-01-28 18:23:15.600 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/api/Employes - 401 0 null 35.5646ms
+2025-01-28 18:24:29.255 -05:00 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-28 18:24:29.670 -05:00 [INF] Now listening on: https://localhost:7195
+2025-01-28 18:24:29.677 -05:00 [INF] Now listening on: http://localhost:5121
+2025-01-28 18:24:29.689 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-28 18:24:29.691 -05:00 [INF] Hosting environment: Development
+2025-01-28 18:24:29.693 -05:00 [INF] Content root path: C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Northwind3
+2025-01-28 18:24:51.929 -05:00 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-28 18:24:52.124 -05:00 [INF] Now listening on: https://localhost:7195
+2025-01-28 18:24:52.127 -05:00 [INF] Now listening on: http://localhost:5121
+2025-01-28 18:24:52.133 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-28 18:24:52.135 -05:00 [INF] Hosting environment: Development
+2025-01-28 18:24:52.136 -05:00 [INF] Content root path: C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Northwind3
+2025-01-28 18:24:53.012 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-28 18:24:53.489 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 479.9554ms
+2025-01-28 18:24:53.503 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-28 18:24:53.503 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-28 18:24:53.526 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 23.2485ms
+2025-01-28 18:24:53.596 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 93.4211ms
+2025-01-28 18:24:53.715 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-28 18:24:53.976 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 260.5816ms
+2025-01-28 18:25:00.416 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/api/Employes - null null
+2025-01-28 18:25:00.454 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-01-28 18:25:00.463 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-01-28 18:25:00.465 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/api/Employes - 401 0 null 48.3307ms
+2025-01-28 18:27:31.644 -05:00 [INF] Now listening on: https://localhost:7195
+2025-01-28 18:27:31.703 -05:00 [INF] Now listening on: http://localhost:5121
+2025-01-28 18:27:31.709 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-28 18:27:31.711 -05:00 [INF] Hosting environment: Development
+2025-01-28 18:27:31.713 -05:00 [INF] Content root path: C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Northwind3
+2025-01-28 18:27:32.456 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-28 18:27:32.806 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 354.6424ms
+2025-01-28 18:27:32.821 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-28 18:27:32.821 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-28 18:27:32.839 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 17.5778ms
+2025-01-28 18:27:32.881 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 59.7788ms
+2025-01-28 18:27:33.025 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-28 18:27:33.242 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 216.8562ms
+2025-01-28 18:27:45.731 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/api/Employes - null null
+2025-01-28 18:27:45.754 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-01-28 18:27:45.763 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.<>c__DisplayClass0_0.<<HandleAsync>g__Handle|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-28 18:27:45.790 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/api/Employes - 500 null text/plain; charset=utf-8 58.9541ms
+2025-01-28 18:29:57.436 -05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-01-28 18:30:01.511 -05:00 [INF] Executed DbCommand (25ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-01-28 18:30:01.551 -05:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-01-28 18:30:01.573 -05:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-01-28 18:35:16.925 -05:00 [INF] Now listening on: https://localhost:7195
+2025-01-28 18:35:17.064 -05:00 [INF] Now listening on: http://localhost:5121
+2025-01-28 18:35:17.070 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-28 18:35:17.072 -05:00 [INF] Hosting environment: Development
+2025-01-28 18:35:17.074 -05:00 [INF] Content root path: C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Northwind3
+2025-01-28 18:35:17.841 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-28 18:35:18.369 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 533.387ms
+2025-01-28 18:35:18.391 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-28 18:35:18.391 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-28 18:35:18.417 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 25.0324ms
+2025-01-28 18:35:18.475 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 83.319ms
+2025-01-28 18:35:18.645 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-28 18:35:18.929 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 283.1386ms
+2025-01-28 18:35:24.362 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/api/Employes - null null
+2025-01-28 18:35:24.384 -05:00 [INF] Executing endpoint 'ApiProjetVersion3.Controllers.EmployesController.GetEmployes (ApiProjetVersion3)'
+2025-01-28 18:35:24.431 -05:00 [INF] Route matched with {action = "GetEmployes", controller = "Employes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ApiProjetVersion3.Entities.Employe]]] GetEmployes(System.String, System.Nullable`1[System.DateTime]) on controller ApiProjetVersion3.Controllers.EmployesController (ApiProjetVersion3).
+2025-01-28 18:35:25.404 -05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-01-28 18:35:26.640 -05:00 [INF] Executed DbCommand (58ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[Civilite], [e].[Nom], [e].[Prenom], [e].[Fonction], [e].[DateEmbauche], [a].[Id], [a].[CodePostal], [a].[Pays], [a].[Region], [a].[Rue], [a].[Tel], [a].[Ville], [s].[Id], [s].[IdRegion], [s].[Nom], [s].[IdEmploye], [s].[IdTerritoire]
+FROM [Employes] AS [e]
+INNER JOIN [Adresses] AS [a] ON [e].[IdAdresse] = [a].[Id]
+LEFT JOIN (
+    SELECT [t].[Id], [t].[IdRegion], [t].[Nom], [a0].[IdEmploye], [a0].[IdTerritoire]
+    FROM [Affectations] AS [a0]
+    INNER JOIN [Territoires] AS [t] ON [a0].[IdTerritoire] = [t].[Id]
+) AS [s] ON [e].[Id] = [s].[IdEmploye]
+ORDER BY [e].[Nom], [e].[Prenom], [e].[Id], [a].[Id], [s].[IdEmploye], [s].[IdTerritoire]
+2025-01-28 18:35:26.743 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ApiProjetVersion3.Entities.Employe, ApiProjetVersion3, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-01-28 18:35:26.803 -05:00 [INF] Executed action ApiProjetVersion3.Controllers.EmployesController.GetEmployes (ApiProjetVersion3) in 2363.6076ms
+2025-01-28 18:35:26.808 -05:00 [INF] Executed endpoint 'ApiProjetVersion3.Controllers.EmployesController.GetEmployes (ApiProjetVersion3)'
+2025-01-28 18:35:26.824 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/api/Employes - 200 null application/json; charset=utf-8 2461.803ms
+2025-01-28 18:36:33.785 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/api/Regions/4 - null null
+2025-01-28 18:36:33.792 -05:00 [INF] Executing endpoint 'ApiProjetVersion3.Controllers.EmployesController.Getregion (ApiProjetVersion3)'
+2025-01-28 18:36:33.801 -05:00 [INF] Route matched with {action = "Getregion", controller = "Employes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ApiProjetVersion3.Entities.Employe]] Getregion(Int32) on controller ApiProjetVersion3.Controllers.EmployesController (ApiProjetVersion3).
+2025-01-28 18:36:33.900 -05:00 [INF] Executed DbCommand (23ms) [Parameters=[@__id_0='4'], CommandType='"Text"', CommandTimeout='30']
+SELECT [r0].[Id], [r0].[Nom], [t].[Id], [t].[IdRegion], [t].[Nom]
+FROM (
+    SELECT TOP(1) [r].[Id], [r].[Nom]
+    FROM [Regions] AS [r]
+    WHERE [r].[Id] = @__id_0
+) AS [r0]
+LEFT JOIN [Territoires] AS [t] ON [r0].[Id] = [t].[IdRegion]
+ORDER BY [r0].[Id]
+2025-01-28 18:36:33.913 -05:00 [INF] Executing OkObjectResult, writing value of type 'ApiProjetVersion3.Entities.Region'.
+2025-01-28 18:36:33.917 -05:00 [INF] Executed action ApiProjetVersion3.Controllers.EmployesController.Getregion (ApiProjetVersion3) in 110.7998ms
+2025-01-28 18:36:33.921 -05:00 [INF] Executed endpoint 'ApiProjetVersion3.Controllers.EmployesController.Getregion (ApiProjetVersion3)'
+2025-01-28 18:36:33.923 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/api/Regions/4 - 200 null application/json; charset=utf-8 138.0958ms
+2025-01-28 18:37:01.069 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/api/Commandes/4 - null null
+2025-01-28 18:37:01.088 -05:00 [INF] Executing endpoint 'ApiProjetVersion3.Controllers.EmployesController.GetCommande (ApiProjetVersion3)'
+2025-01-28 18:37:01.095 -05:00 [INF] Route matched with {action = "GetCommande", controller = "Employes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ApiProjetVersion3.Entities.Commande]] GetCommande(Int32) on controller ApiProjetVersion3.Controllers.EmployesController (ApiProjetVersion3).
+2025-01-28 18:37:01.202 -05:00 [INF] Executed DbCommand (7ms) [Parameters=[@__id_0='4'], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[DateCommande], [c0].[DateLivMaxi], [c0].[DateLivraison], [c0].[FraisLivraison], [c0].[IdAdresse], [c0].[IdClient], [c0].[IdEmploye], [c0].[IdLivreur], [l].[IdCommande], [l].[IdProduit], [l].[PU], [l].[Quantite], [l].[TauxReduc]
+FROM (
+    SELECT TOP(1) [c].[Id], [c].[DateCommande], [c].[DateLivMaxi], [c].[DateLivraison], [c].[FraisLivraison], [c].[IdAdresse], [c].[IdClient], [c].[IdEmploye], [c].[IdLivreur]
+    FROM [Commandes] AS [c]
+    WHERE [c].[Id] = @__id_0
+) AS [c0]
+LEFT JOIN [LignesCommandes] AS [l] ON [c0].[Id] = [l].[IdCommande]
+ORDER BY [c0].[Id], [l].[IdCommande]
+2025-01-28 18:37:01.208 -05:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-01-28 18:37:01.229 -05:00 [INF] Executed action ApiProjetVersion3.Controllers.EmployesController.GetCommande (ApiProjetVersion3) in 129.2399ms
+2025-01-28 18:37:01.232 -05:00 [INF] Executed endpoint 'ApiProjetVersion3.Controllers.EmployesController.GetCommande (ApiProjetVersion3)'
+2025-01-28 18:37:01.235 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/api/Commandes/4 - 404 null application/problem+json; charset=utf-8 166.0435ms
+2025-01-28 18:37:14.324 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/api/Commandes/1676 - null null
+2025-01-28 18:37:14.331 -05:00 [INF] Executing endpoint 'ApiProjetVersion3.Controllers.EmployesController.GetCommande (ApiProjetVersion3)'
+2025-01-28 18:37:14.332 -05:00 [INF] Route matched with {action = "GetCommande", controller = "Employes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ApiProjetVersion3.Entities.Commande]] GetCommande(Int32) on controller ApiProjetVersion3.Controllers.EmployesController (ApiProjetVersion3).
+2025-01-28 18:37:14.343 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[@__id_0='1676'], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[DateCommande], [c0].[DateLivMaxi], [c0].[DateLivraison], [c0].[FraisLivraison], [c0].[IdAdresse], [c0].[IdClient], [c0].[IdEmploye], [c0].[IdLivreur], [l].[IdCommande], [l].[IdProduit], [l].[PU], [l].[Quantite], [l].[TauxReduc]
+FROM (
+    SELECT TOP(1) [c].[Id], [c].[DateCommande], [c].[DateLivMaxi], [c].[DateLivraison], [c].[FraisLivraison], [c].[IdAdresse], [c].[IdClient], [c].[IdEmploye], [c].[IdLivreur]
+    FROM [Commandes] AS [c]
+    WHERE [c].[Id] = @__id_0
+) AS [c0]
+LEFT JOIN [LignesCommandes] AS [l] ON [c0].[Id] = [l].[IdCommande]
+ORDER BY [c0].[Id], [l].[IdCommande]
+2025-01-28 18:37:14.354 -05:00 [INF] Executing OkObjectResult, writing value of type 'ApiProjetVersion3.Entities.Commande'.
+2025-01-28 18:37:14.384 -05:00 [INF] Executed action ApiProjetVersion3.Controllers.EmployesController.GetCommande (ApiProjetVersion3) in 49.1779ms
+2025-01-28 18:37:14.387 -05:00 [INF] Executed endpoint 'ApiProjetVersion3.Controllers.EmployesController.GetCommande (ApiProjetVersion3)'
+2025-01-28 18:37:14.388 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/api/Commandes/1676 - 200 null application/json; charset=utf-8 63.7562ms
+2025-01-28 19:21:57.728 -05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-01-28 19:22:04.644 -05:00 [INF] Executed DbCommand (80ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-01-28 19:22:05.537 -05:00 [INF] Executed DbCommand (57ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-01-28 19:22:05.603 -05:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-01-28 21:41:07.898 -05:00 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-28 21:41:08.459 -05:00 [INF] Now listening on: https://localhost:7195
+2025-01-28 21:41:08.463 -05:00 [INF] Now listening on: http://localhost:5121
+2025-01-28 21:41:08.478 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-28 21:41:08.480 -05:00 [INF] Hosting environment: Development
+2025-01-28 21:41:08.482 -05:00 [INF] Content root path: C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Northwind3
+2025-01-28 21:41:09.417 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-28 21:41:10.026 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 615.4179ms
+2025-01-28 21:41:10.045 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-28 21:41:10.045 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-28 21:41:10.062 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 16.5515ms
+2025-01-28 21:41:10.125 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 80.4915ms
+2025-01-28 21:41:10.296 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-28 21:41:10.686 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 389.9795ms
+2025-01-28 21:41:19.350 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/api/Employes - null null
+2025-01-28 21:41:19.387 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-01-28 21:41:19.392 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-01-28 21:41:19.393 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/api/Employes - 401 0 null 43.0658ms
+2025-01-28 22:57:31.259 -05:00 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-28 22:57:32.412 -05:00 [INF] Now listening on: https://localhost:7195
+2025-01-28 22:57:32.547 -05:00 [INF] Now listening on: http://localhost:5121
+2025-01-28 22:57:32.562 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-28 22:57:32.565 -05:00 [INF] Hosting environment: Development
+2025-01-28 22:57:32.570 -05:00 [INF] Content root path: C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Northwind3
+2025-01-28 22:57:33.632 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-28 22:57:34.297 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 658.5388ms
+2025-01-28 22:57:34.369 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-28 22:57:34.381 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-28 22:57:34.424 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 57.4015ms
+2025-01-28 22:57:34.691 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 309.6288ms
+2025-01-28 22:57:38.022 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-28 22:57:38.457 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 434.626ms
+2025-01-28 23:02:22.055 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-28 23:02:22.132 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 76.6658ms
+2025-01-28 23:02:22.175 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-28 23:02:22.177 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-28 23:02:22.189 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 13.7289ms
+2025-01-28 23:02:22.193 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 18.1606ms
+2025-01-28 23:02:22.659 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-28 23:02:22.710 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 51.4701ms
+2025-01-28 23:02:37.283 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-28 23:02:37.335 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 51.9599ms
+2025-01-28 23:02:37.499 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-28 23:02:37.500 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-28 23:02:37.506 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 7.2483ms
+2025-01-28 23:02:37.525 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 24.6642ms
+2025-01-28 23:02:38.684 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-28 23:02:38.723 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 38.7648ms
+2025-01-28 23:17:29.332 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/api/Regions/3 - null null
+2025-01-28 23:17:29.547 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-01-28 23:17:29.562 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-01-28 23:17:29.567 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/api/Regions/3 - 401 0 null 237.5628ms
+2025-01-28 23:33:19.574 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-28 23:33:19.730 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 155.3794ms
+2025-01-28 23:33:19.784 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-28 23:33:19.789 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-28 23:33:19.802 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 13.3419ms
+2025-01-28 23:33:19.819 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 34.7714ms
+2025-01-28 23:33:20.343 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-28 23:33:20.398 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 55.6106ms
+2025-01-28 23:33:45.016 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-28 23:33:45.080 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 63.7584ms
+2025-01-28 23:33:45.211 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-28 23:33:45.226 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-28 23:33:45.239 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 6.6424ms
+2025-01-28 23:33:45.246 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 35.3374ms
+2025-01-28 23:33:46.808 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-28 23:33:46.861 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 53.1278ms
+2025-01-28 23:34:32.739 -05:00 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-28 23:34:33.348 -05:00 [INF] Now listening on: https://localhost:7195
+2025-01-28 23:34:33.408 -05:00 [INF] Now listening on: http://localhost:5121
+2025-01-28 23:34:33.421 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-28 23:34:33.425 -05:00 [INF] Hosting environment: Development
+2025-01-28 23:34:33.431 -05:00 [INF] Content root path: C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Northwind3
+2025-01-28 23:34:34.670 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-28 23:34:35.172 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 503.7066ms
+2025-01-28 23:34:35.185 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-28 23:34:35.189 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-28 23:34:35.207 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 22.1327ms
+2025-01-28 23:34:35.267 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 78.6377ms
+2025-01-28 23:34:35.423 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-28 23:34:35.848 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 425.4517ms
+2025-01-28 23:35:56.004 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-28 23:35:56.044 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 40.0622ms
+2025-01-28 23:35:56.071 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-28 23:35:56.071 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-28 23:35:56.081 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 10.0891ms
+2025-01-28 23:35:56.098 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 27.4207ms
+2025-01-28 23:35:56.306 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-28 23:35:56.349 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 42.7222ms
+2025-01-28 23:38:55.946 -05:00 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-28 23:38:56.384 -05:00 [INF] Now listening on: https://localhost:7195
+2025-01-28 23:38:56.387 -05:00 [INF] Now listening on: http://localhost:5121
+2025-01-28 23:38:56.393 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-28 23:38:56.396 -05:00 [INF] Hosting environment: Development
+2025-01-28 23:38:56.398 -05:00 [INF] Content root path: C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Northwind3
+2025-01-28 23:38:57.942 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-28 23:38:58.580 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 641.4601ms
+2025-01-28 23:39:00.479 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-28 23:39:00.480 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-28 23:39:00.493 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 13.6354ms
+2025-01-28 23:39:00.568 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 88.0867ms
+2025-01-28 23:39:01.586 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-28 23:39:01.956 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 369.4931ms
+2025-01-28 23:40:30.912 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/api/Employes/3 - null null
+2025-01-28 23:40:30.953 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-01-28 23:40:30.960 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-01-28 23:40:30.962 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/api/Employes/3 - 401 0 null 50.5503ms
+2025-01-28 23:44:20.500 -05:00 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-28 23:44:20.980 -05:00 [INF] Now listening on: https://localhost:7195
+2025-01-28 23:44:21.158 -05:00 [INF] Now listening on: http://localhost:5121
+2025-01-28 23:44:21.231 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-28 23:44:21.241 -05:00 [INF] Hosting environment: Development
+2025-01-28 23:44:21.244 -05:00 [INF] Content root path: C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Northwind3
+2025-01-28 23:44:21.824 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-28 23:44:22.437 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 615.1769ms
+2025-01-28 23:44:22.480 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-28 23:44:22.505 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 24.8811ms
+2025-01-28 23:44:22.529 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-28 23:44:22.607 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 77.7754ms
+2025-01-28 23:44:23.429 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-28 23:44:24.014 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 585.4157ms

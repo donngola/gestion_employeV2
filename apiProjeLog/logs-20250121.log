@@ -1,0 +1,1412 @@
+2025-01-21 00:39:59.219 -05:00 [INF] Now listening on: https://localhost:7195
+2025-01-21 00:39:59.267 -05:00 [INF] Now listening on: http://localhost:5121
+2025-01-21 00:39:59.271 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 00:39:59.272 -05:00 [INF] Hosting environment: Development
+2025-01-21 00:39:59.273 -05:00 [INF] Content root path: C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Northwind3
+2025-01-21 00:40:00.888 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger - null null
+2025-01-21 00:40:01.129 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger - 301 0 null 246.0763ms
+2025-01-21 00:40:01.143 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-21 00:40:01.275 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 131.7405ms
+2025-01-21 00:40:01.334 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/swagger-ui.css - null null
+2025-01-21 00:40:01.338 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/swagger-ui-bundle.js - null null
+2025-01-21 00:40:01.338 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/swagger-ui-standalone-preset.js - null null
+2025-01-21 00:40:01.338 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 00:40:01.342 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-21 00:40:01.357 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 18.5053ms
+2025-01-21 00:40:01.386 -05:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-01-21 00:40:01.387 -05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-01-21 00:40:01.399 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 60.9389ms
+2025-01-21 00:40:01.399 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/swagger-ui.css - 200 143943 text/css 65.5196ms
+2025-01-21 00:40:01.424 -05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-01-21 00:40:01.426 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 87.846ms
+2025-01-21 00:40:01.685 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 342.9975ms
+2025-01-21 00:40:01.912 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-21 00:40:01.988 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/favicon-32x32.png - null null
+2025-01-21 00:40:01.992 -05:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-01-21 00:40:01.997 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/favicon-32x32.png - 200 628 image/png 9.5102ms
+2025-01-21 00:40:02.201 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 288.3655ms
+2025-01-21 01:11:29.054 -05:00 [INF] Now listening on: https://localhost:7195
+2025-01-21 01:11:29.116 -05:00 [INF] Now listening on: http://localhost:5121
+2025-01-21 01:11:29.125 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 01:11:29.127 -05:00 [INF] Hosting environment: Development
+2025-01-21 01:11:29.129 -05:00 [INF] Content root path: C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Northwind3
+2025-01-21 01:11:29.918 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-21 01:11:30.453 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 539.6445ms
+2025-01-21 01:11:30.480 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-21 01:11:30.480 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 01:11:30.510 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 29.8243ms
+2025-01-21 01:11:30.563 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 83.0157ms
+2025-01-21 01:11:30.992 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-21 01:11:31.343 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 350.568ms
+2025-01-21 01:11:56.132 -05:00 [INF] Request starting HTTP/2 DELETE https://localhost:7195/api/Employes/api/Commandes/1670 - null null
+2025-01-21 01:11:56.150 -05:00 [INF] Executing endpoint 'Northwind3.Controllers.EmployesController.DeleteCommade (Northwind3)'
+2025-01-21 01:11:56.206 -05:00 [INF] Route matched with {action = "DeleteCommade", controller = "Employes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteCommade(Int32) on controller Northwind3.Controllers.EmployesController (Northwind3).
+2025-01-21 01:11:57.369 -05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-01-21 01:11:59.081 -05:00 [INF] Executed DbCommand (113ms) [Parameters=[@p0='1670'], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Commandes]
+OUTPUT 1
+WHERE [Id] = @p0;
+2025-01-21 01:11:59.167 -05:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2025-01-21 01:11:59.176 -05:00 [INF] Executed action Northwind3.Controllers.EmployesController.DeleteCommade (Northwind3) in 2960.249ms
+2025-01-21 01:11:59.181 -05:00 [INF] Executed endpoint 'Northwind3.Controllers.EmployesController.DeleteCommade (Northwind3)'
+2025-01-21 01:11:59.199 -05:00 [INF] Request finished HTTP/2 DELETE https://localhost:7195/api/Employes/api/Commandes/1670 - 204 null null 3066.4437ms
+2025-01-21 01:13:03.578 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-21 01:13:03.616 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 38.08ms
+2025-01-21 01:13:03.665 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 01:13:03.673 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-21 01:13:03.676 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 10.9318ms
+2025-01-21 01:13:03.695 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 22.4919ms
+2025-01-21 01:13:03.779 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-21 01:13:03.814 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 35.1311ms
+2025-01-21 01:17:07.575 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-21 01:17:07.607 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 31.6365ms
+2025-01-21 01:17:07.630 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-21 01:17:07.635 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 01:17:07.647 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 16.6849ms
+2025-01-21 01:17:07.649 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 13.111ms
+2025-01-21 01:17:07.754 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-21 01:17:07.793 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 38.948ms
+2025-01-21 01:19:43.009 -05:00 [INF] Request starting HTTP/2 DELETE https://localhost:7195/api/Employes/11 - null null
+2025-01-21 01:19:43.014 -05:00 [INF] Executing endpoint 'Northwind3.Controllers.EmployesController.SupprimeEmploye (Northwind3)'
+2025-01-21 01:19:43.022 -05:00 [INF] Route matched with {action = "SupprimeEmploye", controller = "Employes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SupprimeEmploye(Int32) on controller Northwind3.Controllers.EmployesController (Northwind3).
+2025-01-21 01:19:43.194 -05:00 [INF] Executed DbCommand (30ms) [Parameters=[@p0='11'], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Employes]
+OUTPUT 1
+WHERE [Id] = @p0;
+2025-01-21 01:19:43.223 -05:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-01-21 01:19:43.255 -05:00 [INF] Executed action Northwind3.Controllers.EmployesController.SupprimeEmploye (Northwind3) in 230.4761ms
+2025-01-21 01:19:43.259 -05:00 [INF] Executed endpoint 'Northwind3.Controllers.EmployesController.SupprimeEmploye (Northwind3)'
+2025-01-21 01:19:43.261 -05:00 [INF] Request finished HTTP/2 DELETE https://localhost:7195/api/Employes/11 - 404 null application/problem+json; charset=utf-8 252.2911ms
+2025-01-21 01:21:55.244 -05:00 [INF] Request starting HTTP/2 DELETE https://localhost:7195/api/Commandes/1670 - null null
+2025-01-21 01:21:55.250 -05:00 [INF] Executing endpoint 'Northwind3.Controllers.EmployesController.DeleteCommade (Northwind3)'
+2025-01-21 01:21:55.259 -05:00 [INF] Route matched with {action = "DeleteCommade", controller = "Employes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteCommade(Int32) on controller Northwind3.Controllers.EmployesController (Northwind3).
+2025-01-21 01:21:55.290 -05:00 [INF] Executed DbCommand (10ms) [Parameters=[@p0='1670'], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Commandes]
+OUTPUT 1
+WHERE [Id] = @p0;
+2025-01-21 01:21:55.293 -05:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-01-21 01:21:55.295 -05:00 [INF] Executed action Northwind3.Controllers.EmployesController.DeleteCommade (Northwind3) in 33.9879ms
+2025-01-21 01:21:55.297 -05:00 [INF] Executed endpoint 'Northwind3.Controllers.EmployesController.DeleteCommade (Northwind3)'
+2025-01-21 01:21:55.299 -05:00 [INF] Request finished HTTP/2 DELETE https://localhost:7195/api/Commandes/1670 - 404 null application/problem+json; charset=utf-8 54.653ms
+2025-01-21 01:27:39.302 -05:00 [INF] Request starting HTTP/2 DELETE https://localhost:7195/api/Commandes/1670 - null null
+2025-01-21 01:27:39.307 -05:00 [INF] Executing endpoint 'Northwind3.Controllers.EmployesController.DeleteCommade (Northwind3)'
+2025-01-21 01:27:39.308 -05:00 [INF] Route matched with {action = "DeleteCommade", controller = "Employes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteCommade(Int32) on controller Northwind3.Controllers.EmployesController (Northwind3).
+2025-01-21 01:27:39.329 -05:00 [INF] Executed DbCommand (6ms) [Parameters=[@p0='1670'], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Commandes]
+OUTPUT 1
+WHERE [Id] = @p0;
+2025-01-21 01:27:39.332 -05:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-01-21 01:27:39.334 -05:00 [INF] Executed action Northwind3.Controllers.EmployesController.DeleteCommade (Northwind3) in 20.4815ms
+2025-01-21 01:27:39.335 -05:00 [INF] Executed endpoint 'Northwind3.Controllers.EmployesController.DeleteCommade (Northwind3)'
+2025-01-21 01:27:39.336 -05:00 [INF] Request finished HTTP/2 DELETE https://localhost:7195/api/Commandes/1670 - 404 null application/problem+json; charset=utf-8 34.2396ms
+2025-01-21 01:28:30.761 -05:00 [INF] Request starting HTTP/2 DELETE https://localhost:7195/api/Commandes/1678 - null null
+2025-01-21 01:28:30.765 -05:00 [INF] Executing endpoint 'Northwind3.Controllers.EmployesController.DeleteCommade (Northwind3)'
+2025-01-21 01:28:30.768 -05:00 [INF] Route matched with {action = "DeleteCommade", controller = "Employes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteCommade(Int32) on controller Northwind3.Controllers.EmployesController (Northwind3).
+2025-01-21 01:28:30.781 -05:00 [INF] Executed DbCommand (9ms) [Parameters=[@p0='1678'], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Commandes]
+OUTPUT 1
+WHERE [Id] = @p0;
+2025-01-21 01:28:30.787 -05:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2025-01-21 01:28:30.789 -05:00 [INF] Executed action Northwind3.Controllers.EmployesController.DeleteCommade (Northwind3) in 18.1178ms
+2025-01-21 01:28:30.790 -05:00 [INF] Executed endpoint 'Northwind3.Controllers.EmployesController.DeleteCommade (Northwind3)'
+2025-01-21 01:28:30.791 -05:00 [INF] Request finished HTTP/2 DELETE https://localhost:7195/api/Commandes/1678 - 204 null null 30.3451ms
+2025-01-21 01:40:56.098 -05:00 [INF] Now listening on: https://localhost:7195
+2025-01-21 01:40:56.137 -05:00 [INF] Now listening on: http://localhost:5121
+2025-01-21 01:40:56.141 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 01:40:56.142 -05:00 [INF] Hosting environment: Development
+2025-01-21 01:40:56.144 -05:00 [INF] Content root path: C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Northwind3
+2025-01-21 01:40:56.697 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-21 01:40:56.976 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 271.2638ms
+2025-01-21 01:40:56.980 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 01:40:56.982 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-21 01:40:57.007 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 26.042ms
+2025-01-21 01:40:57.047 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 65.3502ms
+2025-01-21 01:40:57.140 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-21 01:40:57.305 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - Northwind3.Controllers.EmployesController.DeleteCommade (Northwind3). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-21 01:40:57.323 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 183.1131ms
+2025-01-21 01:42:40.919 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-21 01:42:40.948 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 29.2128ms
+2025-01-21 01:42:40.969 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 01:42:40.969 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-21 01:42:40.974 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 5.6169ms
+2025-01-21 01:42:40.996 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 26.9175ms
+2025-01-21 01:42:41.092 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-21 01:42:41.156 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "DELETE api/Commandes/{id}" for actions - Northwind3.Controllers.EmployesController.DeleteCommade (Northwind3),Northwind3.Controllers.EmployesController.SupprimerCommandeV2 (Northwind3). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-21 01:42:41.168 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 75.8081ms
+2025-01-21 01:43:10.726 -05:00 [INF] Now listening on: https://localhost:7195
+2025-01-21 01:43:10.766 -05:00 [INF] Now listening on: http://localhost:5121
+2025-01-21 01:43:10.771 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 01:43:10.774 -05:00 [INF] Hosting environment: Development
+2025-01-21 01:43:10.775 -05:00 [INF] Content root path: C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Northwind3
+2025-01-21 01:43:46.922 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-21 01:43:47.271 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 353.9175ms
+2025-01-21 01:43:47.302 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 01:43:47.307 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-21 01:43:47.327 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 25.2677ms
+2025-01-21 01:43:47.375 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 67.4517ms
+2025-01-21 01:43:47.466 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-21 01:43:47.707 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 240.5382ms
+2025-01-21 01:44:15.419 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-21 01:44:15.451 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 31.2944ms
+2025-01-21 01:44:15.473 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 01:44:15.473 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-21 01:44:15.480 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 7.0779ms
+2025-01-21 01:44:15.505 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 31.6618ms
+2025-01-21 01:44:15.584 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-21 01:44:15.672 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 88.718ms
+2025-01-21 01:44:27.538 -05:00 [INF] Now listening on: https://localhost:7195
+2025-01-21 01:44:27.580 -05:00 [INF] Now listening on: http://localhost:5121
+2025-01-21 01:44:27.585 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 01:44:27.587 -05:00 [INF] Hosting environment: Development
+2025-01-21 01:44:27.588 -05:00 [INF] Content root path: C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Northwind3
+2025-01-21 01:44:28.285 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-21 01:44:28.632 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 354.4945ms
+2025-01-21 01:44:28.648 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 01:44:28.649 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-21 01:44:28.662 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 13.4727ms
+2025-01-21 01:44:28.715 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 65.5726ms
+2025-01-21 01:44:28.857 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-21 01:44:29.159 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 302.2206ms
+2025-01-21 01:46:13.872 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/api/Commandes/1672 - null null
+2025-01-21 01:46:13.887 -05:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-01-21 01:46:13.888 -05:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-01-21 01:46:13.889 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/api/Commandes/1672 - 405 0 null 17.4607ms
+2025-01-21 01:46:51.008 -05:00 [INF] Request starting HTTP/2 DELETE https://localhost:7195/api/Commandes/1672 - null null
+2025-01-21 01:46:51.014 -05:00 [INF] Executing endpoint 'Northwind3.Controllers.EmployesController.DeleteCommade (Northwind3)'
+2025-01-21 01:46:51.065 -05:00 [INF] Route matched with {action = "DeleteCommade", controller = "Employes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteCommade(Int32) on controller Northwind3.Controllers.EmployesController (Northwind3).
+2025-01-21 01:46:52.072 -05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-01-21 01:46:53.528 -05:00 [INF] Executed DbCommand (56ms) [Parameters=[@__idCommande_0='1672'], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[DateCommande], [c0].[DateLivMaxi], [c0].[DateLivraison], [c0].[FraisLivraison], [c0].[IdAdresse], [c0].[IdClient], [c0].[IdEmploye], [c0].[IdLivreur], [l].[IdCommande], [l].[IdProduit], [l].[PU], [l].[Quantite], [l].[TauxReduc]
+FROM (
+    SELECT TOP(1) [c].[Id], [c].[DateCommande], [c].[DateLivMaxi], [c].[DateLivraison], [c].[FraisLivraison], [c].[IdAdresse], [c].[IdClient], [c].[IdEmploye], [c].[IdLivreur]
+    FROM [Commandes] AS [c]
+    WHERE [c].[Id] = @__idCommande_0
+) AS [c0]
+LEFT JOIN [LignesCommandes] AS [l] ON [c0].[Id] = [l].[IdCommande]
+ORDER BY [c0].[Id], [l].[IdCommande]
+2025-01-21 01:46:53.831 -05:00 [INF] Executed DbCommand (13ms) [Parameters=[@p0='1672', @p1='14', @p2='1672', @p3='15', @p4='1672', @p5='16', @p6='1672'], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [LignesCommandes]
+OUTPUT 1
+WHERE [IdCommande] = @p0 AND [IdProduit] = @p1;
+DELETE FROM [LignesCommandes]
+OUTPUT 1
+WHERE [IdCommande] = @p2 AND [IdProduit] = @p3;
+DELETE FROM [LignesCommandes]
+OUTPUT 1
+WHERE [IdCommande] = @p4 AND [IdProduit] = @p5;
+DELETE FROM [Commandes]
+OUTPUT 1
+WHERE [Id] = @p6;
+2025-01-21 01:46:53.869 -05:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2025-01-21 01:46:53.876 -05:00 [INF] Executed action Northwind3.Controllers.EmployesController.DeleteCommade (Northwind3) in 2804.2315ms
+2025-01-21 01:46:53.878 -05:00 [INF] Executed endpoint 'Northwind3.Controllers.EmployesController.DeleteCommade (Northwind3)'
+2025-01-21 01:46:53.887 -05:00 [INF] Request finished HTTP/2 DELETE https://localhost:7195/api/Commandes/1672 - 204 null null 2879.3109ms
+2025-01-21 01:48:21.475 -05:00 [INF] Request starting HTTP/2 DELETE https://localhost:7195/api/Commandes/1672 - null null
+2025-01-21 01:48:21.480 -05:00 [INF] Executing endpoint 'Northwind3.Controllers.EmployesController.DeleteCommade (Northwind3)'
+2025-01-21 01:48:21.484 -05:00 [INF] Route matched with {action = "DeleteCommade", controller = "Employes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteCommade(Int32) on controller Northwind3.Controllers.EmployesController (Northwind3).
+2025-01-21 01:48:21.531 -05:00 [INF] Executed DbCommand (8ms) [Parameters=[@__idCommande_0='1672'], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[DateCommande], [c0].[DateLivMaxi], [c0].[DateLivraison], [c0].[FraisLivraison], [c0].[IdAdresse], [c0].[IdClient], [c0].[IdEmploye], [c0].[IdLivreur], [l].[IdCommande], [l].[IdProduit], [l].[PU], [l].[Quantite], [l].[TauxReduc]
+FROM (
+    SELECT TOP(1) [c].[Id], [c].[DateCommande], [c].[DateLivMaxi], [c].[DateLivraison], [c].[FraisLivraison], [c].[IdAdresse], [c].[IdClient], [c].[IdEmploye], [c].[IdLivreur]
+    FROM [Commandes] AS [c]
+    WHERE [c].[Id] = @__idCommande_0
+) AS [c0]
+LEFT JOIN [LignesCommandes] AS [l] ON [c0].[Id] = [l].[IdCommande]
+ORDER BY [c0].[Id], [l].[IdCommande]
+2025-01-21 01:48:21.549 -05:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2025-01-21 01:48:21.551 -05:00 [INF] Executed action Northwind3.Controllers.EmployesController.DeleteCommade (Northwind3) in 63.6565ms
+2025-01-21 01:48:21.554 -05:00 [INF] Executed endpoint 'Northwind3.Controllers.EmployesController.DeleteCommade (Northwind3)'
+2025-01-21 01:48:21.556 -05:00 [INF] Request finished HTTP/2 DELETE https://localhost:7195/api/Commandes/1672 - 404 null text/plain; charset=utf-8 81.9523ms
+2025-01-21 01:56:21.936 -05:00 [INF] Request starting HTTP/2 DELETE https://localhost:7195/api/Commandes/1673 - null null
+2025-01-21 01:56:21.941 -05:00 [INF] Executing endpoint 'Northwind3.Controllers.EmployesController.DeleteCommade (Northwind3)'
+2025-01-21 01:56:21.943 -05:00 [INF] Route matched with {action = "DeleteCommade", controller = "Employes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteCommade(Int32) on controller Northwind3.Controllers.EmployesController (Northwind3).
+2025-01-21 01:56:22.033 -05:00 [INF] Executed DbCommand (5ms) [Parameters=[@__idCommande_0='1673'], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[DateCommande], [c0].[DateLivMaxi], [c0].[DateLivraison], [c0].[FraisLivraison], [c0].[IdAdresse], [c0].[IdClient], [c0].[IdEmploye], [c0].[IdLivreur], [l].[IdCommande], [l].[IdProduit], [l].[PU], [l].[Quantite], [l].[TauxReduc]
+FROM (
+    SELECT TOP(1) [c].[Id], [c].[DateCommande], [c].[DateLivMaxi], [c].[DateLivraison], [c].[FraisLivraison], [c].[IdAdresse], [c].[IdClient], [c].[IdEmploye], [c].[IdLivreur]
+    FROM [Commandes] AS [c]
+    WHERE [c].[Id] = @__idCommande_0
+) AS [c0]
+LEFT JOIN [LignesCommandes] AS [l] ON [c0].[Id] = [l].[IdCommande]
+ORDER BY [c0].[Id], [l].[IdCommande]
+2025-01-21 01:56:22.048 -05:00 [INF] Executed DbCommand (7ms) [Parameters=[@p0='1673', @p1='13', @p2='1673', @p3='17', @p4='1673'], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [LignesCommandes]
+OUTPUT 1
+WHERE [IdCommande] = @p0 AND [IdProduit] = @p1;
+DELETE FROM [LignesCommandes]
+OUTPUT 1
+WHERE [IdCommande] = @p2 AND [IdProduit] = @p3;
+DELETE FROM [Commandes]
+OUTPUT 1
+WHERE [Id] = @p4;
+2025-01-21 01:56:22.054 -05:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2025-01-21 01:56:22.055 -05:00 [INF] Executed action Northwind3.Controllers.EmployesController.DeleteCommade (Northwind3) in 108.3505ms
+2025-01-21 01:56:22.056 -05:00 [INF] Executed endpoint 'Northwind3.Controllers.EmployesController.DeleteCommade (Northwind3)'
+2025-01-21 01:56:22.057 -05:00 [INF] Request finished HTTP/2 DELETE https://localhost:7195/api/Commandes/1673 - 204 null null 121.2463ms
+2025-01-21 02:18:07.973 -05:00 [INF] Now listening on: https://localhost:7195
+2025-01-21 02:18:08.012 -05:00 [INF] Now listening on: http://localhost:5121
+2025-01-21 02:18:08.018 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 02:18:08.019 -05:00 [INF] Hosting environment: Development
+2025-01-21 02:18:08.021 -05:00 [INF] Content root path: C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Northwind3
+2025-01-21 02:18:15.554 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-21 02:18:15.964 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 411.5664ms
+2025-01-21 02:18:15.965 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-21 02:18:15.965 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 02:18:16.001 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 35.4514ms
+2025-01-21 02:18:16.037 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 72.5585ms
+2025-01-21 02:18:16.148 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-21 02:18:16.434 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 286.3304ms
+2025-01-21 11:50:24.090 -05:00 [INF] Now listening on: https://localhost:7195
+2025-01-21 11:50:24.142 -05:00 [INF] Now listening on: http://localhost:5121
+2025-01-21 11:50:24.148 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 11:50:24.151 -05:00 [INF] Hosting environment: Development
+2025-01-21 11:50:24.153 -05:00 [INF] Content root path: C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Northwind3
+2025-01-21 11:50:25.063 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-21 11:50:25.544 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 489.1614ms
+2025-01-21 11:50:25.706 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-21 11:50:25.706 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 11:50:25.728 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 20.3912ms
+2025-01-21 11:50:25.777 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 70.2882ms
+2025-01-21 11:50:26.180 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-21 11:50:26.473 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 293.328ms
+2025-01-21 11:54:22.289 -05:00 [INF] Request starting HTTP/2 POST https://localhost:7195/api/Employes - application/json 391
+2025-01-21 11:54:22.307 -05:00 [INF] Executing endpoint 'Northwind3.Controllers.EmployesController.PostEmploye (ApiProjetVersion3)'
+2025-01-21 11:54:22.359 -05:00 [INF] Route matched with {action = "PostEmploye", controller = "Employes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Northwind3.Entities.Employe]] PostEmploye(Northwind3.Entities.Employe) on controller Northwind3.Controllers.EmployesController (ApiProjetVersion3).
+2025-01-21 11:54:23.204 -05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-01-21 11:54:24.105 -05:00 [INF] Executed DbCommand (64ms) [Parameters=[@p0='13786960-ce16-4338-b1d7-03110450e978', @p1='75008' (Nullable = false) (Size = 20) (DbType = AnsiString), @p2='FR' (Nullable = false) (Size = 40), @p3=NULL (Size = 40), @p4='3 avenue des champs Elysees' (Nullable = false) (Size = 100), @p5=NULL (Size = 20) (DbType = AnsiString), @p6='Paris' (Nullable = false) (Size = 40), @p7='Mr' (Size = 40), @p8=NULL (DbType = DateTime2), @p9=NULL (DbType = DateTime2), @p10='Ingenieur' (Size = 40), @p11='13786960-ce16-4338-b1d7-03110450e978', @p12=NULL (DbType = Int32), @p13='Ngola' (Nullable = false) (Size = 40), @p14=NULL (Size = 1000), @p15=NULL (Size = 8000) (DbType = Binary), @p16='Genese' (Nullable = false) (Size = 40)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Adresses] ([Id], [CodePostal], [Pays], [Region], [Rue], [Tel], [Ville])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+INSERT INTO [Employes] ([Civilite], [DateEmbauche], [DateNaissance], [Fonction], [IdAdresse], [IdManager], [Nom], [Notes], [Photo], [Prenom])
+OUTPUT INSERTED.[Id]
+VALUES (@p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16);
+2025-01-21 11:54:24.179 -05:00 [INF] Executing CreatedAtActionResult, writing value of type 'Northwind3.Entities.Employe'.
+2025-01-21 11:54:24.240 -05:00 [INF] Executed action Northwind3.Controllers.EmployesController.PostEmploye (ApiProjetVersion3) in 1868.5174ms
+2025-01-21 11:54:24.244 -05:00 [INF] Executed endpoint 'Northwind3.Controllers.EmployesController.PostEmploye (ApiProjetVersion3)'
+2025-01-21 11:54:24.261 -05:00 [INF] Request finished HTTP/2 POST https://localhost:7195/api/Employes - 201 null application/json; charset=utf-8 1971.2831ms
+2025-01-21 11:55:31.047 -05:00 [INF] Request starting HTTP/2 POST https://localhost:7195/api/Employes - application/json 391
+2025-01-21 11:55:31.053 -05:00 [INF] Executing endpoint 'Northwind3.Controllers.EmployesController.PostEmploye (ApiProjetVersion3)'
+2025-01-21 11:55:31.055 -05:00 [INF] Route matched with {action = "PostEmploye", controller = "Employes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Northwind3.Entities.Employe]] PostEmploye(Northwind3.Entities.Employe) on controller Northwind3.Controllers.EmployesController (ApiProjetVersion3).
+2025-01-21 11:55:31.147 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[@p0='13786960-ce16-4338-b1d7-02110450e978', @p1='75008' (Nullable = false) (Size = 20) (DbType = AnsiString), @p2='FR' (Nullable = false) (Size = 40), @p3=NULL (Size = 40), @p4='3 avenue des champs Elysees' (Nullable = false) (Size = 100), @p5=NULL (Size = 20) (DbType = AnsiString), @p6='Paris' (Nullable = false) (Size = 40), @p7='Mr' (Size = 40), @p8=NULL (DbType = DateTime2), @p9=NULL (DbType = DateTime2), @p10='Ingenieur' (Size = 40), @p11='13786960-ce16-4338-b1d7-02110450e978', @p12=NULL (DbType = Int32), @p13='Ngola' (Nullable = false) (Size = 40), @p14=NULL (Size = 1000), @p15=NULL (Size = 8000) (DbType = Binary), @p16='Tresor' (Nullable = false) (Size = 40)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Adresses] ([Id], [CodePostal], [Pays], [Region], [Rue], [Tel], [Ville])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+INSERT INTO [Employes] ([Civilite], [DateEmbauche], [DateNaissance], [Fonction], [IdAdresse], [IdManager], [Nom], [Notes], [Photo], [Prenom])
+OUTPUT INSERTED.[Id]
+VALUES (@p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16);
+2025-01-21 11:55:31.153 -05:00 [INF] Executing CreatedAtActionResult, writing value of type 'Northwind3.Entities.Employe'.
+2025-01-21 11:55:31.154 -05:00 [INF] Executed action Northwind3.Controllers.EmployesController.PostEmploye (ApiProjetVersion3) in 94.5202ms
+2025-01-21 11:55:31.155 -05:00 [INF] Executed endpoint 'Northwind3.Controllers.EmployesController.PostEmploye (ApiProjetVersion3)'
+2025-01-21 11:55:31.157 -05:00 [INF] Request finished HTTP/2 POST https://localhost:7195/api/Employes - 201 null application/json; charset=utf-8 110.2606ms
+2025-01-21 11:55:56.651 -05:00 [INF] Request starting HTTP/2 POST https://localhost:7195/api/Employes - application/json 391
+2025-01-21 11:55:56.659 -05:00 [INF] Executing endpoint 'Northwind3.Controllers.EmployesController.PostEmploye (ApiProjetVersion3)'
+2025-01-21 11:55:56.661 -05:00 [INF] Route matched with {action = "PostEmploye", controller = "Employes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Northwind3.Entities.Employe]] PostEmploye(Northwind3.Entities.Employe) on controller Northwind3.Controllers.EmployesController (ApiProjetVersion3).
+2025-01-21 11:55:56.699 -05:00 [INF] Executed DbCommand (4ms) [Parameters=[@p0='13786960-ce16-4338-b1d7-32110450e978', @p1='75008' (Nullable = false) (Size = 20) (DbType = AnsiString), @p2='FR' (Nullable = false) (Size = 40), @p3=NULL (Size = 40), @p4='3 avenue des champs Elysees' (Nullable = false) (Size = 100), @p5=NULL (Size = 20) (DbType = AnsiString), @p6='Paris' (Nullable = false) (Size = 40), @p7='Mr' (Size = 40), @p8=NULL (DbType = DateTime2), @p9=NULL (DbType = DateTime2), @p10='Ingenieur' (Size = 40), @p11='13786960-ce16-4338-b1d7-32110450e978', @p12=NULL (DbType = Int32), @p13='Etobe' (Nullable = false) (Size = 40), @p14=NULL (Size = 1000), @p15=NULL (Size = 8000) (DbType = Binary), @p16='Tresor' (Nullable = false) (Size = 40)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Adresses] ([Id], [CodePostal], [Pays], [Region], [Rue], [Tel], [Ville])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+INSERT INTO [Employes] ([Civilite], [DateEmbauche], [DateNaissance], [Fonction], [IdAdresse], [IdManager], [Nom], [Notes], [Photo], [Prenom])
+OUTPUT INSERTED.[Id]
+VALUES (@p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16);
+2025-01-21 11:55:56.707 -05:00 [INF] Executing CreatedAtActionResult, writing value of type 'Northwind3.Entities.Employe'.
+2025-01-21 11:55:56.709 -05:00 [INF] Executed action Northwind3.Controllers.EmployesController.PostEmploye (ApiProjetVersion3) in 45.2824ms
+2025-01-21 11:55:56.711 -05:00 [INF] Executed endpoint 'Northwind3.Controllers.EmployesController.PostEmploye (ApiProjetVersion3)'
+2025-01-21 11:55:56.712 -05:00 [INF] Request finished HTTP/2 POST https://localhost:7195/api/Employes - 201 null application/json; charset=utf-8 60.767ms
+2025-01-21 11:56:44.806 -05:00 [INF] Request starting HTTP/2 POST https://localhost:7195/api/Employes - application/json 389
+2025-01-21 11:56:44.812 -05:00 [INF] Executing endpoint 'Northwind3.Controllers.EmployesController.PostEmploye (ApiProjetVersion3)'
+2025-01-21 11:56:44.814 -05:00 [INF] Route matched with {action = "PostEmploye", controller = "Employes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Northwind3.Entities.Employe]] PostEmploye(Northwind3.Entities.Employe) on controller Northwind3.Controllers.EmployesController (ApiProjetVersion3).
+2025-01-21 11:56:44.829 -05:00 [INF] Executed DbCommand (4ms) [Parameters=[@p0='13786960-ce16-4338-b1d7-32110450e878', @p1='75008' (Nullable = false) (Size = 20) (DbType = AnsiString), @p2='FR' (Nullable = false) (Size = 40), @p3=NULL (Size = 40), @p4='3 avenue des champs Elysees' (Nullable = false) (Size = 100), @p5=NULL (Size = 20) (DbType = AnsiString), @p6='Paris' (Nullable = false) (Size = 40), @p7='Mr' (Size = 40), @p8=NULL (DbType = DateTime2), @p9=NULL (DbType = DateTime2), @p10='Ingenieur' (Size = 40), @p11='13786960-ce16-4338-b1d7-32110450e878', @p12=NULL (DbType = Int32), @p13='Don' (Nullable = false) (Size = 40), @p14=NULL (Size = 1000), @p15=NULL (Size = 8000) (DbType = Binary), @p16='Tresor' (Nullable = false) (Size = 40)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Adresses] ([Id], [CodePostal], [Pays], [Region], [Rue], [Tel], [Ville])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+INSERT INTO [Employes] ([Civilite], [DateEmbauche], [DateNaissance], [Fonction], [IdAdresse], [IdManager], [Nom], [Notes], [Photo], [Prenom])
+OUTPUT INSERTED.[Id]
+VALUES (@p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16);
+2025-01-21 11:56:44.839 -05:00 [INF] Executing CreatedAtActionResult, writing value of type 'Northwind3.Entities.Employe'.
+2025-01-21 11:56:44.842 -05:00 [INF] Executed action Northwind3.Controllers.EmployesController.PostEmploye (ApiProjetVersion3) in 21.1664ms
+2025-01-21 11:56:44.844 -05:00 [INF] Executed endpoint 'Northwind3.Controllers.EmployesController.PostEmploye (ApiProjetVersion3)'
+2025-01-21 11:56:44.845 -05:00 [INF] Request finished HTTP/2 POST https://localhost:7195/api/Employes - 201 null application/json; charset=utf-8 39.2159ms
+2025-01-21 12:12:22.736 -05:00 [INF] Request starting HTTP/2 POST https://localhost:7195/api/Employes - application/json 181
+2025-01-21 12:12:22.743 -05:00 [INF] Executing endpoint 'Northwind3.Controllers.EmployesController.PostEmploye (ApiProjetVersion3)'
+2025-01-21 12:12:22.746 -05:00 [INF] Route matched with {action = "PostEmploye", controller = "Employes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Northwind3.Entities.Employe]] PostEmploye(Northwind3.Entities.Employe) on controller Northwind3.Controllers.EmployesController (ApiProjetVersion3).
+2025-01-21 12:12:22.754 -05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-01-21 12:12:22.788 -05:00 [INF] Executed action Northwind3.Controllers.EmployesController.PostEmploye (ApiProjetVersion3) in 38.5084ms
+2025-01-21 12:12:22.789 -05:00 [INF] Executed endpoint 'Northwind3.Controllers.EmployesController.PostEmploye (ApiProjetVersion3)'
+2025-01-21 12:12:22.790 -05:00 [INF] Request finished HTTP/2 POST https://localhost:7195/api/Employes - 400 null application/problem+json; charset=utf-8 54.3962ms
+2025-01-21 12:12:39.480 -05:00 [INF] Request starting HTTP/2 POST https://localhost:7195/api/Employes - application/json 181
+2025-01-21 12:12:39.487 -05:00 [INF] Executing endpoint 'Northwind3.Controllers.EmployesController.PostEmploye (ApiProjetVersion3)'
+2025-01-21 12:12:39.488 -05:00 [INF] Route matched with {action = "PostEmploye", controller = "Employes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Northwind3.Entities.Employe]] PostEmploye(Northwind3.Entities.Employe) on controller Northwind3.Controllers.EmployesController (ApiProjetVersion3).
+2025-01-21 12:12:39.493 -05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-01-21 12:12:39.497 -05:00 [INF] Executed action Northwind3.Controllers.EmployesController.PostEmploye (ApiProjetVersion3) in 5.9084ms
+2025-01-21 12:12:39.500 -05:00 [INF] Executed endpoint 'Northwind3.Controllers.EmployesController.PostEmploye (ApiProjetVersion3)'
+2025-01-21 12:12:39.502 -05:00 [INF] Request finished HTTP/2 POST https://localhost:7195/api/Employes - 400 null application/problem+json; charset=utf-8 21.3112ms
+2025-01-21 13:11:33.836 -05:00 [INF] Now listening on: https://localhost:7195
+2025-01-21 13:11:33.891 -05:00 [INF] Now listening on: http://localhost:5121
+2025-01-21 13:11:33.900 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 13:11:33.902 -05:00 [INF] Hosting environment: Development
+2025-01-21 13:11:33.904 -05:00 [INF] Content root path: C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Northwind3
+2025-01-21 13:11:34.696 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-21 13:11:35.025 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 334.0986ms
+2025-01-21 13:11:35.085 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 13:11:35.093 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 8.24ms
+2025-01-21 13:11:40.128 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-21 13:11:40.179 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 50.7949ms
+2025-01-21 13:11:42.626 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-21 13:11:42.916 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 290.7294ms
+2025-01-21 13:12:04.433 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/Commandes/1675 - null null
+2025-01-21 13:12:04.453 -05:00 [INF] Executing endpoint 'Northwind3.Controllers.EmployesController.GetCommande (ApiProjetVersion3)'
+2025-01-21 13:12:04.500 -05:00 [INF] Route matched with {action = "GetCommande", controller = "Employes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Northwind3.Entities.Commande]] GetCommande(Int32) on controller Northwind3.Controllers.EmployesController (ApiProjetVersion3).
+2025-01-21 13:12:05.403 -05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-01-21 13:12:06.229 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[Northwind3.Entities.Commande, ApiProjetVersion3, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Northwind3.Services.ServiceEmployes+<ObtenirCommande>d__5, ApiProjetVersion3, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-01-21 13:12:06.256 -05:00 [INF] Executed action Northwind3.Controllers.EmployesController.GetCommande (ApiProjetVersion3) in 1748.1856ms
+2025-01-21 13:12:06.262 -05:00 [INF] Executed endpoint 'Northwind3.Controllers.EmployesController.GetCommande (ApiProjetVersion3)'
+2025-01-21 13:12:06.267 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The type 'System.Threading.ExecutionContext&' of property 'Context' on type 'System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[Northwind3.Entities.Commande,Northwind3.Services.ServiceEmployes+<ObtenirCommande>d__5]' is invalid for serialization or deserialization because it is a pointer type, is a ref struct, or contains generic parameters that have not been replaced by specific types.
+   at System.Text.Json.ThrowHelper.ThrowInvalidOperationException_CannotSerializeInvalidType(Type typeToConvert, Type declaringType, MemberInfo memberInfo)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.CreatePropertyInfo(JsonTypeInfo typeInfo, Type typeToConvert, MemberInfo memberInfo, NullabilityInfoContext nullabilityCtx, JsonSerializerOptions options, Boolean shouldCheckForRequiredKeyword, Boolean hasJsonIncludeAttribute)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.AddMember(JsonTypeInfo typeInfo, Type typeToConvert, MemberInfo memberInfo, NullabilityInfoContext nullabilityCtx, Boolean shouldCheckForRequiredKeyword, Boolean hasJsonIncludeAttribute, PropertyHierarchyResolutionState& state)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.AddMembersDeclaredBySuperType(JsonTypeInfo typeInfo, Type currentType, NullabilityInfoContext nullabilityCtx, Boolean constructorHasSetsRequiredMembersAttribute, PropertyHierarchyResolutionState& state)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.PopulateProperties(JsonTypeInfo typeInfo, NullabilityInfoContext nullabilityCtx)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.CreateTypeInfoCore(Type type, JsonConverter converter, JsonSerializerOptions options)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.CreateJsonTypeInfo(Type type, JsonSerializerOptions options)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.GetTypeInfo(Type type, JsonSerializerOptions options)
+   at System.Text.Json.JsonSerializerOptions.GetTypeInfoNoCaching(Type type)
+   at System.Text.Json.JsonSerializerOptions.CachingContext.CreateCacheEntry(Type type, CachingContext context)
+--- End of stack trace from previous location ---
+   at System.Text.Json.JsonSerializerOptions.CachingContext.CacheEntry.GetResult()
+   at System.Text.Json.JsonSerializerOptions.CachingContext.GetOrAddTypeInfo(Type type, Boolean fallBackToNearestAncestorType)
+   at System.Text.Json.JsonSerializerOptions.GetTypeInfoInternal(Type type, Boolean ensureConfigured, Nullable`1 ensureNotNull, Boolean resolveIfMutable, Boolean fallBackToNearestAncestorType)
+   at System.Text.Json.JsonSerializerOptions.GetTypeInfo(Type type)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-21 13:12:06.336 -05:00 [ERR] An error occurred using the connection to database 'Dbangola' on server '(localdb)\mssqllocaldb'.
+2025-01-21 13:12:06.339 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/Commandes/1675 - 500 null text/plain; charset=utf-8 1906.8619ms
+2025-01-21 13:16:09.001 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/api/Employes/4 - null null
+2025-01-21 13:16:09.007 -05:00 [INF] Executing endpoint 'Northwind3.Controllers.EmployesController.GetEmploye (ApiProjetVersion3)'
+2025-01-21 13:16:09.031 -05:00 [INF] Route matched with {action = "GetEmploye", controller = "Employes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Northwind3.Entities.Employe]] GetEmploye(Int32) on controller Northwind3.Controllers.EmployesController (ApiProjetVersion3).
+2025-01-21 13:16:09.308 -05:00 [INF] Executed DbCommand (122ms) [Parameters=[@__id_0='4'], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Civilite], [s].[DateEmbauche], [s].[DateNaissance], [s].[Fonction], [s].[IdAdresse], [s].[IdManager], [s].[Nom], [s].[Notes], [s].[Photo], [s].[Prenom], [s].[Id0], [s].[CodePostal], [s].[Pays], [s].[Region], [s].[Rue], [s].[Tel], [s].[Ville], [s0].[Id], [s0].[IdRegion], [s0].[Nom], [s0].[Id0], [s0].[Nom0], [s0].[IdEmploye], [s0].[IdTerritoire]
+FROM (
+    SELECT TOP(1) [e].[Id], [e].[Civilite], [e].[DateEmbauche], [e].[DateNaissance], [e].[Fonction], [e].[IdAdresse], [e].[IdManager], [e].[Nom], [e].[Notes], [e].[Photo], [e].[Prenom], [a].[Id] AS [Id0], [a].[CodePostal], [a].[Pays], [a].[Region], [a].[Rue], [a].[Tel], [a].[Ville]
+    FROM [Employes] AS [e]
+    INNER JOIN [Adresses] AS [a] ON [e].[IdAdresse] = [a].[Id]
+    WHERE [e].[Id] = @__id_0
+) AS [s]
+LEFT JOIN (
+    SELECT [t].[Id], [t].[IdRegion], [t].[Nom], [r].[Id] AS [Id0], [r].[Nom] AS [Nom0], [a0].[IdEmploye], [a0].[IdTerritoire]
+    FROM [Affectations] AS [a0]
+    INNER JOIN [Territoires] AS [t] ON [a0].[IdTerritoire] = [t].[Id]
+    INNER JOIN [Regions] AS [r] ON [t].[IdRegion] = [r].[Id]
+) AS [s0] ON [s].[Id] = [s0].[IdEmploye]
+ORDER BY [s].[Id], [s].[Id0], [s0].[IdEmploye], [s0].[IdTerritoire], [s0].[Id]
+2025-01-21 13:16:09.382 -05:00 [INF] Executing OkObjectResult, writing value of type 'Northwind3.Entities.Employe'.
+2025-01-21 13:16:09.434 -05:00 [INF] Executed action Northwind3.Controllers.EmployesController.GetEmploye (ApiProjetVersion3) in 400.8459ms
+2025-01-21 13:16:09.437 -05:00 [INF] Executed endpoint 'Northwind3.Controllers.EmployesController.GetEmploye (ApiProjetVersion3)'
+2025-01-21 13:16:09.439 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/api/Employes/4 - 200 null application/json; charset=utf-8 437.4201ms
+2025-01-21 13:25:37.083 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-21 13:25:37.139 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 56.3372ms
+2025-01-21 13:25:37.222 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-21 13:25:37.222 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 13:25:37.231 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 9.0989ms
+2025-01-21 13:25:37.258 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 35.9271ms
+2025-01-21 13:25:37.541 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-21 13:25:37.664 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 123.5965ms
+2025-01-21 13:25:50.960 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-21 13:25:50.982 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 21.8977ms
+2025-01-21 13:25:51.011 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-21 13:25:51.011 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 13:25:51.022 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 10.7173ms
+2025-01-21 13:25:51.027 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 15.7878ms
+2025-01-21 13:25:51.132 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-21 13:25:51.177 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 45.6426ms
+2025-01-21 13:26:06.554 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-21 13:26:06.575 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 20.3144ms
+2025-01-21 13:26:06.597 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-21 13:26:06.597 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 13:26:06.609 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 12.8085ms
+2025-01-21 13:26:06.611 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 14.2684ms
+2025-01-21 13:26:06.778 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-21 13:26:06.817 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 39.6436ms
+2025-01-21 13:26:28.306 -05:00 [INF] Request starting HTTP/2 DELETE https://localhost:7195/api/Commandes/1674 - null null
+2025-01-21 13:26:28.314 -05:00 [INF] Executing endpoint 'Northwind3.Controllers.EmployesController.DeleteCommade (ApiProjetVersion3)'
+2025-01-21 13:26:28.323 -05:00 [INF] Route matched with {action = "DeleteCommade", controller = "Employes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteCommade(Int32) on controller Northwind3.Controllers.EmployesController (ApiProjetVersion3).
+2025-01-21 13:26:28.426 -05:00 [INF] Executed DbCommand (12ms) [Parameters=[@__idCommande_0='1674'], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[DateCommande], [c0].[DateLivMaxi], [c0].[DateLivraison], [c0].[FraisLivraison], [c0].[IdAdresse], [c0].[IdClient], [c0].[IdEmploye], [c0].[IdLivreur], [l].[IdCommande], [l].[IdProduit], [l].[PU], [l].[Quantite], [l].[TauxReduc]
+FROM (
+    SELECT TOP(1) [c].[Id], [c].[DateCommande], [c].[DateLivMaxi], [c].[DateLivraison], [c].[FraisLivraison], [c].[IdAdresse], [c].[IdClient], [c].[IdEmploye], [c].[IdLivreur]
+    FROM [Commandes] AS [c]
+    WHERE [c].[Id] = @__idCommande_0
+) AS [c0]
+LEFT JOIN [LignesCommandes] AS [l] ON [c0].[Id] = [l].[IdCommande]
+ORDER BY [c0].[Id], [l].[IdCommande]
+2025-01-21 13:26:28.681 -05:00 [INF] Executed DbCommand (27ms) [Parameters=[@p0='1674', @p1='14', @p2='1674'], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [LignesCommandes]
+OUTPUT 1
+WHERE [IdCommande] = @p0 AND [IdProduit] = @p1;
+DELETE FROM [Commandes]
+OUTPUT 1
+WHERE [Id] = @p2;
+2025-01-21 13:26:28.709 -05:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2025-01-21 13:26:28.711 -05:00 [INF] Executed action Northwind3.Controllers.EmployesController.DeleteCommade (ApiProjetVersion3) in 385.3742ms
+2025-01-21 13:26:28.714 -05:00 [INF] Executed endpoint 'Northwind3.Controllers.EmployesController.DeleteCommade (ApiProjetVersion3)'
+2025-01-21 13:26:28.716 -05:00 [INF] Request finished HTTP/2 DELETE https://localhost:7195/api/Commandes/1674 - 204 null null 410.4079ms
+2025-01-21 13:27:09.241 -05:00 [INF] Request starting HTTP/2 DELETE https://localhost:7195/api/Commandes/1674 - null null
+2025-01-21 13:27:09.246 -05:00 [INF] Executing endpoint 'Northwind3.Controllers.EmployesController.DeleteCommade (ApiProjetVersion3)'
+2025-01-21 13:27:09.247 -05:00 [INF] Route matched with {action = "DeleteCommade", controller = "Employes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteCommade(Int32) on controller Northwind3.Controllers.EmployesController (ApiProjetVersion3).
+2025-01-21 13:27:09.255 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[@__idCommande_0='1674'], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[DateCommande], [c0].[DateLivMaxi], [c0].[DateLivraison], [c0].[FraisLivraison], [c0].[IdAdresse], [c0].[IdClient], [c0].[IdEmploye], [c0].[IdLivreur], [l].[IdCommande], [l].[IdProduit], [l].[PU], [l].[Quantite], [l].[TauxReduc]
+FROM (
+    SELECT TOP(1) [c].[Id], [c].[DateCommande], [c].[DateLivMaxi], [c].[DateLivraison], [c].[FraisLivraison], [c].[IdAdresse], [c].[IdClient], [c].[IdEmploye], [c].[IdLivreur]
+    FROM [Commandes] AS [c]
+    WHERE [c].[Id] = @__idCommande_0
+) AS [c0]
+LEFT JOIN [LignesCommandes] AS [l] ON [c0].[Id] = [l].[IdCommande]
+ORDER BY [c0].[Id], [l].[IdCommande]
+2025-01-21 13:27:09.261 -05:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2025-01-21 13:27:09.263 -05:00 [INF] Executed action Northwind3.Controllers.EmployesController.DeleteCommade (ApiProjetVersion3) in 13.5317ms
+2025-01-21 13:27:09.266 -05:00 [INF] Executed endpoint 'Northwind3.Controllers.EmployesController.DeleteCommade (ApiProjetVersion3)'
+2025-01-21 13:27:09.267 -05:00 [INF] Request finished HTTP/2 DELETE https://localhost:7195/api/Commandes/1674 - 404 null text/plain; charset=utf-8 25.1649ms
+2025-01-21 13:27:32.433 -05:00 [INF] Request starting HTTP/2 DELETE https://localhost:7195/api/Commandes/1675 - null null
+2025-01-21 13:27:32.441 -05:00 [INF] Executing endpoint 'Northwind3.Controllers.EmployesController.DeleteCommade (ApiProjetVersion3)'
+2025-01-21 13:27:32.443 -05:00 [INF] Route matched with {action = "DeleteCommade", controller = "Employes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteCommade(Int32) on controller Northwind3.Controllers.EmployesController (ApiProjetVersion3).
+2025-01-21 13:27:32.454 -05:00 [INF] Executed DbCommand (6ms) [Parameters=[@__idCommande_0='1675'], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[DateCommande], [c0].[DateLivMaxi], [c0].[DateLivraison], [c0].[FraisLivraison], [c0].[IdAdresse], [c0].[IdClient], [c0].[IdEmploye], [c0].[IdLivreur], [l].[IdCommande], [l].[IdProduit], [l].[PU], [l].[Quantite], [l].[TauxReduc]
+FROM (
+    SELECT TOP(1) [c].[Id], [c].[DateCommande], [c].[DateLivMaxi], [c].[DateLivraison], [c].[FraisLivraison], [c].[IdAdresse], [c].[IdClient], [c].[IdEmploye], [c].[IdLivreur]
+    FROM [Commandes] AS [c]
+    WHERE [c].[Id] = @__idCommande_0
+) AS [c0]
+LEFT JOIN [LignesCommandes] AS [l] ON [c0].[Id] = [l].[IdCommande]
+ORDER BY [c0].[Id], [l].[IdCommande]
+2025-01-21 13:27:32.478 -05:00 [INF] Executed DbCommand (10ms) [Parameters=[@p0='1675', @p1='15', @p2='1675', @p3='18', @p4='1675'], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [LignesCommandes]
+OUTPUT 1
+WHERE [IdCommande] = @p0 AND [IdProduit] = @p1;
+DELETE FROM [LignesCommandes]
+OUTPUT 1
+WHERE [IdCommande] = @p2 AND [IdProduit] = @p3;
+DELETE FROM [Commandes]
+OUTPUT 1
+WHERE [Id] = @p4;
+2025-01-21 13:27:32.482 -05:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2025-01-21 13:27:32.484 -05:00 [INF] Executed action Northwind3.Controllers.EmployesController.DeleteCommade (ApiProjetVersion3) in 37.4985ms
+2025-01-21 13:27:32.485 -05:00 [INF] Executed endpoint 'Northwind3.Controllers.EmployesController.DeleteCommade (ApiProjetVersion3)'
+2025-01-21 13:27:32.487 -05:00 [INF] Request finished HTTP/2 DELETE https://localhost:7195/api/Commandes/1675 - 204 null null 53.3817ms
+2025-01-21 13:32:19.700 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/api/Commandes/1675 - null null
+2025-01-21 13:32:19.704 -05:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-01-21 13:32:19.706 -05:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-01-21 13:32:19.708 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/api/Commandes/1675 - 405 0 null 8.903ms
+2025-01-21 13:33:00.680 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/api/Commandes/1674 - null null
+2025-01-21 13:33:00.686 -05:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-01-21 13:33:00.688 -05:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-01-21 13:33:00.690 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/api/Commandes/1674 - 405 0 null 9.9178ms
+2025-01-21 13:33:40.910 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/api/Commande/1674 - null null
+2025-01-21 13:33:40.914 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/api/Commande/1674 - 404 0 null 3.9591ms
+2025-01-21 13:33:40.917 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7195/api/Commande/1674, Response status code: 404
+2025-01-21 13:34:09.431 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-21 13:34:09.454 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 22.4904ms
+2025-01-21 13:34:09.512 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 13:34:09.517 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 5.1705ms
+2025-01-21 13:34:09.528 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-21 13:34:09.543 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 15.1833ms
+2025-01-21 13:34:09.696 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-21 13:34:09.727 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 31.6263ms
+2025-01-21 13:34:15.021 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/api/Commande/1674 - null null
+2025-01-21 13:34:15.027 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/api/Commande/1674 - 404 0 null 5.9418ms
+2025-01-21 13:34:15.032 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7195/api/Commande/1674, Response status code: 404
+2025-01-21 13:34:16.072 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/api/Commande/1674 - null null
+2025-01-21 13:34:16.080 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/api/Commande/1674 - 404 0 null 7.7991ms
+2025-01-21 13:34:16.092 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7195/api/Commande/1674, Response status code: 404
+2025-01-21 13:34:31.263 -05:00 [INF] Now listening on: https://localhost:7195
+2025-01-21 13:34:31.299 -05:00 [INF] Now listening on: http://localhost:5121
+2025-01-21 13:34:31.305 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 13:34:31.307 -05:00 [INF] Hosting environment: Development
+2025-01-21 13:34:31.308 -05:00 [INF] Content root path: C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Northwind3
+2025-01-21 13:34:31.896 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-21 13:34:32.183 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 289.6747ms
+2025-01-21 13:34:32.195 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 13:34:32.195 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-21 13:34:32.206 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 10.7362ms
+2025-01-21 13:34:32.240 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 45.3954ms
+2025-01-21 13:34:32.401 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-21 13:34:32.636 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 238.5985ms
+2025-01-21 13:34:47.906 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/api/Commandes/1675 - null null
+2025-01-21 13:34:47.932 -05:00 [INF] Executing endpoint 'Northwind3.Controllers.EmployesController.GetCommande (ApiProjetVersion3)'
+2025-01-21 13:34:47.968 -05:00 [INF] Route matched with {action = "GetCommande", controller = "Employes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Northwind3.Entities.Commande]] GetCommande(Int32) on controller Northwind3.Controllers.EmployesController (ApiProjetVersion3).
+2025-01-21 13:34:48.756 -05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-01-21 13:34:49.517 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[Northwind3.Entities.Commande, ApiProjetVersion3, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Northwind3.Services.ServiceEmployes+<ObtenirCommande>d__5, ApiProjetVersion3, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-01-21 13:34:49.531 -05:00 [INF] Executed action Northwind3.Controllers.EmployesController.GetCommande (ApiProjetVersion3) in 1553.8801ms
+2025-01-21 13:34:49.534 -05:00 [INF] Executed endpoint 'Northwind3.Controllers.EmployesController.GetCommande (ApiProjetVersion3)'
+2025-01-21 13:34:49.538 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The type 'System.Threading.ExecutionContext&' of property 'Context' on type 'System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[Northwind3.Entities.Commande,Northwind3.Services.ServiceEmployes+<ObtenirCommande>d__5]' is invalid for serialization or deserialization because it is a pointer type, is a ref struct, or contains generic parameters that have not been replaced by specific types.
+   at System.Text.Json.ThrowHelper.ThrowInvalidOperationException_CannotSerializeInvalidType(Type typeToConvert, Type declaringType, MemberInfo memberInfo)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.CreatePropertyInfo(JsonTypeInfo typeInfo, Type typeToConvert, MemberInfo memberInfo, NullabilityInfoContext nullabilityCtx, JsonSerializerOptions options, Boolean shouldCheckForRequiredKeyword, Boolean hasJsonIncludeAttribute)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.AddMember(JsonTypeInfo typeInfo, Type typeToConvert, MemberInfo memberInfo, NullabilityInfoContext nullabilityCtx, Boolean shouldCheckForRequiredKeyword, Boolean hasJsonIncludeAttribute, PropertyHierarchyResolutionState& state)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.AddMembersDeclaredBySuperType(JsonTypeInfo typeInfo, Type currentType, NullabilityInfoContext nullabilityCtx, Boolean constructorHasSetsRequiredMembersAttribute, PropertyHierarchyResolutionState& state)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.PopulateProperties(JsonTypeInfo typeInfo, NullabilityInfoContext nullabilityCtx)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.CreateTypeInfoCore(Type type, JsonConverter converter, JsonSerializerOptions options)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.CreateJsonTypeInfo(Type type, JsonSerializerOptions options)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.GetTypeInfo(Type type, JsonSerializerOptions options)
+   at System.Text.Json.JsonSerializerOptions.GetTypeInfoNoCaching(Type type)
+   at System.Text.Json.JsonSerializerOptions.CachingContext.CreateCacheEntry(Type type, CachingContext context)
+--- End of stack trace from previous location ---
+   at System.Text.Json.JsonSerializerOptions.CachingContext.CacheEntry.GetResult()
+   at System.Text.Json.JsonSerializerOptions.CachingContext.GetOrAddTypeInfo(Type type, Boolean fallBackToNearestAncestorType)
+   at System.Text.Json.JsonSerializerOptions.GetTypeInfoInternal(Type type, Boolean ensureConfigured, Nullable`1 ensureNotNull, Boolean resolveIfMutable, Boolean fallBackToNearestAncestorType)
+   at System.Text.Json.JsonSerializerOptions.GetTypeInfo(Type type)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-21 13:34:49.585 -05:00 [ERR] An error occurred using the connection to database '' on server ''.
+2025-01-21 13:34:49.587 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/api/Commandes/1675 - 500 null text/plain; charset=utf-8 1680.8243ms
+2025-01-21 13:34:59.818 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/api/Commandes/1674 - null null
+2025-01-21 13:34:59.838 -05:00 [INF] Executing endpoint 'Northwind3.Controllers.EmployesController.GetCommande (ApiProjetVersion3)'
+2025-01-21 13:34:59.840 -05:00 [INF] Route matched with {action = "GetCommande", controller = "Employes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Northwind3.Entities.Commande]] GetCommande(Int32) on controller Northwind3.Controllers.EmployesController (ApiProjetVersion3).
+2025-01-21 13:34:59.915 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[Northwind3.Entities.Commande, ApiProjetVersion3, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Northwind3.Services.ServiceEmployes+<ObtenirCommande>d__5, ApiProjetVersion3, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-01-21 13:34:59.919 -05:00 [INF] Executed action Northwind3.Controllers.EmployesController.GetCommande (ApiProjetVersion3) in 76.8119ms
+2025-01-21 13:34:59.921 -05:00 [INF] Executed endpoint 'Northwind3.Controllers.EmployesController.GetCommande (ApiProjetVersion3)'
+2025-01-21 13:34:59.922 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The type 'System.Threading.ExecutionContext&' of property 'Context' on type 'System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[Northwind3.Entities.Commande,Northwind3.Services.ServiceEmployes+<ObtenirCommande>d__5]' is invalid for serialization or deserialization because it is a pointer type, is a ref struct, or contains generic parameters that have not been replaced by specific types.
+   at System.Text.Json.ThrowHelper.ThrowInvalidOperationException_CannotSerializeInvalidType(Type typeToConvert, Type declaringType, MemberInfo memberInfo)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.CreatePropertyInfo(JsonTypeInfo typeInfo, Type typeToConvert, MemberInfo memberInfo, NullabilityInfoContext nullabilityCtx, JsonSerializerOptions options, Boolean shouldCheckForRequiredKeyword, Boolean hasJsonIncludeAttribute)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.AddMember(JsonTypeInfo typeInfo, Type typeToConvert, MemberInfo memberInfo, NullabilityInfoContext nullabilityCtx, Boolean shouldCheckForRequiredKeyword, Boolean hasJsonIncludeAttribute, PropertyHierarchyResolutionState& state)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.AddMembersDeclaredBySuperType(JsonTypeInfo typeInfo, Type currentType, NullabilityInfoContext nullabilityCtx, Boolean constructorHasSetsRequiredMembersAttribute, PropertyHierarchyResolutionState& state)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.PopulateProperties(JsonTypeInfo typeInfo, NullabilityInfoContext nullabilityCtx)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.CreateTypeInfoCore(Type type, JsonConverter converter, JsonSerializerOptions options)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.CreateJsonTypeInfo(Type type, JsonSerializerOptions options)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.GetTypeInfo(Type type, JsonSerializerOptions options)
+   at System.Text.Json.JsonSerializerOptions.GetTypeInfoNoCaching(Type type)
+   at System.Text.Json.JsonSerializerOptions.CachingContext.CreateCacheEntry(Type type, CachingContext context)
+--- End of stack trace from previous location ---
+   at System.Text.Json.JsonSerializerOptions.CachingContext.CacheEntry.GetResult()
+   at System.Text.Json.JsonSerializerOptions.CachingContext.GetOrAddTypeInfo(Type type, Boolean fallBackToNearestAncestorType)
+   at System.Text.Json.JsonSerializerOptions.GetTypeInfoInternal(Type type, Boolean ensureConfigured, Nullable`1 ensureNotNull, Boolean resolveIfMutable, Boolean fallBackToNearestAncestorType)
+   at System.Text.Json.JsonSerializerOptions.GetTypeInfo(Type type)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-21 13:34:59.939 -05:00 [INF] Executed DbCommand (43ms) [Parameters=[@__id_0='1674'], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[DateCommande], [c0].[DateLivMaxi], [c0].[DateLivraison], [c0].[FraisLivraison], [c0].[IdAdresse], [c0].[IdClient], [c0].[IdEmploye], [c0].[IdLivreur], [l].[IdCommande], [l].[IdProduit], [l].[PU], [l].[Quantite], [l].[TauxReduc]
+FROM (
+    SELECT TOP(1) [c].[Id], [c].[DateCommande], [c].[DateLivMaxi], [c].[DateLivraison], [c].[FraisLivraison], [c].[IdAdresse], [c].[IdClient], [c].[IdEmploye], [c].[IdLivreur]
+    FROM [Commandes] AS [c]
+    WHERE [c].[Id] = @__id_0
+) AS [c0]
+LEFT JOIN [LignesCommandes] AS [l] ON [c0].[Id] = [l].[IdCommande]
+ORDER BY [c0].[Id], [l].[IdCommande]
+2025-01-21 13:34:59.939 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/api/Commandes/1674 - 500 null text/plain; charset=utf-8 121.0891ms
+2025-01-21 13:34:59.955 -05:00 [ERR] An exception occurred while iterating over the results of a query for context type 'Northwind3.Data.ApiDbaprojetngolav2'.
+System.ObjectDisposedException: Cannot access a disposed context instance. A common cause of this error is disposing a context instance that was resolved from dependency injection and then later trying to use the same context instance elsewhere in your application. This may occur if you are calling 'Dispose' on the context instance, or wrapping it in a using statement. If you are using dependency injection, you should let the dependency injection container take care of disposing context instances.
+Object name: 'ApiDbaprojetngolav2'.
+   at Microsoft.EntityFrameworkCore.DbContext.CheckDisposed()
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.Microsoft.EntityFrameworkCore.Internal.IDbContextDependencies.get_StateManager()
+   at Microsoft.EntityFrameworkCore.Query.QueryContextDependencies.get_StateManager()
+   at Microsoft.EntityFrameworkCore.Query.QueryContext.InitializeStateManager(Boolean standAlone)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.ObjectDisposedException: Cannot access a disposed context instance. A common cause of this error is disposing a context instance that was resolved from dependency injection and then later trying to use the same context instance elsewhere in your application. This may occur if you are calling 'Dispose' on the context instance, or wrapping it in a using statement. If you are using dependency injection, you should let the dependency injection container take care of disposing context instances.
+Object name: 'ApiDbaprojetngolav2'.
+   at Microsoft.EntityFrameworkCore.DbContext.CheckDisposed()
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.Microsoft.EntityFrameworkCore.Internal.IDbContextDependencies.get_StateManager()
+   at Microsoft.EntityFrameworkCore.Query.QueryContextDependencies.get_StateManager()
+   at Microsoft.EntityFrameworkCore.Query.QueryContext.InitializeStateManager(Boolean standAlone)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-01-21 14:05:29.561 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-21 14:05:29.591 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 29.7474ms
+2025-01-21 14:05:29.618 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-21 14:05:29.618 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 14:05:29.628 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 9.7529ms
+2025-01-21 14:05:29.643 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 23.7016ms
+2025-01-21 14:05:30.027 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-21 14:05:30.067 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 40.0348ms
+2025-01-21 14:08:01.659 -05:00 [INF] Now listening on: https://localhost:7195
+2025-01-21 14:08:01.695 -05:00 [INF] Now listening on: http://localhost:5121
+2025-01-21 14:08:01.700 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 14:08:01.701 -05:00 [INF] Hosting environment: Development
+2025-01-21 14:08:01.703 -05:00 [INF] Content root path: C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Northwind3
+2025-01-21 14:08:02.210 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-21 14:08:02.595 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 389.6273ms
+2025-01-21 14:08:02.622 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 14:08:02.625 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-21 14:08:02.641 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 18.1831ms
+2025-01-21 14:08:02.694 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 68.4146ms
+2025-01-21 14:08:03.201 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-21 14:08:03.495 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 294.019ms
+2025-01-21 14:08:51.790 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/api/Commandes/1676 - null null
+2025-01-21 14:08:51.818 -05:00 [INF] Executing endpoint 'Northwind3.Controllers.EmployesController.GetCommande (ApiProjetVersion3)'
+2025-01-21 14:08:51.894 -05:00 [INF] Route matched with {action = "GetCommande", controller = "Employes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Northwind3.Entities.Commande]] GetCommande(Int32) on controller Northwind3.Controllers.EmployesController (ApiProjetVersion3).
+2025-01-21 14:08:53.408 -05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-01-21 14:08:54.913 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[Northwind3.Entities.Commande, ApiProjetVersion3, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Northwind3.Services.ServiceEmployes+<ObtenirCommande>d__5, ApiProjetVersion3, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-01-21 14:08:54.941 -05:00 [INF] Executed action Northwind3.Controllers.EmployesController.GetCommande (ApiProjetVersion3) in 3035.423ms
+2025-01-21 14:08:54.946 -05:00 [INF] Executed endpoint 'Northwind3.Controllers.EmployesController.GetCommande (ApiProjetVersion3)'
+2025-01-21 14:08:54.953 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The type 'System.Threading.ExecutionContext&' of property 'Context' on type 'System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[Northwind3.Entities.Commande,Northwind3.Services.ServiceEmployes+<ObtenirCommande>d__5]' is invalid for serialization or deserialization because it is a pointer type, is a ref struct, or contains generic parameters that have not been replaced by specific types.
+   at System.Text.Json.ThrowHelper.ThrowInvalidOperationException_CannotSerializeInvalidType(Type typeToConvert, Type declaringType, MemberInfo memberInfo)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.CreatePropertyInfo(JsonTypeInfo typeInfo, Type typeToConvert, MemberInfo memberInfo, NullabilityInfoContext nullabilityCtx, JsonSerializerOptions options, Boolean shouldCheckForRequiredKeyword, Boolean hasJsonIncludeAttribute)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.AddMember(JsonTypeInfo typeInfo, Type typeToConvert, MemberInfo memberInfo, NullabilityInfoContext nullabilityCtx, Boolean shouldCheckForRequiredKeyword, Boolean hasJsonIncludeAttribute, PropertyHierarchyResolutionState& state)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.AddMembersDeclaredBySuperType(JsonTypeInfo typeInfo, Type currentType, NullabilityInfoContext nullabilityCtx, Boolean constructorHasSetsRequiredMembersAttribute, PropertyHierarchyResolutionState& state)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.PopulateProperties(JsonTypeInfo typeInfo, NullabilityInfoContext nullabilityCtx)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.CreateTypeInfoCore(Type type, JsonConverter converter, JsonSerializerOptions options)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.CreateJsonTypeInfo(Type type, JsonSerializerOptions options)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.GetTypeInfo(Type type, JsonSerializerOptions options)
+   at System.Text.Json.JsonSerializerOptions.GetTypeInfoNoCaching(Type type)
+   at System.Text.Json.JsonSerializerOptions.CachingContext.CreateCacheEntry(Type type, CachingContext context)
+--- End of stack trace from previous location ---
+   at System.Text.Json.JsonSerializerOptions.CachingContext.CacheEntry.GetResult()
+   at System.Text.Json.JsonSerializerOptions.CachingContext.GetOrAddTypeInfo(Type type, Boolean fallBackToNearestAncestorType)
+   at System.Text.Json.JsonSerializerOptions.GetTypeInfoInternal(Type type, Boolean ensureConfigured, Nullable`1 ensureNotNull, Boolean resolveIfMutable, Boolean fallBackToNearestAncestorType)
+   at System.Text.Json.JsonSerializerOptions.GetTypeInfo(Type type)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-21 14:08:55.035 -05:00 [ERR] An error occurred using the connection to database 'Dbangola' on server '(localdb)\mssqllocaldb'.
+2025-01-21 14:08:55.040 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/api/Commandes/1676 - 500 null text/plain; charset=utf-8 3249.9982ms
+2025-01-21 14:16:59.839 -05:00 [INF] Now listening on: https://localhost:7195
+2025-01-21 14:16:59.884 -05:00 [INF] Now listening on: http://localhost:5121
+2025-01-21 14:16:59.890 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 14:16:59.892 -05:00 [INF] Hosting environment: Development
+2025-01-21 14:16:59.893 -05:00 [INF] Content root path: C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Northwind3
+2025-01-21 14:17:00.519 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-21 14:17:00.813 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 298.6309ms
+2025-01-21 14:17:00.829 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 14:17:00.829 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-21 14:17:00.842 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 12.4702ms
+2025-01-21 14:17:00.875 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 45.4766ms
+2025-01-21 14:17:01.005 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-21 14:17:01.427 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 421.5825ms
+2025-01-21 14:17:20.973 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/api/Commandes/1676 - null null
+2025-01-21 14:17:20.990 -05:00 [INF] Executing endpoint 'Northwind3.Controllers.EmployesController.GetCommande (ApiProjetVersion3)'
+2025-01-21 14:17:21.024 -05:00 [INF] Route matched with {action = "GetCommande", controller = "Employes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Northwind3.Entities.LigneCommande]] GetCommande(Int32) on controller Northwind3.Controllers.EmployesController (ApiProjetVersion3).
+2025-01-21 14:17:21.787 -05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-01-21 14:17:22.065 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Threading.Tasks.Task`1[[Northwind3.Entities.LigneCommande, ApiProjetVersion3, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-01-21 14:17:22.116 -05:00 [INF] Executed action Northwind3.Controllers.EmployesController.GetCommande (ApiProjetVersion3) in 1084.1702ms
+2025-01-21 14:17:22.120 -05:00 [INF] Executed endpoint 'Northwind3.Controllers.EmployesController.GetCommande (ApiProjetVersion3)'
+2025-01-21 14:17:22.123 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.AggregateException: One or more errors occurred. (The expression 'l.IdCommande' is invalid inside an 'Include' operation, since it does not represent a property access: 't => t.MyProperty'. To target navigations declared on derived types, use casting ('t => ((Derived)t).MyProperty') or the 'as' operator ('t => (t as Derived).MyProperty'). Collection navigation access can be filtered by composing Where, OrderBy(Descending), ThenBy(Descending), Skip or Take operations. For more information on including related data, see https://go.microsoft.com/fwlink/?LinkID=746393.)
+ ---> System.InvalidOperationException: The expression 'l.IdCommande' is invalid inside an 'Include' operation, since it does not represent a property access: 't => t.MyProperty'. To target navigations declared on derived types, use casting ('t => ((Derived)t).MyProperty') or the 'as' operator ('t => (t as Derived).MyProperty'). Collection navigation access can be filtered by composing Where, OrderBy(Descending), ThenBy(Descending), Skip or Take operations. For more information on including related data, see https://go.microsoft.com/fwlink/?LinkID=746393.
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.PopulateIncludeTree(IncludeTreeNode includeTreeNode, Expression expression, Boolean setLoaded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.ProcessInclude(NavigationExpansionExpression source, Expression expression, Boolean thenInclude, Boolean setLoaded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.Expand(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryTranslationPreprocessor.Process(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutorExpression[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass11_0`1.<ExecuteCore>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteCore[TResult](Expression query, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.FirstOrDefaultAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Northwind3.Services.ServiceEmployes.ObtenirCommande(Int32 id) in C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Northwind3\Services\ServiceEmployes.cs:line 104
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at ResultGetter(Object)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-21 14:17:22.193 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/api/Commandes/1676 - 500 null text/plain; charset=utf-8 1219.3737ms
+2025-01-21 14:17:37.204 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-21 14:17:37.236 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 31.6507ms
+2025-01-21 14:17:37.272 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 14:17:37.272 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-21 14:17:37.278 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 5.4425ms
+2025-01-21 14:17:37.292 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 20.0161ms
+2025-01-21 14:17:37.434 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-21 14:17:37.488 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 54.4625ms
+2025-01-21 14:17:52.679 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/api/LigneCommande/1676 - null null
+2025-01-21 14:17:52.688 -05:00 [INF] Executing endpoint 'Northwind3.Controllers.EmployesController.GetCommande (ApiProjetVersion3)'
+2025-01-21 14:17:52.695 -05:00 [INF] Route matched with {action = "GetCommande", controller = "Employes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Northwind3.Entities.LigneCommande]] GetCommande(Int32) on controller Northwind3.Controllers.EmployesController (ApiProjetVersion3).
+2025-01-21 14:17:52.721 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Threading.Tasks.Task`1[[Northwind3.Entities.LigneCommande, ApiProjetVersion3, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-01-21 14:17:52.727 -05:00 [INF] Executed action Northwind3.Controllers.EmployesController.GetCommande (ApiProjetVersion3) in 28.7921ms
+2025-01-21 14:17:52.730 -05:00 [INF] Executed endpoint 'Northwind3.Controllers.EmployesController.GetCommande (ApiProjetVersion3)'
+2025-01-21 14:17:52.732 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.AggregateException: One or more errors occurred. (The expression 'l.IdCommande' is invalid inside an 'Include' operation, since it does not represent a property access: 't => t.MyProperty'. To target navigations declared on derived types, use casting ('t => ((Derived)t).MyProperty') or the 'as' operator ('t => (t as Derived).MyProperty'). Collection navigation access can be filtered by composing Where, OrderBy(Descending), ThenBy(Descending), Skip or Take operations. For more information on including related data, see https://go.microsoft.com/fwlink/?LinkID=746393.)
+ ---> System.InvalidOperationException: The expression 'l.IdCommande' is invalid inside an 'Include' operation, since it does not represent a property access: 't => t.MyProperty'. To target navigations declared on derived types, use casting ('t => ((Derived)t).MyProperty') or the 'as' operator ('t => (t as Derived).MyProperty'). Collection navigation access can be filtered by composing Where, OrderBy(Descending), ThenBy(Descending), Skip or Take operations. For more information on including related data, see https://go.microsoft.com/fwlink/?LinkID=746393.
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.PopulateIncludeTree(IncludeTreeNode includeTreeNode, Expression expression, Boolean setLoaded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.ProcessInclude(NavigationExpansionExpression source, Expression expression, Boolean thenInclude, Boolean setLoaded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.Expand(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryTranslationPreprocessor.Process(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutorExpression[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass11_0`1.<ExecuteCore>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteCore[TResult](Expression query, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.FirstOrDefaultAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Northwind3.Services.ServiceEmployes.ObtenirCommande(Int32 id)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at ResultGetter(Object)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-21 14:17:52.749 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/api/LigneCommande/1676 - 500 null text/plain; charset=utf-8 70.6098ms
+2025-01-21 14:34:33.978 -05:00 [INF] Now listening on: https://localhost:7195
+2025-01-21 14:34:34.015 -05:00 [INF] Now listening on: http://localhost:5121
+2025-01-21 14:34:34.021 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 14:34:34.022 -05:00 [INF] Hosting environment: Development
+2025-01-21 14:34:34.023 -05:00 [INF] Content root path: C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Northwind3
+2025-01-21 14:34:34.468 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-21 14:34:34.689 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 222.384ms
+2025-01-21 14:34:34.752 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-21 14:34:34.752 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 14:34:34.763 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 10.9891ms
+2025-01-21 14:34:34.796 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 43.5871ms
+2025-01-21 14:34:34.840 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-21 14:34:35.004 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 164.8299ms
+2025-01-21 14:34:53.286 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-21 14:34:53.307 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 21.0776ms
+2025-01-21 14:34:53.332 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 14:34:53.332 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-21 14:34:53.336 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 3.6759ms
+2025-01-21 14:34:53.354 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 21.9829ms
+2025-01-21 14:34:53.507 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-21 14:34:53.537 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 29.9082ms
+2025-01-21 14:35:11.467 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/api/Commande/1676 - null null
+2025-01-21 14:35:11.486 -05:00 [INF] Executing endpoint 'Northwind3.Controllers.EmployesController.GetCommande (ApiProjetVersion3)'
+2025-01-21 14:35:11.521 -05:00 [INF] Route matched with {action = "GetCommande", controller = "Employes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Northwind3.Entities.Commande]] GetCommande(Int32) on controller Northwind3.Controllers.EmployesController (ApiProjetVersion3).
+2025-01-21 14:35:12.218 -05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-01-21 14:35:13.079 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[Northwind3.Entities.Commande, ApiProjetVersion3, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Northwind3.Services.ServiceEmployes+<ObtenirCommande>d__5, ApiProjetVersion3, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-01-21 14:35:13.094 -05:00 [INF] Executed action Northwind3.Controllers.EmployesController.GetCommande (ApiProjetVersion3) in 1563.8811ms
+2025-01-21 14:35:13.097 -05:00 [INF] Executed endpoint 'Northwind3.Controllers.EmployesController.GetCommande (ApiProjetVersion3)'
+2025-01-21 14:35:13.099 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The type 'System.Threading.ExecutionContext&' of property 'Context' on type 'System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[Northwind3.Entities.Commande,Northwind3.Services.ServiceEmployes+<ObtenirCommande>d__5]' is invalid for serialization or deserialization because it is a pointer type, is a ref struct, or contains generic parameters that have not been replaced by specific types.
+   at System.Text.Json.ThrowHelper.ThrowInvalidOperationException_CannotSerializeInvalidType(Type typeToConvert, Type declaringType, MemberInfo memberInfo)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.CreatePropertyInfo(JsonTypeInfo typeInfo, Type typeToConvert, MemberInfo memberInfo, NullabilityInfoContext nullabilityCtx, JsonSerializerOptions options, Boolean shouldCheckForRequiredKeyword, Boolean hasJsonIncludeAttribute)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.AddMember(JsonTypeInfo typeInfo, Type typeToConvert, MemberInfo memberInfo, NullabilityInfoContext nullabilityCtx, Boolean shouldCheckForRequiredKeyword, Boolean hasJsonIncludeAttribute, PropertyHierarchyResolutionState& state)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.AddMembersDeclaredBySuperType(JsonTypeInfo typeInfo, Type currentType, NullabilityInfoContext nullabilityCtx, Boolean constructorHasSetsRequiredMembersAttribute, PropertyHierarchyResolutionState& state)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.PopulateProperties(JsonTypeInfo typeInfo, NullabilityInfoContext nullabilityCtx)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.CreateTypeInfoCore(Type type, JsonConverter converter, JsonSerializerOptions options)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.CreateJsonTypeInfo(Type type, JsonSerializerOptions options)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.GetTypeInfo(Type type, JsonSerializerOptions options)
+   at System.Text.Json.JsonSerializerOptions.GetTypeInfoNoCaching(Type type)
+   at System.Text.Json.JsonSerializerOptions.CachingContext.CreateCacheEntry(Type type, CachingContext context)
+--- End of stack trace from previous location ---
+   at System.Text.Json.JsonSerializerOptions.CachingContext.CacheEntry.GetResult()
+   at System.Text.Json.JsonSerializerOptions.CachingContext.GetOrAddTypeInfo(Type type, Boolean fallBackToNearestAncestorType)
+   at System.Text.Json.JsonSerializerOptions.GetTypeInfoInternal(Type type, Boolean ensureConfigured, Nullable`1 ensureNotNull, Boolean resolveIfMutable, Boolean fallBackToNearestAncestorType)
+   at System.Text.Json.JsonSerializerOptions.GetTypeInfo(Type type)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-21 14:35:13.131 -05:00 [ERR] An error occurred using the connection to database 'Dbangola' on server '(localdb)\mssqllocaldb'.
+2025-01-21 14:35:13.134 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/api/Commande/1676 - 500 null text/plain; charset=utf-8 1666.43ms
+2025-01-21 14:37:07.252 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-21 14:37:07.272 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 20.387ms
+2025-01-21 14:37:07.293 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 14:37:07.293 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-21 14:37:07.299 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 6.5344ms
+2025-01-21 14:37:07.311 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 18.5922ms
+2025-01-21 14:37:07.587 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-21 14:37:07.639 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 52.3661ms
+2025-01-21 14:41:18.267 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-21 14:41:18.287 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 20.0263ms
+2025-01-21 14:41:18.304 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 14:41:18.304 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-21 14:41:18.307 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 2.9855ms
+2025-01-21 14:41:18.318 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 13.4154ms
+2025-01-21 14:41:18.421 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-21 14:41:18.466 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 45.7449ms
+2025-01-21 14:45:01.588 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-21 14:45:01.608 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 19.2287ms
+2025-01-21 14:45:01.643 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 14:45:01.643 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-21 14:45:01.649 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 5.3547ms
+2025-01-21 14:45:01.668 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 25.1984ms
+2025-01-21 14:45:01.826 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-21 14:45:01.952 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/Commandes/{id}" for actions - Northwind3.Controllers.EmployesController.GetCommande (ApiProjetVersion3),Northwind3.Controllers.EmployesController.GetCommande (ApiProjetVersion3). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-21 14:45:01.958 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 132.0192ms
+2025-01-21 14:45:33.884 -05:00 [INF] Now listening on: https://localhost:7195
+2025-01-21 14:45:33.921 -05:00 [INF] Now listening on: http://localhost:5121
+2025-01-21 14:45:33.924 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 14:45:33.927 -05:00 [INF] Hosting environment: Development
+2025-01-21 14:45:33.929 -05:00 [INF] Content root path: C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Northwind3
+2025-01-21 14:45:34.290 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-21 14:45:34.646 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 360.2857ms
+2025-01-21 14:45:34.665 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 14:45:34.666 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-21 14:45:34.679 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 12.8029ms
+2025-01-21 14:45:34.739 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 72.7893ms
+2025-01-21 14:45:34.895 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-21 14:45:35.255 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 360.0423ms
+2025-01-21 14:45:51.413 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/api/Commandes/1676 - null null
+2025-01-21 14:45:51.436 -05:00 [INF] Executing endpoint 'Northwind3.Controllers.EmployesController.GetCommande (ApiProjetVersion3)'
+2025-01-21 14:45:51.471 -05:00 [INF] Route matched with {action = "GetCommande", controller = "Employes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Northwind3.Entities.Commande]] GetCommande(Int32) on controller Northwind3.Controllers.EmployesController (ApiProjetVersion3).
+2025-01-21 14:45:52.126 -05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-01-21 14:45:52.888 -05:00 [INF] Executed DbCommand (48ms) [Parameters=[@__id_0='1676'], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[DateCommande], [c0].[DateLivMaxi], [c0].[DateLivraison], [c0].[FraisLivraison], [c0].[IdAdresse], [c0].[IdClient], [c0].[IdEmploye], [c0].[IdLivreur], [l].[IdCommande], [l].[IdProduit], [l].[PU], [l].[Quantite], [l].[TauxReduc]
+FROM (
+    SELECT TOP(1) [c].[Id], [c].[DateCommande], [c].[DateLivMaxi], [c].[DateLivraison], [c].[FraisLivraison], [c].[IdAdresse], [c].[IdClient], [c].[IdEmploye], [c].[IdLivreur]
+    FROM [Commandes] AS [c]
+    WHERE [c].[Id] = @__id_0
+) AS [c0]
+LEFT JOIN [LignesCommandes] AS [l] ON [c0].[Id] = [l].[IdCommande]
+ORDER BY [c0].[Id], [l].[IdCommande]
+2025-01-21 14:45:52.940 -05:00 [INF] Executing OkObjectResult, writing value of type 'Northwind3.Entities.Commande'.
+2025-01-21 14:45:53.005 -05:00 [INF] Executed action Northwind3.Controllers.EmployesController.GetCommande (ApiProjetVersion3) in 1526.8332ms
+2025-01-21 14:45:53.009 -05:00 [INF] Executed endpoint 'Northwind3.Controllers.EmployesController.GetCommande (ApiProjetVersion3)'
+2025-01-21 14:45:53.018 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/api/Commandes/1676 - 200 null application/json; charset=utf-8 1604.2982ms
+2025-01-21 14:54:46.382 -05:00 [INF] Now listening on: https://localhost:7195
+2025-01-21 14:54:46.423 -05:00 [INF] Now listening on: http://localhost:5121
+2025-01-21 14:54:46.427 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 14:54:46.428 -05:00 [INF] Hosting environment: Development
+2025-01-21 14:54:46.429 -05:00 [INF] Content root path: C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Northwind3
+2025-01-21 14:54:46.782 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-21 14:54:47.035 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 254.3328ms
+2025-01-21 14:54:47.039 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-21 14:54:47.039 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 14:54:47.057 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 18.1305ms
+2025-01-21 14:54:47.095 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 55.7085ms
+2025-01-21 14:54:47.213 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-21 14:54:47.484 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 270.7236ms
+2025-01-21 14:55:03.542 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/api/Commandes/1676 - null null
+2025-01-21 14:55:03.563 -05:00 [INF] Executing endpoint 'ApiProjetVersion3.Controllers.EmployesController.GetCommande (ApiProjetVersion3)'
+2025-01-21 14:55:03.605 -05:00 [INF] Route matched with {action = "GetCommande", controller = "Employes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ApiProjetVersion3.Entities.Commande]] GetCommande(Int32) on controller ApiProjetVersion3.Controllers.EmployesController (ApiProjetVersion3).
+2025-01-21 14:55:04.477 -05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-01-21 14:55:05.331 -05:00 [INF] Executed DbCommand (37ms) [Parameters=[@__id_0='1676'], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[DateCommande], [c0].[DateLivMaxi], [c0].[DateLivraison], [c0].[FraisLivraison], [c0].[IdAdresse], [c0].[IdClient], [c0].[IdEmploye], [c0].[IdLivreur], [l].[IdCommande], [l].[IdProduit], [l].[PU], [l].[Quantite], [l].[TauxReduc]
+FROM (
+    SELECT TOP(1) [c].[Id], [c].[DateCommande], [c].[DateLivMaxi], [c].[DateLivraison], [c].[FraisLivraison], [c].[IdAdresse], [c].[IdClient], [c].[IdEmploye], [c].[IdLivreur]
+    FROM [Commandes] AS [c]
+    WHERE [c].[Id] = @__id_0
+) AS [c0]
+LEFT JOIN [LignesCommandes] AS [l] ON [c0].[Id] = [l].[IdCommande]
+ORDER BY [c0].[Id], [l].[IdCommande]
+2025-01-21 14:55:05.383 -05:00 [INF] Executing OkObjectResult, writing value of type 'ApiProjetVersion3.Entities.Commande'.
+2025-01-21 14:55:05.449 -05:00 [INF] Executed action ApiProjetVersion3.Controllers.EmployesController.GetCommande (ApiProjetVersion3) in 1835.9187ms
+2025-01-21 14:55:05.453 -05:00 [INF] Executed endpoint 'ApiProjetVersion3.Controllers.EmployesController.GetCommande (ApiProjetVersion3)'
+2025-01-21 14:55:05.461 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/api/Commandes/1676 - 200 null application/json; charset=utf-8 1919.004ms
+2025-01-21 14:56:57.834 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-21 14:56:57.852 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 18.1047ms
+2025-01-21 14:56:57.874 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-21 14:56:57.878 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 14:56:57.883 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 5.102ms
+2025-01-21 14:56:57.893 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 19.3706ms
+2025-01-21 14:56:57.979 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-21 14:56:58.010 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 30.6543ms
+2025-01-21 14:57:24.790 -05:00 [INF] Now listening on: https://localhost:7195
+2025-01-21 14:57:24.846 -05:00 [INF] Now listening on: http://localhost:5121
+2025-01-21 14:57:24.855 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 14:57:24.859 -05:00 [INF] Hosting environment: Development
+2025-01-21 14:57:24.861 -05:00 [INF] Content root path: C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Northwind3
+2025-01-21 14:57:25.130 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-21 14:57:25.429 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 300.2816ms
+2025-01-21 14:57:25.445 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 14:57:25.446 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-21 14:57:25.459 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 14.5363ms
+2025-01-21 14:57:25.495 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 48.5803ms
+2025-01-21 14:57:25.602 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-21 14:57:25.839 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 236.3008ms
+2025-01-21 14:57:42.112 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/api/Commandes/1676 - null null
+2025-01-21 14:57:42.127 -05:00 [INF] Executing endpoint 'ApiProjetVersion3.Controllers.EmployesController.GetCommande (ApiProjetVersion3)'
+2025-01-21 14:57:42.176 -05:00 [INF] Route matched with {action = "GetCommande", controller = "Employes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ApiProjetVersion3.Entities.Commande]] GetCommande(Int32) on controller ApiProjetVersion3.Controllers.EmployesController (ApiProjetVersion3).
+2025-01-21 14:57:42.936 -05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-01-21 14:57:43.801 -05:00 [INF] Executed DbCommand (41ms) [Parameters=[@__id_0='1676'], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[DateCommande], [c0].[DateLivMaxi], [c0].[DateLivraison], [c0].[FraisLivraison], [c0].[IdAdresse], [c0].[IdClient], [c0].[IdEmploye], [c0].[IdLivreur], [l].[IdCommande], [l].[IdProduit], [l].[PU], [l].[Quantite], [l].[TauxReduc]
+FROM (
+    SELECT TOP(1) [c].[Id], [c].[DateCommande], [c].[DateLivMaxi], [c].[DateLivraison], [c].[FraisLivraison], [c].[IdAdresse], [c].[IdClient], [c].[IdEmploye], [c].[IdLivreur]
+    FROM [Commandes] AS [c]
+    WHERE [c].[Id] = @__id_0
+) AS [c0]
+LEFT JOIN [LignesCommandes] AS [l] ON [c0].[Id] = [l].[IdCommande]
+ORDER BY [c0].[Id], [l].[IdCommande]
+2025-01-21 14:57:43.860 -05:00 [INF] Executing OkObjectResult, writing value of type 'ApiProjetVersion3.Entities.Commande'.
+2025-01-21 14:57:43.948 -05:00 [INF] Executed action ApiProjetVersion3.Controllers.EmployesController.GetCommande (ApiProjetVersion3) in 1762.7737ms
+2025-01-21 14:57:43.953 -05:00 [INF] Executed endpoint 'ApiProjetVersion3.Controllers.EmployesController.GetCommande (ApiProjetVersion3)'
+2025-01-21 14:57:43.965 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/api/Commandes/1676 - 200 null application/json; charset=utf-8 1852.4265ms
+2025-01-21 15:22:05.606 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-21 15:22:05.633 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 26.7644ms
+2025-01-21 15:22:05.667 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-21 15:22:05.670 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 15:22:05.678 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 7.7755ms
+2025-01-21 15:22:05.697 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 29.8004ms
+2025-01-21 15:22:05.783 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-21 15:22:05.833 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 49.2116ms
+2025-01-21 15:22:20.176 -05:00 [INF] Request starting HTTP/2 DELETE https://localhost:7195/api/Commandes/1703 - null null
+2025-01-21 15:22:20.182 -05:00 [INF] Executing endpoint 'ApiProjetVersion3.Controllers.EmployesController.DeleteCommade (ApiProjetVersion3)'
+2025-01-21 15:22:20.195 -05:00 [INF] Route matched with {action = "DeleteCommade", controller = "Employes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteCommade(Int32) on controller ApiProjetVersion3.Controllers.EmployesController (ApiProjetVersion3).
+2025-01-21 15:22:20.249 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[@__idCommande_0='1703'], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[DateCommande], [c0].[DateLivMaxi], [c0].[DateLivraison], [c0].[FraisLivraison], [c0].[IdAdresse], [c0].[IdClient], [c0].[IdEmploye], [c0].[IdLivreur], [l].[IdCommande], [l].[IdProduit], [l].[PU], [l].[Quantite], [l].[TauxReduc]
+FROM (
+    SELECT TOP(1) [c].[Id], [c].[DateCommande], [c].[DateLivMaxi], [c].[DateLivraison], [c].[FraisLivraison], [c].[IdAdresse], [c].[IdClient], [c].[IdEmploye], [c].[IdLivreur]
+    FROM [Commandes] AS [c]
+    WHERE [c].[Id] = @__idCommande_0
+) AS [c0]
+LEFT JOIN [LignesCommandes] AS [l] ON [c0].[Id] = [l].[IdCommande]
+ORDER BY [c0].[Id], [l].[IdCommande]
+2025-01-21 15:22:20.593 -05:00 [INF] Executed DbCommand (17ms) [Parameters=[@p0='1703', @p1='12', @p2='1703', @p3='13', @p4='1703'], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [LignesCommandes]
+OUTPUT 1
+WHERE [IdCommande] = @p0 AND [IdProduit] = @p1;
+DELETE FROM [LignesCommandes]
+OUTPUT 1
+WHERE [IdCommande] = @p2 AND [IdProduit] = @p3;
+DELETE FROM [Commandes]
+OUTPUT 1
+WHERE [Id] = @p4;
+2025-01-21 15:22:20.632 -05:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2025-01-21 15:22:20.635 -05:00 [INF] Executed action ApiProjetVersion3.Controllers.EmployesController.DeleteCommade (ApiProjetVersion3) in 437.5899ms
+2025-01-21 15:22:20.637 -05:00 [INF] Executed endpoint 'ApiProjetVersion3.Controllers.EmployesController.DeleteCommade (ApiProjetVersion3)'
+2025-01-21 15:22:20.641 -05:00 [INF] Request finished HTTP/2 DELETE https://localhost:7195/api/Commandes/1703 - 204 null null 464.7019ms
+2025-01-21 15:22:59.955 -05:00 [INF] Request starting HTTP/2 DELETE https://localhost:7195/api/Commandes/1701 - null null
+2025-01-21 15:22:59.960 -05:00 [INF] Executing endpoint 'ApiProjetVersion3.Controllers.EmployesController.DeleteCommade (ApiProjetVersion3)'
+2025-01-21 15:22:59.962 -05:00 [INF] Route matched with {action = "DeleteCommade", controller = "Employes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteCommade(Int32) on controller ApiProjetVersion3.Controllers.EmployesController (ApiProjetVersion3).
+2025-01-21 15:23:00.062 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[@__idCommande_0='1701'], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[DateCommande], [c0].[DateLivMaxi], [c0].[DateLivraison], [c0].[FraisLivraison], [c0].[IdAdresse], [c0].[IdClient], [c0].[IdEmploye], [c0].[IdLivreur], [l].[IdCommande], [l].[IdProduit], [l].[PU], [l].[Quantite], [l].[TauxReduc]
+FROM (
+    SELECT TOP(1) [c].[Id], [c].[DateCommande], [c].[DateLivMaxi], [c].[DateLivraison], [c].[FraisLivraison], [c].[IdAdresse], [c].[IdClient], [c].[IdEmploye], [c].[IdLivreur]
+    FROM [Commandes] AS [c]
+    WHERE [c].[Id] = @__idCommande_0
+) AS [c0]
+LEFT JOIN [LignesCommandes] AS [l] ON [c0].[Id] = [l].[IdCommande]
+ORDER BY [c0].[Id], [l].[IdCommande]
+2025-01-21 15:23:00.077 -05:00 [INF] Executed DbCommand (6ms) [Parameters=[@p0='1701', @p1='23', @p2='1701', @p3='24', @p4='1701', @p5='28', @p6='1701'], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [LignesCommandes]
+OUTPUT 1
+WHERE [IdCommande] = @p0 AND [IdProduit] = @p1;
+DELETE FROM [LignesCommandes]
+OUTPUT 1
+WHERE [IdCommande] = @p2 AND [IdProduit] = @p3;
+DELETE FROM [LignesCommandes]
+OUTPUT 1
+WHERE [IdCommande] = @p4 AND [IdProduit] = @p5;
+DELETE FROM [Commandes]
+OUTPUT 1
+WHERE [Id] = @p6;
+2025-01-21 15:23:00.086 -05:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2025-01-21 15:23:00.088 -05:00 [INF] Executed action ApiProjetVersion3.Controllers.EmployesController.DeleteCommade (ApiProjetVersion3) in 123.2764ms
+2025-01-21 15:23:00.090 -05:00 [INF] Executed endpoint 'ApiProjetVersion3.Controllers.EmployesController.DeleteCommade (ApiProjetVersion3)'
+2025-01-21 15:23:00.092 -05:00 [INF] Request finished HTTP/2 DELETE https://localhost:7195/api/Commandes/1701 - 204 null null 136.6269ms
+2025-01-21 15:23:53.645 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/api/Commandes/1677 - null null
+2025-01-21 15:23:53.649 -05:00 [INF] Executing endpoint 'ApiProjetVersion3.Controllers.EmployesController.GetCommande (ApiProjetVersion3)'
+2025-01-21 15:23:53.650 -05:00 [INF] Route matched with {action = "GetCommande", controller = "Employes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ApiProjetVersion3.Entities.Commande]] GetCommande(Int32) on controller ApiProjetVersion3.Controllers.EmployesController (ApiProjetVersion3).
+2025-01-21 15:23:53.659 -05:00 [INF] Executed DbCommand (4ms) [Parameters=[@__id_0='1677'], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[DateCommande], [c0].[DateLivMaxi], [c0].[DateLivraison], [c0].[FraisLivraison], [c0].[IdAdresse], [c0].[IdClient], [c0].[IdEmploye], [c0].[IdLivreur], [l].[IdCommande], [l].[IdProduit], [l].[PU], [l].[Quantite], [l].[TauxReduc]
+FROM (
+    SELECT TOP(1) [c].[Id], [c].[DateCommande], [c].[DateLivMaxi], [c].[DateLivraison], [c].[FraisLivraison], [c].[IdAdresse], [c].[IdClient], [c].[IdEmploye], [c].[IdLivreur]
+    FROM [Commandes] AS [c]
+    WHERE [c].[Id] = @__id_0
+) AS [c0]
+LEFT JOIN [LignesCommandes] AS [l] ON [c0].[Id] = [l].[IdCommande]
+ORDER BY [c0].[Id], [l].[IdCommande]
+2025-01-21 15:23:53.666 -05:00 [INF] Executing OkObjectResult, writing value of type 'ApiProjetVersion3.Entities.Commande'.
+2025-01-21 15:23:53.668 -05:00 [INF] Executed action ApiProjetVersion3.Controllers.EmployesController.GetCommande (ApiProjetVersion3) in 14.9275ms
+2025-01-21 15:23:53.670 -05:00 [INF] Executed endpoint 'ApiProjetVersion3.Controllers.EmployesController.GetCommande (ApiProjetVersion3)'
+2025-01-21 15:23:53.672 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/api/Commandes/1677 - 200 null application/json; charset=utf-8 26.6649ms
+2025-01-21 15:24:18.177 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/api/Commandes/16701 - null null
+2025-01-21 15:24:18.182 -05:00 [INF] Executing endpoint 'ApiProjetVersion3.Controllers.EmployesController.GetCommande (ApiProjetVersion3)'
+2025-01-21 15:24:18.183 -05:00 [INF] Route matched with {action = "GetCommande", controller = "Employes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ApiProjetVersion3.Entities.Commande]] GetCommande(Int32) on controller ApiProjetVersion3.Controllers.EmployesController (ApiProjetVersion3).
+2025-01-21 15:24:18.190 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[@__id_0='16701'], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[DateCommande], [c0].[DateLivMaxi], [c0].[DateLivraison], [c0].[FraisLivraison], [c0].[IdAdresse], [c0].[IdClient], [c0].[IdEmploye], [c0].[IdLivreur], [l].[IdCommande], [l].[IdProduit], [l].[PU], [l].[Quantite], [l].[TauxReduc]
+FROM (
+    SELECT TOP(1) [c].[Id], [c].[DateCommande], [c].[DateLivMaxi], [c].[DateLivraison], [c].[FraisLivraison], [c].[IdAdresse], [c].[IdClient], [c].[IdEmploye], [c].[IdLivreur]
+    FROM [Commandes] AS [c]
+    WHERE [c].[Id] = @__id_0
+) AS [c0]
+LEFT JOIN [LignesCommandes] AS [l] ON [c0].[Id] = [l].[IdCommande]
+ORDER BY [c0].[Id], [l].[IdCommande]
+2025-01-21 15:24:18.199 -05:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-01-21 15:24:18.218 -05:00 [INF] Executed action ApiProjetVersion3.Controllers.EmployesController.GetCommande (ApiProjetVersion3) in 31.7287ms
+2025-01-21 15:24:18.220 -05:00 [INF] Executed endpoint 'ApiProjetVersion3.Controllers.EmployesController.GetCommande (ApiProjetVersion3)'
+2025-01-21 15:24:18.222 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/api/Commandes/16701 - 404 null application/problem+json; charset=utf-8 44.7889ms
+2025-01-21 15:24:37.798 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/api/Commandes/1701 - null null
+2025-01-21 15:24:37.802 -05:00 [INF] Executing endpoint 'ApiProjetVersion3.Controllers.EmployesController.GetCommande (ApiProjetVersion3)'
+2025-01-21 15:24:37.804 -05:00 [INF] Route matched with {action = "GetCommande", controller = "Employes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ApiProjetVersion3.Entities.Commande]] GetCommande(Int32) on controller ApiProjetVersion3.Controllers.EmployesController (ApiProjetVersion3).
+2025-01-21 15:24:37.811 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='1701'], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[DateCommande], [c0].[DateLivMaxi], [c0].[DateLivraison], [c0].[FraisLivraison], [c0].[IdAdresse], [c0].[IdClient], [c0].[IdEmploye], [c0].[IdLivreur], [l].[IdCommande], [l].[IdProduit], [l].[PU], [l].[Quantite], [l].[TauxReduc]
+FROM (
+    SELECT TOP(1) [c].[Id], [c].[DateCommande], [c].[DateLivMaxi], [c].[DateLivraison], [c].[FraisLivraison], [c].[IdAdresse], [c].[IdClient], [c].[IdEmploye], [c].[IdLivreur]
+    FROM [Commandes] AS [c]
+    WHERE [c].[Id] = @__id_0
+) AS [c0]
+LEFT JOIN [LignesCommandes] AS [l] ON [c0].[Id] = [l].[IdCommande]
+ORDER BY [c0].[Id], [l].[IdCommande]
+2025-01-21 15:24:37.815 -05:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-01-21 15:24:37.818 -05:00 [INF] Executed action ApiProjetVersion3.Controllers.EmployesController.GetCommande (ApiProjetVersion3) in 9.3722ms
+2025-01-21 15:24:37.820 -05:00 [INF] Executed endpoint 'ApiProjetVersion3.Controllers.EmployesController.GetCommande (ApiProjetVersion3)'
+2025-01-21 15:24:37.822 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/api/Commandes/1701 - 404 null application/problem+json; charset=utf-8 24.5451ms
+2025-01-21 15:25:04.407 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/api/Commandes/1706 - null null
+2025-01-21 15:25:04.420 -05:00 [INF] Executing endpoint 'ApiProjetVersion3.Controllers.EmployesController.GetCommande (ApiProjetVersion3)'
+2025-01-21 15:25:04.423 -05:00 [INF] Route matched with {action = "GetCommande", controller = "Employes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ApiProjetVersion3.Entities.Commande]] GetCommande(Int32) on controller ApiProjetVersion3.Controllers.EmployesController (ApiProjetVersion3).
+2025-01-21 15:25:04.435 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[@__id_0='1706'], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[DateCommande], [c0].[DateLivMaxi], [c0].[DateLivraison], [c0].[FraisLivraison], [c0].[IdAdresse], [c0].[IdClient], [c0].[IdEmploye], [c0].[IdLivreur], [l].[IdCommande], [l].[IdProduit], [l].[PU], [l].[Quantite], [l].[TauxReduc]
+FROM (
+    SELECT TOP(1) [c].[Id], [c].[DateCommande], [c].[DateLivMaxi], [c].[DateLivraison], [c].[FraisLivraison], [c].[IdAdresse], [c].[IdClient], [c].[IdEmploye], [c].[IdLivreur]
+    FROM [Commandes] AS [c]
+    WHERE [c].[Id] = @__id_0
+) AS [c0]
+LEFT JOIN [LignesCommandes] AS [l] ON [c0].[Id] = [l].[IdCommande]
+ORDER BY [c0].[Id], [l].[IdCommande]
+2025-01-21 15:25:04.441 -05:00 [INF] Executing OkObjectResult, writing value of type 'ApiProjetVersion3.Entities.Commande'.
+2025-01-21 15:25:04.443 -05:00 [INF] Executed action ApiProjetVersion3.Controllers.EmployesController.GetCommande (ApiProjetVersion3) in 13.6414ms
+2025-01-21 15:25:04.445 -05:00 [INF] Executed endpoint 'ApiProjetVersion3.Controllers.EmployesController.GetCommande (ApiProjetVersion3)'
+2025-01-21 15:25:04.447 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/api/Commandes/1706 - 200 null application/json; charset=utf-8 39.7795ms
+2025-01-21 15:25:34.572 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/api/Commandes/1704 - null null
+2025-01-21 15:25:34.576 -05:00 [INF] Executing endpoint 'ApiProjetVersion3.Controllers.EmployesController.GetCommande (ApiProjetVersion3)'
+2025-01-21 15:25:34.577 -05:00 [INF] Route matched with {action = "GetCommande", controller = "Employes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ApiProjetVersion3.Entities.Commande]] GetCommande(Int32) on controller ApiProjetVersion3.Controllers.EmployesController (ApiProjetVersion3).
+2025-01-21 15:25:34.595 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='1704'], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[DateCommande], [c0].[DateLivMaxi], [c0].[DateLivraison], [c0].[FraisLivraison], [c0].[IdAdresse], [c0].[IdClient], [c0].[IdEmploye], [c0].[IdLivreur], [l].[IdCommande], [l].[IdProduit], [l].[PU], [l].[Quantite], [l].[TauxReduc]
+FROM (
+    SELECT TOP(1) [c].[Id], [c].[DateCommande], [c].[DateLivMaxi], [c].[DateLivraison], [c].[FraisLivraison], [c].[IdAdresse], [c].[IdClient], [c].[IdEmploye], [c].[IdLivreur]
+    FROM [Commandes] AS [c]
+    WHERE [c].[Id] = @__id_0
+) AS [c0]
+LEFT JOIN [LignesCommandes] AS [l] ON [c0].[Id] = [l].[IdCommande]
+ORDER BY [c0].[Id], [l].[IdCommande]
+2025-01-21 15:25:34.600 -05:00 [INF] Executing OkObjectResult, writing value of type 'ApiProjetVersion3.Entities.Commande'.
+2025-01-21 15:25:34.602 -05:00 [INF] Executed action ApiProjetVersion3.Controllers.EmployesController.GetCommande (ApiProjetVersion3) in 11.0874ms
+2025-01-21 15:25:34.604 -05:00 [INF] Executed endpoint 'ApiProjetVersion3.Controllers.EmployesController.GetCommande (ApiProjetVersion3)'
+2025-01-21 15:25:34.605 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/api/Commandes/1704 - 200 null application/json; charset=utf-8 33.7814ms
+2025-01-21 15:37:33.379 -05:00 [INF] Request starting HTTP/2 POST https://localhost:7195/api/Employes - application/json 210
+2025-01-21 15:37:33.384 -05:00 [INF] Executing endpoint 'ApiProjetVersion3.Controllers.EmployesController.PostEmploye (ApiProjetVersion3)'
+2025-01-21 15:37:33.394 -05:00 [INF] Route matched with {action = "PostEmploye", controller = "Employes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ApiProjetVersion3.Entities.Employe]] PostEmploye(ApiProjetVersion3.Entities.Employe) on controller ApiProjetVersion3.Controllers.EmployesController (ApiProjetVersion3).
+2025-01-21 15:37:33.436 -05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-01-21 15:37:33.445 -05:00 [INF] Executed action ApiProjetVersion3.Controllers.EmployesController.PostEmploye (ApiProjetVersion3) in 48.7954ms
+2025-01-21 15:37:33.448 -05:00 [INF] Executed endpoint 'ApiProjetVersion3.Controllers.EmployesController.PostEmploye (ApiProjetVersion3)'
+2025-01-21 15:37:33.449 -05:00 [INF] Request finished HTTP/2 POST https://localhost:7195/api/Employes - 400 null application/problem+json; charset=utf-8 69.647ms
+2025-01-21 15:38:53.606 -05:00 [INF] Request starting HTTP/2 POST https://localhost:7195/api/Employes - application/json 209
+2025-01-21 15:38:53.611 -05:00 [INF] Executing endpoint 'ApiProjetVersion3.Controllers.EmployesController.PostEmploye (ApiProjetVersion3)'
+2025-01-21 15:38:53.613 -05:00 [INF] Route matched with {action = "PostEmploye", controller = "Employes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ApiProjetVersion3.Entities.Employe]] PostEmploye(ApiProjetVersion3.Entities.Employe) on controller ApiProjetVersion3.Controllers.EmployesController (ApiProjetVersion3).
+2025-01-21 15:38:53.636 -05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-01-21 15:38:53.640 -05:00 [INF] Executed action ApiProjetVersion3.Controllers.EmployesController.PostEmploye (ApiProjetVersion3) in 23.7206ms
+2025-01-21 15:38:53.647 -05:00 [INF] Executed endpoint 'ApiProjetVersion3.Controllers.EmployesController.PostEmploye (ApiProjetVersion3)'
+2025-01-21 15:38:53.650 -05:00 [INF] Request finished HTTP/2 POST https://localhost:7195/api/Employes - 400 null application/problem+json; charset=utf-8 44.1046ms
+2025-01-21 15:51:19.505 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-21 15:51:19.535 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 30.4125ms
+2025-01-21 15:51:19.552 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 15:51:19.552 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-21 15:51:19.557 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 4.3104ms
+2025-01-21 15:51:19.570 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 17.4758ms
+2025-01-21 15:51:19.884 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-21 15:51:19.921 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 36.4789ms
+2025-01-21 15:51:35.517 -05:00 [INF] Now listening on: https://localhost:7195
+2025-01-21 15:51:35.573 -05:00 [INF] Now listening on: http://localhost:5121
+2025-01-21 15:51:35.580 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 15:51:35.583 -05:00 [INF] Hosting environment: Development
+2025-01-21 15:51:35.585 -05:00 [INF] Content root path: C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Northwind3
+2025-01-21 15:51:36.013 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-21 15:51:36.289 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 279.2114ms
+2025-01-21 15:51:36.309 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-21 15:51:36.312 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 15:51:36.334 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 21.5396ms
+2025-01-21 15:51:36.400 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 91.2184ms
+2025-01-21 15:51:36.502 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-21 15:51:36.807 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 304.9724ms
+2025-01-21 15:52:16.444 -05:00 [INF] Request starting HTTP/2 POST https://localhost:7195/api/Employes - application/json 209
+2025-01-21 15:52:16.463 -05:00 [INF] Executing endpoint 'ApiProjetVersion3.Controllers.EmployesController.PostEmploye (ApiProjetVersion3)'
+2025-01-21 15:52:16.502 -05:00 [INF] Route matched with {action = "PostEmploye", controller = "Employes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ApiProjetVersion3.Entities.Employe]] PostEmploye(ApiProjetVersion3.Entities.Employe) on controller ApiProjetVersion3.Controllers.EmployesController (ApiProjetVersion3).
+2025-01-21 15:52:16.720 -05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-01-21 15:52:16.758 -05:00 [INF] Executed action ApiProjetVersion3.Controllers.EmployesController.PostEmploye (ApiProjetVersion3) in 243.96ms
+2025-01-21 15:52:16.760 -05:00 [INF] Executed endpoint 'ApiProjetVersion3.Controllers.EmployesController.PostEmploye (ApiProjetVersion3)'
+2025-01-21 15:52:16.764 -05:00 [INF] Request finished HTTP/2 POST https://localhost:7195/api/Employes - 400 null application/problem+json; charset=utf-8 320.4951ms
+2025-01-21 15:54:17.820 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-21 15:54:17.849 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 29.3405ms
+2025-01-21 15:54:17.874 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-21 15:54:17.874 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 15:54:17.883 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 9.3633ms
+2025-01-21 15:54:17.891 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 17.1649ms
+2025-01-21 15:54:17.991 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-21 15:54:18.047 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 55.4496ms
+2025-01-21 15:54:34.276 -05:00 [INF] Request starting HTTP/2 POST https://localhost:7195/api/Employes - application/json 209
+2025-01-21 15:54:34.296 -05:00 [INF] Executing endpoint 'ApiProjetVersion3.Controllers.EmployesController.PostEmploye (ApiProjetVersion3)'
+2025-01-21 15:54:34.314 -05:00 [INF] Route matched with {action = "PostEmploye", controller = "Employes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ApiProjetVersion3.Entities.Employe]] PostEmploye(ApiProjetVersion3.Entities.Employe) on controller ApiProjetVersion3.Controllers.EmployesController (ApiProjetVersion3).
+2025-01-21 15:54:34.339 -05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-01-21 15:54:34.347 -05:00 [INF] Executed action ApiProjetVersion3.Controllers.EmployesController.PostEmploye (ApiProjetVersion3) in 29.9168ms
+2025-01-21 15:54:34.349 -05:00 [INF] Executed endpoint 'ApiProjetVersion3.Controllers.EmployesController.PostEmploye (ApiProjetVersion3)'
+2025-01-21 15:54:34.350 -05:00 [INF] Request finished HTTP/2 POST https://localhost:7195/api/Employes - 400 null application/problem+json; charset=utf-8 73.9383ms
+2025-01-21 15:54:47.088 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-21 15:54:47.108 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 19.551ms
+2025-01-21 15:54:47.131 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-21 15:54:47.139 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 15:54:47.144 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 4.1145ms
+2025-01-21 15:54:47.150 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 18.1849ms
+2025-01-21 15:54:47.266 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-21 15:54:47.326 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 59.8375ms
+2025-01-21 15:55:16.948 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-21 15:55:17.004 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 56.3317ms
+2025-01-21 15:55:17.042 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-21 15:55:17.071 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 15:55:17.087 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 16.5244ms
+2025-01-21 15:55:17.102 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 59.1903ms
+2025-01-21 15:55:17.423 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-21 15:55:17.543 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 119.5757ms
+2025-01-21 15:56:16.834 -05:00 [INF] Request starting HTTP/2 POST https://localhost:7195/api/Employes - application/json 409
+2025-01-21 15:56:16.848 -05:00 [INF] Executing endpoint 'ApiProjetVersion3.Controllers.EmployesController.PostEmploye (ApiProjetVersion3)'
+2025-01-21 15:56:16.868 -05:00 [INF] Route matched with {action = "PostEmploye", controller = "Employes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ApiProjetVersion3.Entities.Employe]] PostEmploye(ApiProjetVersion3.Entities.Employe) on controller ApiProjetVersion3.Controllers.EmployesController (ApiProjetVersion3).
+2025-01-21 15:56:16.896 -05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-01-21 15:56:16.904 -05:00 [INF] Executed action ApiProjetVersion3.Controllers.EmployesController.PostEmploye (ApiProjetVersion3) in 32.7903ms
+2025-01-21 15:56:16.908 -05:00 [INF] Executed endpoint 'ApiProjetVersion3.Controllers.EmployesController.PostEmploye (ApiProjetVersion3)'
+2025-01-21 15:56:16.910 -05:00 [INF] Request finished HTTP/2 POST https://localhost:7195/api/Employes - 400 null application/problem+json; charset=utf-8 75.8035ms
+2025-01-21 15:58:58.807 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-21 15:58:58.832 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 25.7725ms
+2025-01-21 15:58:58.859 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-21 15:58:58.865 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 15:58:58.876 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 16.3484ms
+2025-01-21 15:58:58.877 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 12.463ms
+2025-01-21 15:58:58.994 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-21 15:58:59.028 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 33.7151ms
+2025-01-21 15:59:37.633 -05:00 [INF] Request starting HTTP/2 POST https://localhost:7195/api/Employes - application/json 409
+2025-01-21 15:59:37.638 -05:00 [INF] Executing endpoint 'ApiProjetVersion3.Controllers.EmployesController.PostEmploye (ApiProjetVersion3)'
+2025-01-21 15:59:37.645 -05:00 [INF] Route matched with {action = "PostEmploye", controller = "Employes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ApiProjetVersion3.Entities.Employe]] PostEmploye(ApiProjetVersion3.Entities.Employe) on controller ApiProjetVersion3.Controllers.EmployesController (ApiProjetVersion3).
+2025-01-21 15:59:38.407 -05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-01-21 15:59:39.547 -05:00 [INF] Executed DbCommand (157ms) [Parameters=[@p0='17886960-ce16-4338-b2d7-03110450e978', @p1='75008' (Nullable = false) (Size = 20) (DbType = AnsiString), @p2='FR' (Nullable = false) (Size = 40), @p3=NULL (Size = 40), @p4='3 avenue des champs Elysees' (Nullable = false) (Size = 100), @p5=NULL (Size = 20) (DbType = AnsiString), @p6='Paris' (Nullable = false) (Size = 40), @p7='Mr' (Size = 40), @p8=NULL (DbType = DateTime2), @p9=NULL (DbType = DateTime2), @p10='Ingenieur programmeur' (Size = 40), @p11='17886960-ce16-4338-b2d7-03110450e978', @p12=NULL (DbType = Int32), @p13='Ngola' (Nullable = false) (Size = 40), @p14=NULL (Size = 1000), @p15=NULL (Size = 8000) (DbType = Binary), @p16='Tresor Etobe' (Nullable = false) (Size = 40)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Adresses] ([Id], [CodePostal], [Pays], [Region], [Rue], [Tel], [Ville])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+INSERT INTO [Employes] ([Civilite], [DateEmbauche], [DateNaissance], [Fonction], [IdAdresse], [IdManager], [Nom], [Notes], [Photo], [Prenom])
+OUTPUT INSERTED.[Id]
+VALUES (@p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16);
+2025-01-21 15:59:39.616 -05:00 [INF] Executing CreatedAtActionResult, writing value of type 'ApiProjetVersion3.Entities.Employe'.
+2025-01-21 15:59:39.645 -05:00 [INF] Executed action ApiProjetVersion3.Controllers.EmployesController.PostEmploye (ApiProjetVersion3) in 1995.7586ms
+2025-01-21 15:59:39.648 -05:00 [INF] Executed endpoint 'ApiProjetVersion3.Controllers.EmployesController.PostEmploye (ApiProjetVersion3)'
+2025-01-21 15:59:39.656 -05:00 [INF] Request finished HTTP/2 POST https://localhost:7195/api/Employes - 201 null application/json; charset=utf-8 2023.4784ms
+2025-01-21 16:00:22.861 -05:00 [INF] Request starting HTTP/2 POST https://localhost:7195/api/Employes - application/json 409
+2025-01-21 16:00:22.880 -05:00 [INF] Executing endpoint 'ApiProjetVersion3.Controllers.EmployesController.PostEmploye (ApiProjetVersion3)'
+2025-01-21 16:00:22.881 -05:00 [INF] Route matched with {action = "PostEmploye", controller = "Employes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ApiProjetVersion3.Entities.Employe]] PostEmploye(ApiProjetVersion3.Entities.Employe) on controller ApiProjetVersion3.Controllers.EmployesController (ApiProjetVersion3).
+2025-01-21 16:00:22.979 -05:00 [INF] Executed DbCommand (7ms) [Parameters=[@p0='18886960-ce16-4338-b2d7-03110450e978', @p1='75008' (Nullable = false) (Size = 20) (DbType = AnsiString), @p2='FR' (Nullable = false) (Size = 40), @p3=NULL (Size = 40), @p4='3 avenue des champs Elysees' (Nullable = false) (Size = 100), @p5=NULL (Size = 20) (DbType = AnsiString), @p6='Paris' (Nullable = false) (Size = 40), @p7='Mr' (Size = 40), @p8=NULL (DbType = DateTime2), @p9=NULL (DbType = DateTime2), @p10='Ingenieur programmeur' (Size = 40), @p11='18886960-ce16-4338-b2d7-03110450e978', @p12=NULL (DbType = Int32), @p13='Ngola' (Nullable = false) (Size = 40), @p14=NULL (Size = 1000), @p15=NULL (Size = 8000) (DbType = Binary), @p16='Tresor Etobe' (Nullable = false) (Size = 40)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Adresses] ([Id], [CodePostal], [Pays], [Region], [Rue], [Tel], [Ville])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+INSERT INTO [Employes] ([Civilite], [DateEmbauche], [DateNaissance], [Fonction], [IdAdresse], [IdManager], [Nom], [Notes], [Photo], [Prenom])
+OUTPUT INSERTED.[Id]
+VALUES (@p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16);
+2025-01-21 16:00:22.985 -05:00 [INF] Executing CreatedAtActionResult, writing value of type 'ApiProjetVersion3.Entities.Employe'.
+2025-01-21 16:00:22.988 -05:00 [INF] Executed action ApiProjetVersion3.Controllers.EmployesController.PostEmploye (ApiProjetVersion3) in 103.7295ms
+2025-01-21 16:00:22.990 -05:00 [INF] Executed endpoint 'ApiProjetVersion3.Controllers.EmployesController.PostEmploye (ApiProjetVersion3)'
+2025-01-21 16:00:22.993 -05:00 [INF] Request finished HTTP/2 POST https://localhost:7195/api/Employes - 201 null application/json; charset=utf-8 131.9427ms
+2025-01-21 16:13:19.773 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-21 16:13:19.814 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 40.3069ms
+2025-01-21 16:13:19.859 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-21 16:13:19.867 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 16:13:19.876 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 9.0424ms
+2025-01-21 16:13:19.881 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 21.3782ms
+2025-01-21 16:13:20.208 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-21 16:13:20.255 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 45.4927ms
+2025-01-21 16:24:28.846 -05:00 [INF] Now listening on: https://localhost:7195
+2025-01-21 16:24:28.913 -05:00 [INF] Now listening on: http://localhost:5121
+2025-01-21 16:24:28.921 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 16:24:28.924 -05:00 [INF] Hosting environment: Development
+2025-01-21 16:24:28.926 -05:00 [INF] Content root path: C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Northwind3
+2025-01-21 16:24:29.465 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-21 16:24:29.895 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 431.1497ms
+2025-01-21 16:24:29.898 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 16:24:29.916 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 17.5779ms
+2025-01-21 16:24:38.232 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-21 16:24:38.291 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 59.3244ms
+2025-01-21 16:24:38.552 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-21 16:24:38.898 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 346.1507ms
+2025-01-21 16:24:56.062 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-21 16:24:56.097 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 35.585ms
+2025-01-21 16:24:56.138 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-21 16:24:56.138 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 16:24:56.145 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 6.3269ms
+2025-01-21 16:24:56.159 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 21.2641ms
+2025-01-21 16:24:56.227 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-21 16:24:56.401 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 173.5123ms
+2025-01-21 16:29:00.324 -05:00 [INF] Request starting HTTP/2 POST https://localhost:7195/api/Regions - application/json 121
+2025-01-21 16:29:00.342 -05:00 [INF] Executing endpoint 'ApiProjetVersion3.Controllers.EmployesController.PostRegion (ApiProjetVersion3)'
+2025-01-21 16:29:00.391 -05:00 [INF] Route matched with {action = "PostRegion", controller = "Employes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ApiProjetVersion3.Entities.Region]] PostRegion(ApiProjetVersion3.Entities.Region) on controller ApiProjetVersion3.Controllers.EmployesController (ApiProjetVersion3).
+2025-01-21 16:29:00.595 -05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-01-21 16:29:00.638 -05:00 [INF] Executed action ApiProjetVersion3.Controllers.EmployesController.PostRegion (ApiProjetVersion3) in 237.1234ms
+2025-01-21 16:29:00.641 -05:00 [INF] Executed endpoint 'ApiProjetVersion3.Controllers.EmployesController.PostRegion (ApiProjetVersion3)'
+2025-01-21 16:29:00.644 -05:00 [INF] Request finished HTTP/2 POST https://localhost:7195/api/Regions - 400 null application/problem+json; charset=utf-8 319.9744ms
+2025-01-21 16:30:59.849 -05:00 [INF] Request starting HTTP/2 POST https://localhost:7195/api/Regions - application/json 159
+2025-01-21 16:30:59.857 -05:00 [INF] Executing endpoint 'ApiProjetVersion3.Controllers.EmployesController.PostRegion (ApiProjetVersion3)'
+2025-01-21 16:30:59.860 -05:00 [INF] Route matched with {action = "PostRegion", controller = "Employes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ApiProjetVersion3.Entities.Region]] PostRegion(ApiProjetVersion3.Entities.Region) on controller ApiProjetVersion3.Controllers.EmployesController (ApiProjetVersion3).
+2025-01-21 16:30:59.889 -05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-01-21 16:30:59.891 -05:00 [INF] Executed action ApiProjetVersion3.Controllers.EmployesController.PostRegion (ApiProjetVersion3) in 27.4653ms
+2025-01-21 16:30:59.893 -05:00 [INF] Executed endpoint 'ApiProjetVersion3.Controllers.EmployesController.PostRegion (ApiProjetVersion3)'
+2025-01-21 16:30:59.896 -05:00 [INF] Request finished HTTP/2 POST https://localhost:7195/api/Regions - 400 null application/problem+json; charset=utf-8 46.9438ms
+2025-01-21 16:35:08.210 -05:00 [INF] Request starting HTTP/2 POST https://localhost:7195/api/Regions - application/json 154
+2025-01-21 16:35:08.214 -05:00 [INF] Executing endpoint 'ApiProjetVersion3.Controllers.EmployesController.PostRegion (ApiProjetVersion3)'
+2025-01-21 16:35:08.216 -05:00 [INF] Route matched with {action = "PostRegion", controller = "Employes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ApiProjetVersion3.Entities.Region]] PostRegion(ApiProjetVersion3.Entities.Region) on controller ApiProjetVersion3.Controllers.EmployesController (ApiProjetVersion3).
+2025-01-21 16:35:08.225 -05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-01-21 16:35:08.229 -05:00 [INF] Executed action ApiProjetVersion3.Controllers.EmployesController.PostRegion (ApiProjetVersion3) in 9.3674ms
+2025-01-21 16:35:08.232 -05:00 [INF] Executed endpoint 'ApiProjetVersion3.Controllers.EmployesController.PostRegion (ApiProjetVersion3)'
+2025-01-21 16:35:08.233 -05:00 [INF] Request finished HTTP/2 POST https://localhost:7195/api/Regions - 400 null application/problem+json; charset=utf-8 23.5104ms
+2025-01-21 16:35:31.840 -05:00 [INF] Request starting HTTP/2 POST https://localhost:7195/api/Regions - application/json 154
+2025-01-21 16:35:31.845 -05:00 [INF] Executing endpoint 'ApiProjetVersion3.Controllers.EmployesController.PostRegion (ApiProjetVersion3)'
+2025-01-21 16:35:31.846 -05:00 [INF] Route matched with {action = "PostRegion", controller = "Employes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ApiProjetVersion3.Entities.Region]] PostRegion(ApiProjetVersion3.Entities.Region) on controller ApiProjetVersion3.Controllers.EmployesController (ApiProjetVersion3).
+2025-01-21 16:35:31.851 -05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-01-21 16:35:31.854 -05:00 [INF] Executed action ApiProjetVersion3.Controllers.EmployesController.PostRegion (ApiProjetVersion3) in 3.6674ms
+2025-01-21 16:35:31.856 -05:00 [INF] Executed endpoint 'ApiProjetVersion3.Controllers.EmployesController.PostRegion (ApiProjetVersion3)'
+2025-01-21 16:35:31.857 -05:00 [INF] Request finished HTTP/2 POST https://localhost:7195/api/Regions - 400 null application/problem+json; charset=utf-8 16.6962ms
+2025-01-21 16:35:57.048 -05:00 [INF] Request starting HTTP/2 POST https://localhost:7195/api/Regions - application/json 143
+2025-01-21 16:35:57.053 -05:00 [INF] Executing endpoint 'ApiProjetVersion3.Controllers.EmployesController.PostRegion (ApiProjetVersion3)'
+2025-01-21 16:35:57.055 -05:00 [INF] Route matched with {action = "PostRegion", controller = "Employes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ApiProjetVersion3.Entities.Region]] PostRegion(ApiProjetVersion3.Entities.Region) on controller ApiProjetVersion3.Controllers.EmployesController (ApiProjetVersion3).
+2025-01-21 16:35:57.059 -05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-01-21 16:35:57.061 -05:00 [INF] Executed action ApiProjetVersion3.Controllers.EmployesController.PostRegion (ApiProjetVersion3) in 3.1657ms
+2025-01-21 16:35:57.064 -05:00 [INF] Executed endpoint 'ApiProjetVersion3.Controllers.EmployesController.PostRegion (ApiProjetVersion3)'
+2025-01-21 16:35:57.067 -05:00 [INF] Request finished HTTP/2 POST https://localhost:7195/api/Regions - 400 null application/problem+json; charset=utf-8 18.8997ms
+2025-01-21 16:36:15.097 -05:00 [INF] Request starting HTTP/2 POST https://localhost:7195/api/Regions - application/json 143
+2025-01-21 16:36:15.104 -05:00 [INF] Executing endpoint 'ApiProjetVersion3.Controllers.EmployesController.PostRegion (ApiProjetVersion3)'
+2025-01-21 16:36:15.106 -05:00 [INF] Route matched with {action = "PostRegion", controller = "Employes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ApiProjetVersion3.Entities.Region]] PostRegion(ApiProjetVersion3.Entities.Region) on controller ApiProjetVersion3.Controllers.EmployesController (ApiProjetVersion3).
+2025-01-21 16:36:15.111 -05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-01-21 16:36:15.114 -05:00 [INF] Executed action ApiProjetVersion3.Controllers.EmployesController.PostRegion (ApiProjetVersion3) in 5.6356ms
+2025-01-21 16:36:15.117 -05:00 [INF] Executed endpoint 'ApiProjetVersion3.Controllers.EmployesController.PostRegion (ApiProjetVersion3)'
+2025-01-21 16:36:15.120 -05:00 [INF] Request finished HTTP/2 POST https://localhost:7195/api/Regions - 400 null application/problem+json; charset=utf-8 22.6751ms
+2025-01-21 16:37:05.651 -05:00 [INF] Request starting HTTP/2 POST https://localhost:7195/api/Regions - application/json 42
+2025-01-21 16:37:05.657 -05:00 [INF] Executing endpoint 'ApiProjetVersion3.Controllers.EmployesController.PostRegion (ApiProjetVersion3)'
+2025-01-21 16:37:05.659 -05:00 [INF] Route matched with {action = "PostRegion", controller = "Employes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ApiProjetVersion3.Entities.Region]] PostRegion(ApiProjetVersion3.Entities.Region) on controller ApiProjetVersion3.Controllers.EmployesController (ApiProjetVersion3).
+2025-01-21 16:37:05.668 -05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-01-21 16:37:05.672 -05:00 [INF] Executed action ApiProjetVersion3.Controllers.EmployesController.PostRegion (ApiProjetVersion3) in 10.2874ms
+2025-01-21 16:37:05.677 -05:00 [INF] Executed endpoint 'ApiProjetVersion3.Controllers.EmployesController.PostRegion (ApiProjetVersion3)'
+2025-01-21 16:37:05.678 -05:00 [INF] Request finished HTTP/2 POST https://localhost:7195/api/Regions - 400 null application/problem+json; charset=utf-8 27.0917ms

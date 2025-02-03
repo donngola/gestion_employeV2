@@ -1,0 +1,191 @@
+2025-01-27 17:18:01.146 -05:00 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-27 17:18:01.885 -05:00 [INF] Now listening on: https://localhost:7195
+2025-01-27 17:18:01.890 -05:00 [INF] Now listening on: http://localhost:5121
+2025-01-27 17:18:01.901 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-27 17:18:01.903 -05:00 [INF] Hosting environment: Development
+2025-01-27 17:18:01.904 -05:00 [INF] Content root path: C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Northwind3
+2025-01-27 17:18:04.101 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-27 17:18:06.145 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 2049.5065ms
+2025-01-27 17:18:11.911 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-27 17:18:11.911 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-27 17:18:11.931 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 18.9024ms
+2025-01-27 17:18:12.008 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 96.8192ms
+2025-01-27 17:18:24.139 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-27 17:18:24.526 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 386.7185ms
+2025-01-27 17:23:54.014 -05:00 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-27 17:23:54.453 -05:00 [INF] Now listening on: https://localhost:7195
+2025-01-27 17:23:54.457 -05:00 [INF] Now listening on: http://localhost:5121
+2025-01-27 17:23:54.467 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-27 17:23:54.470 -05:00 [INF] Hosting environment: Development
+2025-01-27 17:23:54.473 -05:00 [INF] Content root path: C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Northwind3
+2025-01-27 17:23:58.154 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-27 17:23:58.901 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 757.0181ms
+2025-01-27 17:23:58.973 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-27 17:23:58.980 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-27 17:23:58.994 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 20.7276ms
+2025-01-27 17:23:59.057 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 77.0104ms
+2025-01-27 17:23:59.524 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-27 17:24:02.177 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 2653.4199ms
+2025-01-27 17:24:56.611 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/.well-known/openid-configuration - null null
+2025-01-27 17:24:56.638 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-01-27 17:24:56.648 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-01-27 17:24:56.652 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/.well-known/openid-configuration - 401 0 null 40.6899ms
+2025-01-27 17:25:39.211 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/.well-known/openid-configuration - null null
+2025-01-27 17:25:39.219 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-01-27 17:25:39.223 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-01-27 17:25:39.225 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/.well-known/openid-configuration - 401 0 null 13.771ms
+2025-01-27 17:25:46.795 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/.well-known/openid-configuration - null null
+2025-01-27 17:25:46.803 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-01-27 17:25:46.806 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-01-27 17:25:46.807 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/.well-known/openid-configuration - 401 0 null 11.8522ms
+2025-01-27 17:25:51.060 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/.well-known/openid-configuration - null null
+2025-01-27 17:25:51.069 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-01-27 17:25:51.070 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-01-27 17:25:51.072 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/.well-known/openid-configuration - 401 0 null 12.4901ms
+2025-01-27 17:44:35.310 -05:00 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-27 17:44:36.637 -05:00 [INF] Now listening on: https://localhost:7195
+2025-01-27 17:44:36.647 -05:00 [INF] Now listening on: http://localhost:5121
+2025-01-27 17:44:36.662 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-27 17:44:36.665 -05:00 [INF] Hosting environment: Development
+2025-01-27 17:44:36.668 -05:00 [INF] Content root path: C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Northwind3
+2025-01-27 17:44:37.893 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-27 17:44:38.866 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 981.6172ms
+2025-01-27 17:44:38.972 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-27 17:44:38.995 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 22.0618ms
+2025-01-27 17:44:39.014 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-27 17:44:39.123 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 109.2376ms
+2025-01-27 17:44:41.022 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-27 17:44:41.330 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 308.1369ms
+2025-01-27 17:44:47.859 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/.well-known/openid-configuration - null null
+2025-01-27 17:44:47.886 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-01-27 17:44:47.891 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-01-27 17:44:47.898 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/.well-known/openid-configuration - 401 0 null 38.9238ms
+2025-01-27 17:46:22.665 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/api/Regions/3 - null null
+2025-01-27 17:46:22.676 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-01-27 17:46:22.678 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-01-27 17:46:22.680 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/api/Regions/3 - 401 0 null 14.5503ms
+2025-01-27 17:46:51.516 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/.well-known/openid-configuration - null null
+2025-01-27 17:46:51.523 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-01-27 17:46:51.524 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-01-27 17:46:51.525 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/.well-known/openid-configuration - 401 0 null 9.7703ms
+2025-01-27 17:48:45.246 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/.well-known/openid-configuration - null null
+2025-01-27 17:48:45.254 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-01-27 17:48:45.257 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-01-27 17:48:45.259 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/.well-known/openid-configuration - 401 0 null 12.6246ms
+2025-01-27 17:57:35.232 -05:00 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-27 17:57:35.608 -05:00 [INF] Now listening on: https://localhost:7195
+2025-01-27 17:57:35.611 -05:00 [INF] Now listening on: http://localhost:5121
+2025-01-27 17:57:35.620 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-27 17:57:35.622 -05:00 [INF] Hosting environment: Development
+2025-01-27 17:57:35.624 -05:00 [INF] Content root path: C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Northwind3
+2025-01-27 17:57:37.957 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-27 17:57:38.632 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 675.2752ms
+2025-01-27 17:57:38.674 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-27 17:57:38.675 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-27 17:57:38.690 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 15.1849ms
+2025-01-27 17:57:38.797 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 122.5239ms
+2025-01-27 17:57:39.257 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-27 17:57:40.967 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1709.0044ms
+2025-01-27 17:57:46.003 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/.well-known/openid-configuration - null null
+2025-01-27 17:57:46.035 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-01-27 17:57:46.040 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-01-27 17:57:46.044 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/.well-known/openid-configuration - 401 0 null 40.8475ms
+2025-01-27 18:12:32.459 -05:00 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-27 18:12:34.671 -05:00 [INF] Now listening on: https://localhost:7195
+2025-01-27 18:12:34.674 -05:00 [INF] Now listening on: http://localhost:5121
+2025-01-27 18:12:34.683 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-27 18:12:34.687 -05:00 [INF] Hosting environment: Development
+2025-01-27 18:12:34.689 -05:00 [INF] Content root path: C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Northwind3
+2025-01-27 18:12:59.146 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-27 18:13:00.434 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 1292.7775ms
+2025-01-27 18:13:00.516 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-27 18:13:00.582 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-27 18:13:00.635 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 130.0236ms
+2025-01-27 18:13:00.874 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 341.3854ms
+2025-01-27 18:13:01.016 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-27 18:13:01.411 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 396.5763ms
+2025-01-27 18:13:32.690 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/.well-known/openid-configuration - null null
+2025-01-27 18:13:32.733 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-01-27 18:13:32.745 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-01-27 18:13:32.767 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/.well-known/openid-configuration - 401 0 null 79.4072ms
+2025-01-27 18:49:44.917 -05:00 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-27 18:49:45.215 -05:00 [INF] Now listening on: https://localhost:7195
+2025-01-27 18:49:45.218 -05:00 [INF] Now listening on: http://localhost:5121
+2025-01-27 18:49:45.227 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-27 18:49:45.229 -05:00 [INF] Hosting environment: Development
+2025-01-27 18:49:45.230 -05:00 [INF] Content root path: C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Northwind3
+2025-01-27 18:49:48.668 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-27 18:49:49.207 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 543.1211ms
+2025-01-27 18:49:49.317 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-27 18:49:49.327 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-27 18:49:49.355 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 36.9775ms
+2025-01-27 18:49:49.559 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 232.6768ms
+2025-01-27 18:49:50.138 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-27 18:49:51.490 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1352.1181ms
+2025-01-27 18:50:32.101 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/.well-known/openid-configuration - null null
+2025-01-27 18:50:32.128 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-01-27 18:50:32.138 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-01-27 18:50:32.142 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/.well-known/openid-configuration - 401 0 null 41.7493ms
+2025-01-27 18:51:03.314 -05:00 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-27 18:51:03.757 -05:00 [INF] Now listening on: https://localhost:7195
+2025-01-27 18:51:03.764 -05:00 [INF] Now listening on: http://localhost:5121
+2025-01-27 18:51:03.774 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-27 18:51:03.777 -05:00 [INF] Hosting environment: Development
+2025-01-27 18:51:03.779 -05:00 [INF] Content root path: C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Northwind3
+2025-01-27 18:51:05.332 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-27 18:51:05.893 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 565.8243ms
+2025-01-27 18:51:05.902 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-27 18:51:05.905 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-27 18:51:05.934 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 31.5104ms
+2025-01-27 18:51:06.021 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 115.5533ms
+2025-01-27 18:51:06.215 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-27 18:51:06.728 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 512.7569ms
+2025-01-27 18:51:27.962 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/.well-known/openid-configuration - null null
+2025-01-27 18:51:27.986 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-01-27 18:51:27.990 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-01-27 18:51:27.996 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/.well-known/openid-configuration - 401 0 null 33.5001ms
+2025-01-27 23:57:41.704 -05:00 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-27 23:57:42.159 -05:00 [INF] Now listening on: https://localhost:7195
+2025-01-27 23:57:42.163 -05:00 [INF] Now listening on: http://localhost:5121
+2025-01-27 23:57:42.169 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-27 23:57:42.171 -05:00 [INF] Hosting environment: Development
+2025-01-27 23:57:42.173 -05:00 [INF] Content root path: C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Northwind3
+2025-01-27 23:57:44.116 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger - null null
+2025-01-27 23:57:44.642 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger - 301 0 null 534.7279ms
+2025-01-27 23:57:44.655 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-27 23:57:44.984 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 328.7203ms
+2025-01-27 23:57:45.126 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/swagger-ui.css - null null
+2025-01-27 23:57:45.126 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/swagger-ui-bundle.js - null null
+2025-01-27 23:57:45.126 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/swagger-ui-standalone-preset.js - null null
+2025-01-27 23:57:45.328 -05:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-01-27 23:57:45.395 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/swagger-ui.css - 200 143943 text/css 269.3408ms
+2025-01-27 23:57:45.405 -05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-01-27 23:57:45.409 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 282.6395ms
+2025-01-27 23:57:45.424 -05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-01-27 23:57:45.527 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 400.3038ms
+2025-01-27 23:57:49.983 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-27 23:57:50.005 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 21.2849ms
+2025-01-27 23:57:50.088 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-27 23:57:50.213 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 124.4137ms
+2025-01-27 23:57:52.341 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-27 23:57:52.514 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/favicon-32x32.png - null null
+2025-01-27 23:57:52.521 -05:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-01-27 23:57:52.523 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/favicon-32x32.png - 200 628 image/png 9.32ms
+2025-01-27 23:57:52.666 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 324.3285ms
+2025-01-27 23:57:58.683 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7195/.well-known/openid-configuration - null null
+2025-01-27 23:57:58.706 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-01-27 23:57:58.716 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-01-27 23:57:58.721 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7195/.well-known/openid-configuration - 401 0 null 37.3922ms

@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApiProjetVersion3</name>
+    </assembly>
+    <members>
+        <member name="M:ApiProjetVersion3.Controllers.EmployesController.GetEmployes(System.String,System.Nullable{System.DateTime})">
+            <summary>
+            Recupere la liste d'employes
+            </summary>
+            <param name="recherchenom">Recherche l'employe par nom</param>
+            <param name="dateembauche">Recherche l'employe par date d'embauche </param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiProjetVersion3.Controllers.EmployesController.GetEmploye(System.Int32)">
+            <summary>
+            Recupere l'employe par son ID
+            </summary>
+            <param name="id">Identifiant de l'employe</param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiProjetVersion3.Controllers.EmployesController.PostEmploye(ApiProjetVersion3.Entities.Employe)">
+            <summary>
+            Ajoute un enploye dans la bdd
+            </summary>
+            <param name="employe">Employe</param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiProjetVersion3.Controllers.EmployesController.PostEmployéFormData(ApiProjetVersion3.Entities.FormEmploye)">
+            <summary>
+            Ajoute un employe formulaire
+            </summary>
+            <param name="fe"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiProjetVersion3.Controllers.EmployesController.SupprimeEmploye(System.Int32)">
+            <summary>
+            Supprimme un employe
+            </summary>
+            <param name="id">Id employe a supprimer</param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiProjetVersion3.Controllers.EmployesController.Getregion(System.Int32)">
+            <summary>
+            Recupe une region
+            </summary>
+            <param name="id">Id region a recuperer</param>
+            <returns></returns>
+        </member>
+        <member name="T:ApiProjetVersion3.Data.Migrations.CreationBdd2">
+            <inheritdoc />
+        </member>
+        <member name="M:ApiProjetVersion3.Data.Migrations.CreationBdd2.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ApiProjetVersion3.Data.Migrations.CreationBdd2.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ApiProjetVersion3.Data.Migrations.CreationBdd2.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

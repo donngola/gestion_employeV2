@@ -1,0 +1,906 @@
+2025-01-20 16:42:22.833 -05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-01-20 16:44:45.351 -05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-01-20 16:44:47.818 -05:00 [INF] Executed DbCommand (25ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-01-20 16:44:47.856 -05:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-01-20 16:44:47.874 -05:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-01-20 16:45:31.656 -05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-01-20 16:45:43.211 -05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-01-20 16:45:43.709 -05:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-01-20 16:45:43.737 -05:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-01-20 16:45:43.759 -05:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-01-20 16:46:13.065 -05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-01-20 16:46:13.863 -05:00 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-01-20 16:46:13.884 -05:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-01-20 16:46:13.929 -05:00 [INF] Executed DbCommand (38ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_getapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session', @LockMode = 'Exclusive';
+SELECT @result
+2025-01-20 16:46:14.024 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF OBJECT_ID(N'[__EFMigrationsHistory]') IS NULL
+BEGIN
+    CREATE TABLE [__EFMigrationsHistory] (
+        [MigrationId] nvarchar(150) NOT NULL,
+        [ProductVersion] nvarchar(32) NOT NULL,
+        CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+    );
+END;
+2025-01-20 16:46:14.038 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-01-20 16:46:14.039 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-01-20 16:46:14.043 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-01-20 16:46:14.064 -05:00 [INF] Applying migration '20250120214533_Ajout_produits_commandes_client'.
+2025-01-20 16:46:14.130 -05:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Employes] DROP CONSTRAINT [FK_Employes_Adresses_IdAdresse];
+2025-01-20 16:46:14.135 -05:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Categorie] (
+    [Id] uniqueidentifier NOT NULL,
+    [Nom] nvarchar(40) NOT NULL,
+    [Description] nvarchar(1000) NULL,
+    CONSTRAINT [PK_Categorie] PRIMARY KEY ([Id])
+);
+2025-01-20 16:46:14.139 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Client] (
+    [Id] varchar(20) NOT NULL,
+    [IdAdresse] uniqueidentifier NOT NULL,
+    [NomSociete] nvarchar(100) NOT NULL,
+    [NomContact] nvarchar(100) NULL,
+    [FonctionContact] nvarchar(100) NULL,
+    CONSTRAINT [PK_Client] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Client_Adresses_IdAdresse] FOREIGN KEY ([IdAdresse]) REFERENCES [Adresses] ([Id])
+);
+2025-01-20 16:46:14.141 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Fournisseur] (
+    [Id] int NOT NULL IDENTITY,
+    [IdAdresse] uniqueidentifier NOT NULL,
+    [NomSociete] nvarchar(100) NOT NULL,
+    [NomContact] nvarchar(100) NULL,
+    [FonctionContact] nvarchar(100) NULL,
+    [UrlSiteWeb] nvarchar(100) NULL,
+    CONSTRAINT [PK_Fournisseur] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Fournisseur_Adresses_IdAdresse] FOREIGN KEY ([IdAdresse]) REFERENCES [Adresses] ([Id])
+);
+2025-01-20 16:46:14.178 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Livreur] (
+    [Id] int NOT NULL IDENTITY,
+    [NomSociete] nvarchar(40) NOT NULL,
+    [Telephone] nvarchar(20) NOT NULL,
+    CONSTRAINT [PK_Livreur] PRIMARY KEY ([Id])
+);
+2025-01-20 16:46:14.182 -05:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Produit] (
+    [Id] int NOT NULL IDENTITY,
+    [IdCategorie] uniqueidentifier NOT NULL,
+    [IdFournisseur] int NOT NULL,
+    [Nom] nvarchar(40) NOT NULL,
+    [PU] decimal(8,2) NOT NULL,
+    [UnitesEnStock] smallint NOT NULL,
+    [NiveauReappro] smallint NOT NULL,
+    [Arrete] bit NOT NULL DEFAULT CAST(0 AS bit),
+    CONSTRAINT [PK_Produit] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Produit_Categorie_IdCategorie] FOREIGN KEY ([IdCategorie]) REFERENCES [Categorie] ([Id]),
+    CONSTRAINT [FK_Produit_Fournisseur_IdFournisseur] FOREIGN KEY ([IdFournisseur]) REFERENCES [Fournisseur] ([Id])
+);
+2025-01-20 16:46:14.184 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Commande] (
+    [Id] int NOT NULL IDENTITY,
+    [IdAdresse] uniqueidentifier NOT NULL,
+    [IdClient] varchar(20) NOT NULL,
+    [IdEmploye] int NOT NULL,
+    [IdLivreur] int NOT NULL,
+    [DateCommande] datetime2 NOT NULL,
+    [DateLivMaxi] datetime2 NULL,
+    [DateLivraison] datetime2 NULL,
+    [FraisLivraison] decimal(6,2) NULL,
+    CONSTRAINT [PK_Commande] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Commande_Adresses_IdAdresse] FOREIGN KEY ([IdAdresse]) REFERENCES [Adresses] ([Id]),
+    CONSTRAINT [FK_Commande_Client_IdClient] FOREIGN KEY ([IdClient]) REFERENCES [Client] ([Id]),
+    CONSTRAINT [FK_Commande_Employes_IdEmploye] FOREIGN KEY ([IdEmploye]) REFERENCES [Employes] ([Id]),
+    CONSTRAINT [FK_Commande_Livreur_IdLivreur] FOREIGN KEY ([IdLivreur]) REFERENCES [Livreur] ([Id])
+);
+2025-01-20 16:46:15.952 -05:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [LigneCommande] (
+    [IdCommande] int NOT NULL,
+    [IdProduit] int NOT NULL,
+    [PU] decimal(8,2) NOT NULL,
+    [Quantite] smallint NOT NULL,
+    [TauxReduc] real NOT NULL DEFAULT CAST(0 AS real),
+    CONSTRAINT [PK_LigneCommande] PRIMARY KEY ([IdCommande], [IdProduit]),
+    CONSTRAINT [FK_LigneCommande_Commande_IdCommande] FOREIGN KEY ([IdCommande]) REFERENCES [Commande] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_LigneCommande_Produit_IdProduit] FOREIGN KEY ([IdProduit]) REFERENCES [Produit] ([Id])
+);
+2025-01-20 16:46:15.956 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Client_IdAdresse] ON [Client] ([IdAdresse]);
+2025-01-20 16:46:15.958 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Commande_IdAdresse] ON [Commande] ([IdAdresse]);
+2025-01-20 16:46:15.961 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Commande_IdClient] ON [Commande] ([IdClient]);
+2025-01-20 16:46:15.963 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Commande_IdEmploye] ON [Commande] ([IdEmploye]);
+2025-01-20 16:46:15.965 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Commande_IdLivreur] ON [Commande] ([IdLivreur]);
+2025-01-20 16:46:15.968 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Fournisseur_IdAdresse] ON [Fournisseur] ([IdAdresse]);
+2025-01-20 16:46:17.827 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_LigneCommande_IdProduit] ON [LigneCommande] ([IdProduit]);
+2025-01-20 16:46:17.828 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Produit_IdCategorie] ON [Produit] ([IdCategorie]);
+2025-01-20 16:46:17.829 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Produit_IdFournisseur] ON [Produit] ([IdFournisseur]);
+2025-01-20 16:46:17.835 -05:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Employes] ADD CONSTRAINT [FK_Employes_Adresses_IdAdresse] FOREIGN KEY ([IdAdresse]) REFERENCES [Adresses] ([Id]) ON DELETE CASCADE;
+2025-01-20 16:46:17.839 -05:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20250120214533_Ajout_produits_commandes_client', N'9.0.0');
+2025-01-20 16:46:17.849 -05:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_releaseapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session';
+SELECT @result
+2025-01-20 17:18:00.737 -05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-01-20 17:18:02.560 -05:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-01-20 17:18:02.592 -05:00 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-01-20 17:18:02.611 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-01-20 17:18:49.354 -05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-01-20 17:18:49.955 -05:00 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-01-20 17:18:49.989 -05:00 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-01-20 17:18:50.004 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-01-20 17:19:23.927 -05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-01-20 17:23:35.265 -05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-01-20 17:23:35.617 -05:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-01-20 17:23:35.643 -05:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-01-20 17:23:35.656 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-01-20 17:24:20.867 -05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-01-20 17:25:27.667 -05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-01-20 17:25:45.079 -05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-01-20 17:25:45.584 -05:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-01-20 17:25:45.597 -05:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-01-20 17:25:45.644 -05:00 [INF] Executed DbCommand (43ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_getapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session', @LockMode = 'Exclusive';
+SELECT @result
+2025-01-20 17:25:45.716 -05:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF OBJECT_ID(N'[__EFMigrationsHistory]') IS NULL
+BEGIN
+    CREATE TABLE [__EFMigrationsHistory] (
+        [MigrationId] nvarchar(150) NOT NULL,
+        [ProductVersion] nvarchar(32) NOT NULL,
+        CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+    );
+END;
+2025-01-20 17:25:45.725 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-01-20 17:25:45.726 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-01-20 17:25:45.731 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-01-20 17:25:45.746 -05:00 [INF] Applying migration '20250120222529_Ajout_produits_commandes_client2'.
+2025-01-20 17:25:45.805 -05:00 [INF] Executed DbCommand (32ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Client] DROP CONSTRAINT [FK_Client_Adresses_IdAdresse];
+2025-01-20 17:25:45.809 -05:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Commande] DROP CONSTRAINT [FK_Commande_Adresses_IdAdresse];
+2025-01-20 17:25:45.812 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Commande] DROP CONSTRAINT [FK_Commande_Client_IdClient];
+2025-01-20 17:25:45.815 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Commande] DROP CONSTRAINT [FK_Commande_Employes_IdEmploye];
+2025-01-20 17:25:45.817 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Commande] DROP CONSTRAINT [FK_Commande_Livreur_IdLivreur];
+2025-01-20 17:25:45.820 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Fournisseur] DROP CONSTRAINT [FK_Fournisseur_Adresses_IdAdresse];
+2025-01-20 17:25:45.822 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [LigneCommande] DROP CONSTRAINT [FK_LigneCommande_Commande_IdCommande];
+2025-01-20 17:25:45.868 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [LigneCommande] DROP CONSTRAINT [FK_LigneCommande_Produit_IdProduit];
+2025-01-20 17:25:45.871 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Produit] DROP CONSTRAINT [FK_Produit_Categorie_IdCategorie];
+2025-01-20 17:25:45.873 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Produit] DROP CONSTRAINT [FK_Produit_Fournisseur_IdFournisseur];
+2025-01-20 17:25:45.905 -05:00 [INF] Executed DbCommand (32ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Produit] DROP CONSTRAINT [PK_Produit];
+2025-01-20 17:25:45.908 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Livreur] DROP CONSTRAINT [PK_Livreur];
+2025-01-20 17:25:45.914 -05:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [LigneCommande] DROP CONSTRAINT [PK_LigneCommande];
+2025-01-20 17:25:45.917 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Fournisseur] DROP CONSTRAINT [PK_Fournisseur];
+2025-01-20 17:25:45.925 -05:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Commande] DROP CONSTRAINT [PK_Commande];
+2025-01-20 17:25:45.930 -05:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Client] DROP CONSTRAINT [PK_Client];
+2025-01-20 17:25:45.933 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Categorie] DROP CONSTRAINT [PK_Categorie];
+2025-01-20 17:25:46.140 -05:00 [INF] Executed DbCommand (206ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC sp_rename N'[Produit]', N'Produits', 'OBJECT';
+2025-01-20 17:25:46.141 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC sp_rename N'[Livreur]', N'Livreurs', 'OBJECT';
+2025-01-20 17:25:47.051 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC sp_rename N'[LigneCommande]', N'LignesCommandes', 'OBJECT';
+2025-01-20 17:25:47.054 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC sp_rename N'[Fournisseur]', N'Fournisseurs', 'OBJECT';
+2025-01-20 17:25:47.056 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC sp_rename N'[Commande]', N'Commandes', 'OBJECT';
+2025-01-20 17:25:47.058 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC sp_rename N'[Client]', N'Clients', 'OBJECT';
+2025-01-20 17:25:47.060 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC sp_rename N'[Categorie]', N'Categories', 'OBJECT';
+2025-01-20 17:25:47.064 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC sp_rename N'[Produits].[IX_Produit_IdFournisseur]', N'IX_Produits_IdFournisseur', 'INDEX';
+2025-01-20 17:25:47.065 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC sp_rename N'[Produits].[IX_Produit_IdCategorie]', N'IX_Produits_IdCategorie', 'INDEX';
+2025-01-20 17:25:47.067 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC sp_rename N'[LignesCommandes].[IX_LigneCommande_IdProduit]', N'IX_LignesCommandes_IdProduit', 'INDEX';
+2025-01-20 17:25:47.068 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC sp_rename N'[Fournisseurs].[IX_Fournisseur_IdAdresse]', N'IX_Fournisseurs_IdAdresse', 'INDEX';
+2025-01-20 17:25:47.070 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC sp_rename N'[Commandes].[IX_Commande_IdLivreur]', N'IX_Commandes_IdLivreur', 'INDEX';
+2025-01-20 17:25:47.071 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC sp_rename N'[Commandes].[IX_Commande_IdEmploye]', N'IX_Commandes_IdEmploye', 'INDEX';
+2025-01-20 17:25:47.072 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC sp_rename N'[Commandes].[IX_Commande_IdClient]', N'IX_Commandes_IdClient', 'INDEX';
+2025-01-20 17:25:48.134 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC sp_rename N'[Commandes].[IX_Commande_IdAdresse]', N'IX_Commandes_IdAdresse', 'INDEX';
+2025-01-20 17:25:48.137 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC sp_rename N'[Clients].[IX_Client_IdAdresse]', N'IX_Clients_IdAdresse', 'INDEX';
+2025-01-20 17:25:48.148 -05:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Produits] ADD CONSTRAINT [PK_Produits] PRIMARY KEY ([Id]);
+2025-01-20 17:25:48.151 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Livreurs] ADD CONSTRAINT [PK_Livreurs] PRIMARY KEY ([Id]);
+2025-01-20 17:25:48.156 -05:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [LignesCommandes] ADD CONSTRAINT [PK_LignesCommandes] PRIMARY KEY ([IdCommande], [IdProduit]);
+2025-01-20 17:25:48.158 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Fournisseurs] ADD CONSTRAINT [PK_Fournisseurs] PRIMARY KEY ([Id]);
+2025-01-20 17:25:48.164 -05:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Commandes] ADD CONSTRAINT [PK_Commandes] PRIMARY KEY ([Id]);
+2025-01-20 17:25:48.167 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Clients] ADD CONSTRAINT [PK_Clients] PRIMARY KEY ([Id]);
+2025-01-20 17:25:48.169 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Categories] ADD CONSTRAINT [PK_Categories] PRIMARY KEY ([Id]);
+2025-01-20 17:25:48.171 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Clients] ADD CONSTRAINT [FK_Clients_Adresses_IdAdresse] FOREIGN KEY ([IdAdresse]) REFERENCES [Adresses] ([Id]);
+2025-01-20 17:25:48.173 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Commandes] ADD CONSTRAINT [FK_Commandes_Adresses_IdAdresse] FOREIGN KEY ([IdAdresse]) REFERENCES [Adresses] ([Id]);
+2025-01-20 17:25:49.019 -05:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Commandes] ADD CONSTRAINT [FK_Commandes_Clients_IdClient] FOREIGN KEY ([IdClient]) REFERENCES [Clients] ([Id]);
+2025-01-20 17:25:49.022 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Commandes] ADD CONSTRAINT [FK_Commandes_Employes_IdEmploye] FOREIGN KEY ([IdEmploye]) REFERENCES [Employes] ([Id]);
+2025-01-20 17:25:49.024 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Commandes] ADD CONSTRAINT [FK_Commandes_Livreurs_IdLivreur] FOREIGN KEY ([IdLivreur]) REFERENCES [Livreurs] ([Id]);
+2025-01-20 17:25:49.025 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Fournisseurs] ADD CONSTRAINT [FK_Fournisseurs_Adresses_IdAdresse] FOREIGN KEY ([IdAdresse]) REFERENCES [Adresses] ([Id]);
+2025-01-20 17:25:49.029 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [LignesCommandes] ADD CONSTRAINT [FK_LignesCommandes_Commandes_IdCommande] FOREIGN KEY ([IdCommande]) REFERENCES [Commandes] ([Id]) ON DELETE CASCADE;
+2025-01-20 17:25:49.033 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [LignesCommandes] ADD CONSTRAINT [FK_LignesCommandes_Produits_IdProduit] FOREIGN KEY ([IdProduit]) REFERENCES [Produits] ([Id]);
+2025-01-20 17:25:49.034 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Produits] ADD CONSTRAINT [FK_Produits_Categories_IdCategorie] FOREIGN KEY ([IdCategorie]) REFERENCES [Categories] ([Id]);
+2025-01-20 17:25:49.035 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Produits] ADD CONSTRAINT [FK_Produits_Fournisseurs_IdFournisseur] FOREIGN KEY ([IdFournisseur]) REFERENCES [Fournisseurs] ([Id]);
+2025-01-20 17:25:49.887 -05:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20250120222529_Ajout_produits_commandes_client2', N'9.0.0');
+2025-01-20 17:25:49.902 -05:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_releaseapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session';
+SELECT @result
+2025-01-20 17:50:34.231 -05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-01-20 17:50:48.089 -05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-01-20 17:50:55.558 -05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-01-20 17:51:22.547 -05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-01-20 18:00:27.132 -05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-01-20 18:03:18.909 -05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-01-20 18:03:44.346 -05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-01-20 18:03:46.275 -05:00 [INF] Executed DbCommand (240ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [Dbangola];
+2025-01-20 18:03:46.355 -05:00 [INF] Executed DbCommand (72ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [Dbangola] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2025-01-20 18:03:46.380 -05:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-01-20 18:03:46.383 -05:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-01-20 18:03:46.418 -05:00 [INF] Executed DbCommand (31ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_getapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session', @LockMode = 'Exclusive';
+SELECT @result
+2025-01-20 18:03:46.682 -05:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF OBJECT_ID(N'[__EFMigrationsHistory]') IS NULL
+BEGIN
+    CREATE TABLE [__EFMigrationsHistory] (
+        [MigrationId] nvarchar(150) NOT NULL,
+        [ProductVersion] nvarchar(32) NOT NULL,
+        CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+    );
+END;
+2025-01-20 18:03:46.693 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-01-20 18:03:46.694 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-01-20 18:03:46.701 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-01-20 18:03:46.720 -05:00 [INF] Applying migration '20250120230319_CreationBd'.
+2025-01-20 18:03:46.809 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Adresses] (
+    [Id] uniqueidentifier NOT NULL,
+    [Rue] nvarchar(100) NOT NULL,
+    [Ville] nvarchar(40) NOT NULL,
+    [CodePostal] varchar(20) NOT NULL,
+    [Pays] nvarchar(40) NOT NULL,
+    [Region] nvarchar(40) NULL,
+    [Tel] varchar(20) NULL,
+    CONSTRAINT [PK_Adresses] PRIMARY KEY ([Id])
+);
+2025-01-20 18:03:46.811 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Categories] (
+    [Id] uniqueidentifier NOT NULL,
+    [Nom] nvarchar(40) NOT NULL,
+    [Description] nvarchar(1000) NULL,
+    CONSTRAINT [PK_Categories] PRIMARY KEY ([Id])
+);
+2025-01-20 18:03:46.816 -05:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Livreurs] (
+    [Id] int NOT NULL IDENTITY,
+    [NomSociete] nvarchar(40) NOT NULL,
+    [Telephone] nvarchar(20) NOT NULL,
+    CONSTRAINT [PK_Livreurs] PRIMARY KEY ([Id])
+);
+2025-01-20 18:03:46.818 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Regions] (
+    [Id] int NOT NULL,
+    [Nom] nvarchar(40) NOT NULL,
+    CONSTRAINT [PK_Regions] PRIMARY KEY ([Id])
+);
+2025-01-20 18:03:46.854 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Clients] (
+    [Id] varchar(20) NOT NULL,
+    [IdAdresse] uniqueidentifier NOT NULL,
+    [NomSociete] nvarchar(100) NOT NULL,
+    [NomContact] nvarchar(100) NULL,
+    [FonctionContact] nvarchar(100) NULL,
+    CONSTRAINT [PK_Clients] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Clients_Adresses_IdAdresse] FOREIGN KEY ([IdAdresse]) REFERENCES [Adresses] ([Id])
+);
+2025-01-20 18:03:46.857 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Employes] (
+    [Id] int NOT NULL IDENTITY,
+    [IdAdresse] uniqueidentifier NOT NULL,
+    [IdManager] int NULL,
+    [Nom] nvarchar(40) NOT NULL,
+    [Prenom] nvarchar(40) NOT NULL,
+    [Fonction] nvarchar(40) NULL,
+    [Civilite] nvarchar(40) NULL,
+    [DateNaissance] datetime2 NULL,
+    [DateEmbauche] datetime2 NULL,
+    [Photo] image NULL,
+    [Notes] nvarchar(1000) NULL,
+    CONSTRAINT [PK_Employes] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Employes_Adresses_IdAdresse] FOREIGN KEY ([IdAdresse]) REFERENCES [Adresses] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Employes_Employes_IdManager] FOREIGN KEY ([IdManager]) REFERENCES [Employes] ([Id])
+);
+2025-01-20 18:03:46.860 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Fournisseurs] (
+    [Id] int NOT NULL IDENTITY,
+    [IdAdresse] uniqueidentifier NOT NULL,
+    [NomSociete] nvarchar(100) NOT NULL,
+    [NomContact] nvarchar(100) NULL,
+    [FonctionContact] nvarchar(100) NULL,
+    [UrlSiteWeb] nvarchar(100) NULL,
+    CONSTRAINT [PK_Fournisseurs] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Fournisseurs_Adresses_IdAdresse] FOREIGN KEY ([IdAdresse]) REFERENCES [Adresses] ([Id])
+);
+2025-01-20 18:03:48.539 -05:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Territoires] (
+    [Id] varchar(20) NOT NULL,
+    [IdRegion] int NOT NULL,
+    [Nom] nvarchar(40) NOT NULL,
+    CONSTRAINT [PK_Territoires] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Territoires_Regions_IdRegion] FOREIGN KEY ([IdRegion]) REFERENCES [Regions] ([Id]) ON DELETE CASCADE
+);
+2025-01-20 18:03:48.544 -05:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Commandes] (
+    [Id] int NOT NULL IDENTITY,
+    [IdAdresse] uniqueidentifier NOT NULL,
+    [IdClient] varchar(20) NOT NULL,
+    [IdEmploye] int NOT NULL,
+    [IdLivreur] int NOT NULL,
+    [DateCommande] datetime2 NOT NULL,
+    [DateLivMaxi] datetime2 NULL,
+    [DateLivraison] datetime2 NULL,
+    [FraisLivraison] decimal(6,2) NULL,
+    CONSTRAINT [PK_Commandes] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Commandes_Adresses_IdAdresse] FOREIGN KEY ([IdAdresse]) REFERENCES [Adresses] ([Id]),
+    CONSTRAINT [FK_Commandes_Clients_IdClient] FOREIGN KEY ([IdClient]) REFERENCES [Clients] ([Id]),
+    CONSTRAINT [FK_Commandes_Employes_IdEmploye] FOREIGN KEY ([IdEmploye]) REFERENCES [Employes] ([Id]),
+    CONSTRAINT [FK_Commandes_Livreurs_IdLivreur] FOREIGN KEY ([IdLivreur]) REFERENCES [Livreurs] ([Id])
+);
+2025-01-20 18:03:48.548 -05:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Produits] (
+    [Id] int NOT NULL IDENTITY,
+    [IdCategorie] uniqueidentifier NOT NULL,
+    [IdFournisseur] int NOT NULL,
+    [Nom] nvarchar(40) NOT NULL,
+    [PU] decimal(8,2) NOT NULL,
+    [UnitesEnStock] smallint NOT NULL,
+    [NiveauReappro] smallint NOT NULL,
+    [Arrete] bit NOT NULL DEFAULT CAST(0 AS bit),
+    CONSTRAINT [PK_Produits] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Produits_Categories_IdCategorie] FOREIGN KEY ([IdCategorie]) REFERENCES [Categories] ([Id]),
+    CONSTRAINT [FK_Produits_Fournisseurs_IdFournisseur] FOREIGN KEY ([IdFournisseur]) REFERENCES [Fournisseurs] ([Id])
+);
+2025-01-20 18:03:50.288 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Affectations] (
+    [IdEmploye] int NOT NULL,
+    [IdTerritoire] varchar(20) NOT NULL,
+    CONSTRAINT [PK_Affectations] PRIMARY KEY ([IdEmploye], [IdTerritoire]),
+    CONSTRAINT [FK_Affectations_Employes_IdEmploye] FOREIGN KEY ([IdEmploye]) REFERENCES [Employes] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Affectations_Territoires_IdTerritoire] FOREIGN KEY ([IdTerritoire]) REFERENCES [Territoires] ([Id]) ON DELETE CASCADE
+);
+2025-01-20 18:03:50.293 -05:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [LignesCommandes] (
+    [IdCommande] int NOT NULL,
+    [IdProduit] int NOT NULL,
+    [PU] decimal(8,2) NOT NULL,
+    [Quantite] smallint NOT NULL,
+    [TauxReduc] real NOT NULL DEFAULT CAST(0 AS real),
+    CONSTRAINT [PK_LignesCommandes] PRIMARY KEY ([IdCommande], [IdProduit]),
+    CONSTRAINT [FK_LignesCommandes_Commandes_IdCommande] FOREIGN KEY ([IdCommande]) REFERENCES [Commandes] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_LignesCommandes_Produits_IdProduit] FOREIGN KEY ([IdProduit]) REFERENCES [Produits] ([Id])
+);
+2025-01-20 18:03:50.294 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Affectations_IdTerritoire] ON [Affectations] ([IdTerritoire]);
+2025-01-20 18:03:50.296 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Clients_IdAdresse] ON [Clients] ([IdAdresse]);
+2025-01-20 18:03:50.299 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Commandes_IdAdresse] ON [Commandes] ([IdAdresse]);
+2025-01-20 18:03:51.873 -05:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Commandes_IdClient] ON [Commandes] ([IdClient]);
+2025-01-20 18:03:51.874 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Commandes_IdEmploye] ON [Commandes] ([IdEmploye]);
+2025-01-20 18:03:51.875 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Commandes_IdLivreur] ON [Commandes] ([IdLivreur]);
+2025-01-20 18:03:51.876 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [IX_Employes_IdAdresse] ON [Employes] ([IdAdresse]);
+2025-01-20 18:03:51.877 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Employes_IdManager] ON [Employes] ([IdManager]);
+2025-01-20 18:03:51.878 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Fournisseurs_IdAdresse] ON [Fournisseurs] ([IdAdresse]);
+2025-01-20 18:03:51.881 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_LignesCommandes_IdProduit] ON [LignesCommandes] ([IdProduit]);
+2025-01-20 18:03:51.882 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Produits_IdCategorie] ON [Produits] ([IdCategorie]);
+2025-01-20 18:03:51.883 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Produits_IdFournisseur] ON [Produits] ([IdFournisseur]);
+2025-01-20 18:03:51.884 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Territoires_IdRegion] ON [Territoires] ([IdRegion]);
+2025-01-20 18:03:51.886 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20250120230319_CreationBd', N'9.0.0');
+2025-01-20 18:03:51.896 -05:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_releaseapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session';
+SELECT @result
+2025-01-20 18:14:12.271 -05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-01-20 18:14:38.599 -05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-01-20 18:14:57.013 -05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-01-20 18:15:45.381 -05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-01-20 18:15:46.064 -05:00 [INF] Executed DbCommand (176ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [Dbangola];
+2025-01-20 18:15:46.141 -05:00 [INF] Executed DbCommand (66ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [Dbangola] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2025-01-20 18:15:46.165 -05:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-01-20 18:15:46.167 -05:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-01-20 18:15:46.198 -05:00 [INF] Executed DbCommand (25ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_getapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session', @LockMode = 'Exclusive';
+SELECT @result
+2025-01-20 18:15:46.283 -05:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF OBJECT_ID(N'[__EFMigrationsHistory]') IS NULL
+BEGIN
+    CREATE TABLE [__EFMigrationsHistory] (
+        [MigrationId] nvarchar(150) NOT NULL,
+        [ProductVersion] nvarchar(32) NOT NULL,
+        CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+    );
+END;
+2025-01-20 18:15:46.295 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-01-20 18:15:46.300 -05:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-01-20 18:15:46.306 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-01-20 18:15:46.323 -05:00 [INF] Applying migration '20250120231439_CreationBdd'.
+2025-01-20 18:15:46.389 -05:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Adresses] (
+    [Id] uniqueidentifier NOT NULL,
+    [Rue] nvarchar(100) NOT NULL,
+    [Ville] nvarchar(40) NOT NULL,
+    [CodePostal] varchar(20) NOT NULL,
+    [Pays] nvarchar(40) NOT NULL,
+    [Region] nvarchar(40) NULL,
+    [Tel] varchar(20) NULL,
+    CONSTRAINT [PK_Adresses] PRIMARY KEY ([Id])
+);
+2025-01-20 18:15:46.391 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Categories] (
+    [Id] uniqueidentifier NOT NULL,
+    [Nom] nvarchar(40) NOT NULL,
+    [Description] nvarchar(1000) NULL,
+    CONSTRAINT [PK_Categories] PRIMARY KEY ([Id])
+);
+2025-01-20 18:15:46.393 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Livreurs] (
+    [Id] int NOT NULL IDENTITY,
+    [NomSociete] nvarchar(40) NOT NULL,
+    [Telephone] nvarchar(20) NOT NULL,
+    CONSTRAINT [PK_Livreurs] PRIMARY KEY ([Id])
+);
+2025-01-20 18:15:46.394 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Regions] (
+    [Id] int NOT NULL,
+    [Nom] nvarchar(40) NOT NULL,
+    CONSTRAINT [PK_Regions] PRIMARY KEY ([Id])
+);
+2025-01-20 18:15:46.396 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Clients] (
+    [Id] varchar(20) NOT NULL,
+    [IdAdresse] uniqueidentifier NOT NULL,
+    [NomSociete] nvarchar(100) NOT NULL,
+    [NomContact] nvarchar(100) NULL,
+    [FonctionContact] nvarchar(100) NULL,
+    CONSTRAINT [PK_Clients] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Clients_Adresses_IdAdresse] FOREIGN KEY ([IdAdresse]) REFERENCES [Adresses] ([Id])
+);
+2025-01-20 18:15:46.398 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Employes] (
+    [Id] int NOT NULL IDENTITY,
+    [IdAdresse] uniqueidentifier NOT NULL,
+    [IdManager] int NULL,
+    [Nom] nvarchar(40) NOT NULL,
+    [Prenom] nvarchar(40) NOT NULL,
+    [Fonction] nvarchar(40) NULL,
+    [Civilite] nvarchar(40) NULL,
+    [DateNaissance] datetime2 NULL,
+    [DateEmbauche] datetime2 NULL,
+    [Photo] image NULL,
+    [Notes] nvarchar(1000) NULL,
+    CONSTRAINT [PK_Employes] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Employes_Adresses_IdAdresse] FOREIGN KEY ([IdAdresse]) REFERENCES [Adresses] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Employes_Employes_IdManager] FOREIGN KEY ([IdManager]) REFERENCES [Employes] ([Id])
+);
+2025-01-20 18:15:47.358 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Fournisseurs] (
+    [Id] int NOT NULL IDENTITY,
+    [IdAdresse] uniqueidentifier NOT NULL,
+    [NomSociete] nvarchar(100) NOT NULL,
+    [NomContact] nvarchar(100) NULL,
+    [FonctionContact] nvarchar(100) NULL,
+    [UrlSiteWeb] nvarchar(100) NULL,
+    CONSTRAINT [PK_Fournisseurs] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Fournisseurs_Adresses_IdAdresse] FOREIGN KEY ([IdAdresse]) REFERENCES [Adresses] ([Id])
+);
+2025-01-20 18:15:47.362 -05:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Territoires] (
+    [Id] varchar(20) NOT NULL,
+    [IdRegion] int NOT NULL,
+    [Nom] nvarchar(40) NOT NULL,
+    CONSTRAINT [PK_Territoires] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Territoires_Regions_IdRegion] FOREIGN KEY ([IdRegion]) REFERENCES [Regions] ([Id]) ON DELETE CASCADE
+);
+2025-01-20 18:15:47.367 -05:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Commandes] (
+    [Id] int NOT NULL IDENTITY,
+    [IdAdresse] uniqueidentifier NOT NULL,
+    [IdClient] varchar(20) NOT NULL,
+    [IdEmploye] int NOT NULL,
+    [IdLivreur] int NOT NULL,
+    [DateCommande] datetime2 NOT NULL,
+    [DateLivMaxi] datetime2 NULL,
+    [DateLivraison] datetime2 NULL,
+    [FraisLivraison] decimal(6,2) NULL,
+    CONSTRAINT [PK_Commandes] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Commandes_Adresses_IdAdresse] FOREIGN KEY ([IdAdresse]) REFERENCES [Adresses] ([Id]),
+    CONSTRAINT [FK_Commandes_Clients_IdClient] FOREIGN KEY ([IdClient]) REFERENCES [Clients] ([Id]),
+    CONSTRAINT [FK_Commandes_Employes_IdEmploye] FOREIGN KEY ([IdEmploye]) REFERENCES [Employes] ([Id]),
+    CONSTRAINT [FK_Commandes_Livreurs_IdLivreur] FOREIGN KEY ([IdLivreur]) REFERENCES [Livreurs] ([Id])
+);
+2025-01-20 18:15:49.077 -05:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Produits] (
+    [Id] int NOT NULL IDENTITY,
+    [IdCategorie] uniqueidentifier NOT NULL,
+    [IdFournisseur] int NOT NULL,
+    [Nom] nvarchar(40) NOT NULL,
+    [PU] decimal(8,2) NOT NULL,
+    [UnitesEnStock] smallint NOT NULL,
+    [NiveauReappro] smallint NOT NULL,
+    [Arrete] bit NOT NULL DEFAULT CAST(0 AS bit),
+    CONSTRAINT [PK_Produits] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Produits_Categories_IdCategorie] FOREIGN KEY ([IdCategorie]) REFERENCES [Categories] ([Id]),
+    CONSTRAINT [FK_Produits_Fournisseurs_IdFournisseur] FOREIGN KEY ([IdFournisseur]) REFERENCES [Fournisseurs] ([Id])
+);
+2025-01-20 18:15:49.079 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Affectations] (
+    [IdEmploye] int NOT NULL,
+    [IdTerritoire] varchar(20) NOT NULL,
+    CONSTRAINT [PK_Affectations] PRIMARY KEY ([IdEmploye], [IdTerritoire]),
+    CONSTRAINT [FK_Affectations_Employes_IdEmploye] FOREIGN KEY ([IdEmploye]) REFERENCES [Employes] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Affectations_Territoires_IdTerritoire] FOREIGN KEY ([IdTerritoire]) REFERENCES [Territoires] ([Id]) ON DELETE CASCADE
+);
+2025-01-20 18:15:49.082 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [LignesCommandes] (
+    [IdCommande] int NOT NULL,
+    [IdProduit] int NOT NULL,
+    [PU] decimal(8,2) NOT NULL,
+    [Quantite] smallint NOT NULL,
+    [TauxReduc] real NOT NULL DEFAULT CAST(0 AS real),
+    CONSTRAINT [PK_LignesCommandes] PRIMARY KEY ([IdCommande], [IdProduit]),
+    CONSTRAINT [FK_LignesCommandes_Commandes_IdCommande] FOREIGN KEY ([IdCommande]) REFERENCES [Commandes] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_LignesCommandes_Produits_IdProduit] FOREIGN KEY ([IdProduit]) REFERENCES [Produits] ([Id])
+);
+2025-01-20 18:15:50.673 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Affectations_IdTerritoire] ON [Affectations] ([IdTerritoire]);
+2025-01-20 18:15:50.675 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Clients_IdAdresse] ON [Clients] ([IdAdresse]);
+2025-01-20 18:15:50.676 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Commandes_IdAdresse] ON [Commandes] ([IdAdresse]);
+2025-01-20 18:15:50.680 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Commandes_IdClient] ON [Commandes] ([IdClient]);
+2025-01-20 18:15:50.681 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Commandes_IdEmploye] ON [Commandes] ([IdEmploye]);
+2025-01-20 18:15:50.682 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Commandes_IdLivreur] ON [Commandes] ([IdLivreur]);
+2025-01-20 18:15:50.683 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [IX_Employes_IdAdresse] ON [Employes] ([IdAdresse]);
+2025-01-20 18:15:50.684 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Employes_IdManager] ON [Employes] ([IdManager]);
+2025-01-20 18:15:50.687 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Fournisseurs_IdAdresse] ON [Fournisseurs] ([IdAdresse]);
+2025-01-20 18:15:51.663 -05:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_LignesCommandes_IdProduit] ON [LignesCommandes] ([IdProduit]);
+2025-01-20 18:15:51.664 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Produits_IdCategorie] ON [Produits] ([IdCategorie]);
+2025-01-20 18:15:51.665 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Produits_IdFournisseur] ON [Produits] ([IdFournisseur]);
+2025-01-20 18:15:51.666 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Territoires_IdRegion] ON [Territoires] ([IdRegion]);
+2025-01-20 18:15:51.669 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20250120231439_CreationBdd', N'9.0.0');
+2025-01-20 18:15:51.681 -05:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_releaseapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session';
+SELECT @result
+2025-01-20 18:35:40.482 -05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-01-20 18:36:07.914 -05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-01-20 18:36:29.464 -05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-01-20 18:36:56.337 -05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-01-20 18:36:57.126 -05:00 [INF] Executed DbCommand (258ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [Dbangola];
+2025-01-20 18:36:57.187 -05:00 [INF] Executed DbCommand (51ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [Dbangola] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2025-01-20 18:36:57.208 -05:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-01-20 18:36:57.210 -05:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-01-20 18:36:57.228 -05:00 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_getapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session', @LockMode = 'Exclusive';
+SELECT @result
+2025-01-20 18:36:57.282 -05:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF OBJECT_ID(N'[__EFMigrationsHistory]') IS NULL
+BEGIN
+    CREATE TABLE [__EFMigrationsHistory] (
+        [MigrationId] nvarchar(150) NOT NULL,
+        [ProductVersion] nvarchar(32) NOT NULL,
+        CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+    );
+END;
+2025-01-20 18:36:57.293 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-01-20 18:36:57.294 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-01-20 18:36:57.297 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-01-20 18:36:57.311 -05:00 [INF] Applying migration '20250120233630_CreationBdd2'.
+2025-01-20 18:36:57.365 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Adresses] (
+    [Id] uniqueidentifier NOT NULL,
+    [Rue] nvarchar(100) NOT NULL,
+    [Ville] nvarchar(40) NOT NULL,
+    [CodePostal] varchar(20) NOT NULL,
+    [Pays] nvarchar(40) NOT NULL,
+    [Region] nvarchar(40) NULL,
+    [Tel] varchar(20) NULL,
+    CONSTRAINT [PK_Adresses] PRIMARY KEY ([Id])
+);
+2025-01-20 18:36:57.366 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Categories] (
+    [Id] uniqueidentifier NOT NULL,
+    [Nom] nvarchar(40) NOT NULL,
+    [Description] nvarchar(1000) NULL,
+    CONSTRAINT [PK_Categories] PRIMARY KEY ([Id])
+);
+2025-01-20 18:36:57.368 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Livreurs] (
+    [Id] int NOT NULL IDENTITY,
+    [NomSociete] nvarchar(40) NOT NULL,
+    [Telephone] nvarchar(20) NOT NULL,
+    CONSTRAINT [PK_Livreurs] PRIMARY KEY ([Id])
+);
+2025-01-20 18:36:57.558 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Regions] (
+    [Id] int NOT NULL,
+    [Nom] nvarchar(40) NOT NULL,
+    CONSTRAINT [PK_Regions] PRIMARY KEY ([Id])
+);
+2025-01-20 18:36:57.560 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Clients] (
+    [Id] varchar(20) NOT NULL,
+    [IdAdresse] uniqueidentifier NOT NULL,
+    [NomSociete] nvarchar(100) NOT NULL,
+    [NomContact] nvarchar(100) NULL,
+    [FonctionContact] nvarchar(100) NULL,
+    CONSTRAINT [PK_Clients] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Clients_Adresses_IdAdresse] FOREIGN KEY ([IdAdresse]) REFERENCES [Adresses] ([Id])
+);
+2025-01-20 18:36:57.562 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Employes] (
+    [Id] int NOT NULL IDENTITY,
+    [IdAdresse] uniqueidentifier NOT NULL,
+    [IdManager] int NULL,
+    [Nom] nvarchar(40) NOT NULL,
+    [Prenom] nvarchar(40) NOT NULL,
+    [Fonction] nvarchar(40) NULL,
+    [Civilite] nvarchar(40) NULL,
+    [DateNaissance] datetime2 NULL,
+    [DateEmbauche] datetime2 NULL,
+    [Photo] image NULL,
+    [Notes] nvarchar(1000) NULL,
+    CONSTRAINT [PK_Employes] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Employes_Adresses_IdAdresse] FOREIGN KEY ([IdAdresse]) REFERENCES [Adresses] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Employes_Employes_IdManager] FOREIGN KEY ([IdManager]) REFERENCES [Employes] ([Id])
+);
+2025-01-20 18:36:57.563 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Fournisseurs] (
+    [Id] int NOT NULL IDENTITY,
+    [IdAdresse] uniqueidentifier NOT NULL,
+    [NomSociete] nvarchar(100) NOT NULL,
+    [NomContact] nvarchar(100) NULL,
+    [FonctionContact] nvarchar(100) NULL,
+    [UrlSiteWeb] nvarchar(100) NULL,
+    CONSTRAINT [PK_Fournisseurs] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Fournisseurs_Adresses_IdAdresse] FOREIGN KEY ([IdAdresse]) REFERENCES [Adresses] ([Id])
+);
+2025-01-20 18:36:59.281 -05:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Territoires] (
+    [Id] varchar(20) NOT NULL,
+    [IdRegion] int NOT NULL,
+    [Nom] nvarchar(40) NOT NULL,
+    CONSTRAINT [PK_Territoires] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Territoires_Regions_IdRegion] FOREIGN KEY ([IdRegion]) REFERENCES [Regions] ([Id]) ON DELETE CASCADE
+);
+2025-01-20 18:36:59.288 -05:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Commandes] (
+    [Id] int NOT NULL IDENTITY,
+    [IdAdresse] uniqueidentifier NOT NULL,
+    [IdClient] varchar(20) NOT NULL,
+    [IdEmploye] int NOT NULL,
+    [IdLivreur] int NOT NULL,
+    [DateCommande] datetime2 NOT NULL,
+    [DateLivMaxi] datetime2 NULL,
+    [DateLivraison] datetime2 NULL,
+    [FraisLivraison] decimal(6,2) NULL,
+    CONSTRAINT [PK_Commandes] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Commandes_Adresses_IdAdresse] FOREIGN KEY ([IdAdresse]) REFERENCES [Adresses] ([Id]),
+    CONSTRAINT [FK_Commandes_Clients_IdClient] FOREIGN KEY ([IdClient]) REFERENCES [Clients] ([Id]),
+    CONSTRAINT [FK_Commandes_Employes_IdEmploye] FOREIGN KEY ([IdEmploye]) REFERENCES [Employes] ([Id]),
+    CONSTRAINT [FK_Commandes_Livreurs_IdLivreur] FOREIGN KEY ([IdLivreur]) REFERENCES [Livreurs] ([Id])
+);
+2025-01-20 18:36:59.291 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Produits] (
+    [Id] int NOT NULL IDENTITY,
+    [IdCategorie] uniqueidentifier NOT NULL,
+    [IdFournisseur] int NOT NULL,
+    [Nom] nvarchar(40) NOT NULL,
+    [PU] decimal(8,2) NOT NULL,
+    [UnitesEnStock] smallint NOT NULL,
+    [NiveauReappro] smallint NOT NULL,
+    [Arrete] bit NOT NULL DEFAULT CAST(0 AS bit),
+    CONSTRAINT [PK_Produits] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Produits_Categories_IdCategorie] FOREIGN KEY ([IdCategorie]) REFERENCES [Categories] ([Id]),
+    CONSTRAINT [FK_Produits_Fournisseurs_IdFournisseur] FOREIGN KEY ([IdFournisseur]) REFERENCES [Fournisseurs] ([Id])
+);
+2025-01-20 18:37:01.042 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Affectations] (
+    [IdEmploye] int NOT NULL,
+    [IdTerritoire] varchar(20) NOT NULL,
+    CONSTRAINT [PK_Affectations] PRIMARY KEY ([IdEmploye], [IdTerritoire]),
+    CONSTRAINT [FK_Affectations_Employes_IdEmploye] FOREIGN KEY ([IdEmploye]) REFERENCES [Employes] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Affectations_Territoires_IdTerritoire] FOREIGN KEY ([IdTerritoire]) REFERENCES [Territoires] ([Id]) ON DELETE CASCADE
+);
+2025-01-20 18:37:01.044 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [LignesCommandes] (
+    [IdCommande] int NOT NULL,
+    [IdProduit] int NOT NULL,
+    [PU] decimal(8,2) NOT NULL,
+    [Quantite] smallint NOT NULL,
+    [TauxReduc] real NOT NULL DEFAULT CAST(0 AS real),
+    CONSTRAINT [PK_LignesCommandes] PRIMARY KEY ([IdCommande], [IdProduit]),
+    CONSTRAINT [FK_LignesCommandes_Commandes_IdCommande] FOREIGN KEY ([IdCommande]) REFERENCES [Commandes] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_LignesCommandes_Produits_IdProduit] FOREIGN KEY ([IdProduit]) REFERENCES [Produits] ([Id])
+);
+2025-01-20 18:37:01.045 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Affectations_IdTerritoire] ON [Affectations] ([IdTerritoire]);
+2025-01-20 18:37:01.046 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Clients_IdAdresse] ON [Clients] ([IdAdresse]);
+2025-01-20 18:37:02.574 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Commandes_IdAdresse] ON [Commandes] ([IdAdresse]);
+2025-01-20 18:37:02.576 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Commandes_IdClient] ON [Commandes] ([IdClient]);
+2025-01-20 18:37:02.577 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Commandes_IdEmploye] ON [Commandes] ([IdEmploye]);
+2025-01-20 18:37:02.578 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Commandes_IdLivreur] ON [Commandes] ([IdLivreur]);
+2025-01-20 18:37:02.579 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [IX_Employes_IdAdresse] ON [Employes] ([IdAdresse]);
+2025-01-20 18:37:02.580 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Employes_IdManager] ON [Employes] ([IdManager]);
+2025-01-20 18:37:02.581 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Fournisseurs_IdAdresse] ON [Fournisseurs] ([IdAdresse]);
+2025-01-20 18:37:02.582 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_LignesCommandes_IdProduit] ON [LignesCommandes] ([IdProduit]);
+2025-01-20 18:37:02.583 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Produits_IdCategorie] ON [Produits] ([IdCategorie]);
+2025-01-20 18:37:02.586 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Produits_IdFournisseur] ON [Produits] ([IdFournisseur]);
+2025-01-20 18:37:02.588 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Territoires_IdRegion] ON [Territoires] ([IdRegion]);
+2025-01-20 18:37:02.591 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20250120233630_CreationBdd2', N'9.0.0');
+2025-01-20 18:37:03.571 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_releaseapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session';
+SELECT @result

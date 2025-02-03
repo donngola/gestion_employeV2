@@ -1,0 +1,310 @@
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\bin\Debug\net8.0\BlazorWasm.Frontend.staticwebassets.runtime.json
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\bin\Debug\net8.0\appsettings.json
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\bin\Debug\net8.0\BlazorDebugProxy\BrowserDebugHost.dll
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\bin\Debug\net8.0\BlazorDebugProxy\BrowserDebugHost.runtimeconfig.json
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\bin\Debug\net8.0\BlazorDebugProxy\BrowserDebugProxy.dll
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\bin\Debug\net8.0\BlazorDebugProxy\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\bin\Debug\net8.0\BlazorDebugProxy\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\bin\Debug\net8.0\BlazorDebugProxy\Microsoft.CodeAnalysis.dll
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\bin\Debug\net8.0\BlazorDebugProxy\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\bin\Debug\net8.0\BlazorDebugProxy\Microsoft.FileFormats.dll
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\bin\Debug\net8.0\BlazorDebugProxy\Microsoft.NET.WebAssembly.Webcil.dll
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\bin\Debug\net8.0\BlazorDebugProxy\Microsoft.SymbolStore.dll
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\bin\Debug\net8.0\BlazorDebugProxy\Newtonsoft.Json.dll
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\bin\Debug\net8.0\BlazorWasm.Backend.staticwebassets.runtime.json
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\bin\Debug\net8.0\BlazorWasm.Backend.exe
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\bin\Debug\net8.0\BlazorWasm.Backend.deps.json
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\bin\Debug\net8.0\BlazorWasm.Backend.runtimeconfig.json
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\bin\Debug\net8.0\BlazorWasm.Backend.dll
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\bin\Debug\net8.0\BlazorWasm.Backend.pdb
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\bin\Debug\net8.0\Duende.AccessTokenManagement.dll
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\bin\Debug\net8.0\Duende.AccessTokenManagement.OpenIdConnect.dll
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\bin\Debug\net8.0\Duende.BFF.dll
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\bin\Debug\net8.0\Duende.BFF.Yarp.dll
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\bin\Debug\net8.0\IdentityModel.dll
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\bin\Debug\net8.0\IdentityModel.AspNetCore.dll
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\bin\Debug\net8.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\bin\Debug\net8.0\Microsoft.AspNetCore.Components.dll
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Authorization.dll
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\bin\Debug\net8.0\Microsoft.AspNetCore.Components.WebAssembly.dll
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\bin\Debug\net8.0\Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\bin\Debug\net8.0\Microsoft.AspNetCore.Components.WebAssembly.Server.dll
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\bin\Debug\net8.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\bin\Debug\net8.0\Microsoft.JSInterop.dll
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\bin\Debug\net8.0\Microsoft.JSInterop.WebAssembly.dll
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\bin\Debug\net8.0\System.IO.Hashing.dll
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\bin\Debug\net8.0\Yarp.ReverseProxy.dll
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\bin\Debug\net8.0\BlazorWasm.Frontend.dll
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\bin\Debug\net8.0\BlazorWasm.Shared.dll
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\bin\Debug\net8.0\BlazorWasm.Frontend.pdb
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\bin\Debug\net8.0\BlazorWasm.Shared.pdb
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\obj\Debug\net8.0\BlazorWasm.Backend.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\obj\Debug\net8.0\BlazorWasm.Backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\obj\Debug\net8.0\BlazorWasm.Backend.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\obj\Debug\net8.0\BlazorWasm.Backend.AssemblyInfo.cs
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\obj\Debug\net8.0\BlazorWasm.Backend.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\obj\Debug\net8.0\BlazorWasm.Backend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\obj\Debug\net8.0\BlazorWasm.Backend.RazorAssemblyInfo.cache
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\obj\Debug\net8.0\BlazorWasm.Backend.RazorAssemblyInfo.cs
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\obj\Debug\net8.0\staticwebassets\msbuild.BlazorWasm.Backend.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\obj\Debug\net8.0\staticwebassets\msbuild.build.BlazorWasm.Backend.props
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.BlazorWasm.Backend.props
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.BlazorWasm.Backend.props
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\obj\Debug\net8.0\scopedcss\bundle\BlazorWasm.Backend.styles.css
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\obj\Debug\net8.0\BlazorWasm.Backend.csproj.CopyComplete
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\obj\Debug\net8.0\BlazorWasm.Backend.dll
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\obj\Debug\net8.0\refint\BlazorWasm.Backend.dll
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\obj\Debug\net8.0\BlazorWasm.Backend.pdb
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\obj\Debug\net8.0\BlazorWasm.Backend.genruntimeconfig.cache
+C:\Users\HP\Desktop\dyma\asp_dot_net_dyma\CoursWebAPI-master (1)\CoursWebAPI-master\Backend\obj\Debug\net8.0\ref\BlazorWasm.Backend.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\bin\Debug\net8.0\appsettings.json
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\bin\Debug\net8.0\BlazorDebugProxy\BrowserDebugHost.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\bin\Debug\net8.0\BlazorDebugProxy\BrowserDebugHost.runtimeconfig.json
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\bin\Debug\net8.0\BlazorDebugProxy\BrowserDebugProxy.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\bin\Debug\net8.0\BlazorDebugProxy\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\bin\Debug\net8.0\BlazorDebugProxy\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\bin\Debug\net8.0\BlazorDebugProxy\Microsoft.CodeAnalysis.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\bin\Debug\net8.0\BlazorDebugProxy\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\bin\Debug\net8.0\BlazorDebugProxy\Microsoft.FileFormats.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\bin\Debug\net8.0\BlazorDebugProxy\Microsoft.NET.WebAssembly.Webcil.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\bin\Debug\net8.0\BlazorDebugProxy\Microsoft.SymbolStore.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\bin\Debug\net8.0\BlazorDebugProxy\Newtonsoft.Json.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\bin\Debug\net8.0\BlazorWasm.Frontend.staticwebassets.runtime.json
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\bin\Debug\net8.0\BlazorWasm.Backend.staticwebassets.runtime.json
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\bin\Debug\net8.0\BlazorWasm.Backend.exe
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\bin\Debug\net8.0\BlazorWasm.Backend.deps.json
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\bin\Debug\net8.0\BlazorWasm.Backend.runtimeconfig.json
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\bin\Debug\net8.0\BlazorWasm.Backend.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\bin\Debug\net8.0\BlazorWasm.Backend.pdb
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\bin\Debug\net8.0\Duende.AccessTokenManagement.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\bin\Debug\net8.0\Duende.AccessTokenManagement.OpenIdConnect.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\bin\Debug\net8.0\Duende.BFF.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\bin\Debug\net8.0\Duende.BFF.Yarp.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\bin\Debug\net8.0\IdentityModel.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\bin\Debug\net8.0\IdentityModel.AspNetCore.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\bin\Debug\net8.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\bin\Debug\net8.0\Microsoft.AspNetCore.Components.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Authorization.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\bin\Debug\net8.0\Microsoft.AspNetCore.Components.WebAssembly.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\bin\Debug\net8.0\Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\bin\Debug\net8.0\Microsoft.AspNetCore.Components.WebAssembly.Server.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\bin\Debug\net8.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\bin\Debug\net8.0\Microsoft.JSInterop.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\bin\Debug\net8.0\Microsoft.JSInterop.WebAssembly.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\bin\Debug\net8.0\System.IO.Hashing.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\bin\Debug\net8.0\Yarp.ReverseProxy.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\bin\Debug\net8.0\BlazorWasm.Frontend.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\bin\Debug\net8.0\BlazorWasm.Shared.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\bin\Debug\net8.0\BlazorWasm.Frontend.pdb
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\bin\Debug\net8.0\BlazorWasm.Shared.pdb
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\obj\Debug\net8.0\BlazorWasm.Backend.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\obj\Debug\net8.0\BlazorWasm.Backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\obj\Debug\net8.0\BlazorWasm.Backend.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\obj\Debug\net8.0\BlazorWasm.Backend.AssemblyInfo.cs
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\obj\Debug\net8.0\BlazorWasm.Backend.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\obj\Debug\net8.0\BlazorWasm.Backend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\obj\Debug\net8.0\BlazorWasm.Backend.RazorAssemblyInfo.cache
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\obj\Debug\net8.0\BlazorWasm.Backend.RazorAssemblyInfo.cs
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\obj\Debug\net8.0\staticwebassets\msbuild.BlazorWasm.Backend.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\obj\Debug\net8.0\staticwebassets\msbuild.build.BlazorWasm.Backend.props
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.BlazorWasm.Backend.props
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.BlazorWasm.Backend.props
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\obj\Debug\net8.0\scopedcss\bundle\BlazorWasm.Backend.styles.css
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\obj\Debug\net8.0\BlazorWasm.Backend.csproj.CopyComplete
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\obj\Debug\net8.0\BlazorWasm.Backend.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\obj\Debug\net8.0\refint\BlazorWasm.Backend.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\obj\Debug\net8.0\BlazorWasm.Backend.pdb
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\obj\Debug\net8.0\BlazorWasm.Backend.genruntimeconfig.cache
+C:\Users\HP\Desktop\projet\asp.net.mvc6\CourrsWebApi3\Backend\obj\Debug\net8.0\ref\BlazorWasm.Backend.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\bin\Debug\net8.0\appsettings.json
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\bin\Debug\net8.0\BlazorDebugProxy\BrowserDebugHost.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\bin\Debug\net8.0\BlazorDebugProxy\BrowserDebugHost.runtimeconfig.json
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\bin\Debug\net8.0\BlazorDebugProxy\BrowserDebugProxy.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\bin\Debug\net8.0\BlazorDebugProxy\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\bin\Debug\net8.0\BlazorDebugProxy\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\bin\Debug\net8.0\BlazorDebugProxy\Microsoft.CodeAnalysis.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\bin\Debug\net8.0\BlazorDebugProxy\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\bin\Debug\net8.0\BlazorDebugProxy\Microsoft.FileFormats.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\bin\Debug\net8.0\BlazorDebugProxy\Microsoft.NET.WebAssembly.Webcil.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\bin\Debug\net8.0\BlazorDebugProxy\Microsoft.SymbolStore.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\bin\Debug\net8.0\BlazorDebugProxy\Newtonsoft.Json.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\bin\Debug\net8.0\BlazorWasm.Frontend.staticwebassets.runtime.json
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\bin\Debug\net8.0\BlazorWasm.Backend.staticwebassets.runtime.json
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\bin\Debug\net8.0\BlazorWasm.Backend.exe
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\bin\Debug\net8.0\BlazorWasm.Backend.deps.json
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\bin\Debug\net8.0\BlazorWasm.Backend.runtimeconfig.json
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\bin\Debug\net8.0\BlazorWasm.Backend.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\bin\Debug\net8.0\BlazorWasm.Backend.pdb
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\bin\Debug\net8.0\Duende.AccessTokenManagement.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\bin\Debug\net8.0\Duende.AccessTokenManagement.OpenIdConnect.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\bin\Debug\net8.0\Duende.BFF.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\bin\Debug\net8.0\Duende.BFF.Yarp.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\bin\Debug\net8.0\IdentityModel.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\bin\Debug\net8.0\IdentityModel.AspNetCore.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\bin\Debug\net8.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\bin\Debug\net8.0\Microsoft.AspNetCore.Components.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Authorization.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\bin\Debug\net8.0\Microsoft.AspNetCore.Components.WebAssembly.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\bin\Debug\net8.0\Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\bin\Debug\net8.0\Microsoft.AspNetCore.Components.WebAssembly.Server.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\bin\Debug\net8.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\bin\Debug\net8.0\Microsoft.JSInterop.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\bin\Debug\net8.0\Microsoft.JSInterop.WebAssembly.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\bin\Debug\net8.0\System.IO.Hashing.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\bin\Debug\net8.0\Yarp.ReverseProxy.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\bin\Debug\net8.0\BlazorWasm.Frontend.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\bin\Debug\net8.0\BlazorWasm.Shared.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\bin\Debug\net8.0\BlazorWasm.Frontend.pdb
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\bin\Debug\net8.0\BlazorWasm.Shared.pdb
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\obj\Debug\net8.0\BlazorWasm.Backend.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\obj\Debug\net8.0\BlazorWasm.Backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\obj\Debug\net8.0\BlazorWasm.Backend.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\obj\Debug\net8.0\BlazorWasm.Backend.AssemblyInfo.cs
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\obj\Debug\net8.0\BlazorWasm.Backend.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\obj\Debug\net8.0\BlazorWasm.Backend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\obj\Debug\net8.0\BlazorWasm.Backend.RazorAssemblyInfo.cache
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\obj\Debug\net8.0\BlazorWasm.Backend.RazorAssemblyInfo.cs
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\obj\Debug\net8.0\BlazorWasm.Backend.sourcelink.json
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\obj\Debug\net8.0\staticwebassets\msbuild.BlazorWasm.Backend.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\obj\Debug\net8.0\staticwebassets\msbuild.build.BlazorWasm.Backend.props
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.BlazorWasm.Backend.props
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.BlazorWasm.Backend.props
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\obj\Debug\net8.0\scopedcss\bundle\BlazorWasm.Backend.styles.css
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\obj\Debug\net8.0\BlazorWasm.Backend.csproj.CopyComplete
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\obj\Debug\net8.0\BlazorWasm.Backend.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\obj\Debug\net8.0\refint\BlazorWasm.Backend.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\obj\Debug\net8.0\BlazorWasm.Backend.pdb
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\obj\Debug\net8.0\BlazorWasm.Backend.genruntimeconfig.cache
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV1\Backend\obj\Debug\net8.0\ref\BlazorWasm.Backend.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\bin\Debug\net8.0\appsettings.json
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\bin\Debug\net8.0\BlazorDebugProxy\BrowserDebugHost.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\bin\Debug\net8.0\BlazorDebugProxy\BrowserDebugHost.runtimeconfig.json
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\bin\Debug\net8.0\BlazorDebugProxy\BrowserDebugProxy.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\bin\Debug\net8.0\BlazorDebugProxy\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\bin\Debug\net8.0\BlazorDebugProxy\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\bin\Debug\net8.0\BlazorDebugProxy\Microsoft.CodeAnalysis.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\bin\Debug\net8.0\BlazorDebugProxy\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\bin\Debug\net8.0\BlazorDebugProxy\Microsoft.FileFormats.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\bin\Debug\net8.0\BlazorDebugProxy\Microsoft.NET.WebAssembly.Webcil.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\bin\Debug\net8.0\BlazorDebugProxy\Microsoft.SymbolStore.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\bin\Debug\net8.0\BlazorDebugProxy\Newtonsoft.Json.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\bin\Debug\net8.0\BlazorWasm.Frontend.staticwebassets.runtime.json
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\bin\Debug\net8.0\BlazorWasm.Backend.staticwebassets.runtime.json
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\bin\Debug\net8.0\BlazorWasm.Backend.exe
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\bin\Debug\net8.0\BlazorWasm.Backend.deps.json
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\bin\Debug\net8.0\BlazorWasm.Backend.runtimeconfig.json
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\bin\Debug\net8.0\BlazorWasm.Backend.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\bin\Debug\net8.0\BlazorWasm.Backend.pdb
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\bin\Debug\net8.0\Duende.AccessTokenManagement.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\bin\Debug\net8.0\Duende.AccessTokenManagement.OpenIdConnect.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\bin\Debug\net8.0\Duende.BFF.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\bin\Debug\net8.0\Duende.BFF.Yarp.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\bin\Debug\net8.0\IdentityModel.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\bin\Debug\net8.0\IdentityModel.AspNetCore.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\bin\Debug\net8.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\bin\Debug\net8.0\Microsoft.AspNetCore.Components.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Authorization.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\bin\Debug\net8.0\Microsoft.AspNetCore.Components.WebAssembly.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\bin\Debug\net8.0\Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\bin\Debug\net8.0\Microsoft.AspNetCore.Components.WebAssembly.Server.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\bin\Debug\net8.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\bin\Debug\net8.0\Microsoft.JSInterop.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\bin\Debug\net8.0\Microsoft.JSInterop.WebAssembly.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\bin\Debug\net8.0\System.IO.Hashing.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\bin\Debug\net8.0\Yarp.ReverseProxy.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\bin\Debug\net8.0\BlazorWasm.Frontend.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\bin\Debug\net8.0\BlazorWasm.Shared.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\bin\Debug\net8.0\BlazorWasm.Frontend.pdb
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\bin\Debug\net8.0\BlazorWasm.Shared.pdb
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\obj\Debug\net8.0\BlazorWasm.Backend.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\obj\Debug\net8.0\BlazorWasm.Backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\obj\Debug\net8.0\BlazorWasm.Backend.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\obj\Debug\net8.0\BlazorWasm.Backend.AssemblyInfo.cs
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\obj\Debug\net8.0\BlazorWasm.Backend.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\obj\Debug\net8.0\BlazorWasm.Backend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\obj\Debug\net8.0\BlazorWasm.Backend.RazorAssemblyInfo.cache
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\obj\Debug\net8.0\BlazorWasm.Backend.RazorAssemblyInfo.cs
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\obj\Debug\net8.0\BlazorWasm.Backend.sourcelink.json
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\obj\Debug\net8.0\staticwebassets\msbuild.BlazorWasm.Backend.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\obj\Debug\net8.0\staticwebassets\msbuild.build.BlazorWasm.Backend.props
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.BlazorWasm.Backend.props
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.BlazorWasm.Backend.props
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\obj\Debug\net8.0\scopedcss\bundle\BlazorWasm.Backend.styles.css
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\obj\Debug\net8.0\BlazorWasm.Backend.csproj.CopyComplete
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\obj\Debug\net8.0\BlazorWasm.Backend.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\obj\Debug\net8.0\refint\BlazorWasm.Backend.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\obj\Debug\net8.0\BlazorWasm.Backend.pdb
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\obj\Debug\net8.0\BlazorWasm.Backend.genruntimeconfig.cache
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\Backend\obj\Debug\net8.0\ref\BlazorWasm.Backend.dll
