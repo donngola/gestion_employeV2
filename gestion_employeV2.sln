@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorWasm.Shared", "Shared
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiProjetVersion3", "ApiProjetVersion3\ApiProjetVersion3.csproj", "{86E2CFA4-F346-4CA1-A74E-E2768FA76EEF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApiEmploye", "TestApiEmploye\TestApiEmploye.csproj", "{E0DA92FC-2EBF-4815-AF7A-3E99D4041ADA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{86E2CFA4-F346-4CA1-A74E-E2768FA76EEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86E2CFA4-F346-4CA1-A74E-E2768FA76EEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86E2CFA4-F346-4CA1-A74E-E2768FA76EEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0DA92FC-2EBF-4815-AF7A-3E99D4041ADA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0DA92FC-2EBF-4815-AF7A-3E99D4041ADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0DA92FC-2EBF-4815-AF7A-3E99D4041ADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0DA92FC-2EBF-4815-AF7A-3E99D4041ADA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

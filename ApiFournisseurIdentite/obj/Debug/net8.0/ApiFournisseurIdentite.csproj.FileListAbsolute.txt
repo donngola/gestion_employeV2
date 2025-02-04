@@ -939,3 +939,4 @@ C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\ApiFournisseurIdentite
 C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\ApiFournisseurIdentite\obj\Debug\net8.0\ApiFournisseurIdentite.pdb
 C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\ApiFournisseurIdentite\obj\Debug\net8.0\ApiFournisseurIdentite.genruntimeconfig.cache
 C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\ApiFournisseurIdentite\obj\Debug\net8.0\ref\ApiFournisseurIdentite.dll
+C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\ApiFournisseurIdentite\bin\Debug\net8.0\keys\is-signing-key-0C72D0C9C35AF857FC02AB2E8D32A32F.json

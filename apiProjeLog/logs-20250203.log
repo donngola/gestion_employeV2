@@ -133,3 +133,292 @@ ORDER BY [e].[Nom], [e].[Prenom], [e].[Id], [a].[Id], [s].[IdEmploye], [s].[IdTe
 2025-02-03 14:21:35.184 -05:00 [INF] Executed action ApiProjetVersion3.Controllers.EmployesController.GetEmployes (ApiProjetVersion3) in 2270.9163ms
 2025-02-03 14:21:35.188 -05:00 [INF] Executed endpoint 'ApiProjetVersion3.Controllers.EmployesController.GetEmployes (ApiProjetVersion3)'
 2025-02-03 14:21:35.200 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/api/Employes - 200 null application/json; charset=utf-8 2351.7144ms
+2025-02-03 16:42:07.475 -05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-02-03 16:43:41.042 -05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-02-03 16:44:21.069 -05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-02-03 16:44:22.351 -05:00 [INF] Executed DbCommand (290ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [DbangolaTest];
+2025-02-03 16:44:22.474 -05:00 [INF] Executed DbCommand (109ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [DbangolaTest] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2025-02-03 16:44:22.506 -05:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-02-03 16:44:22.509 -05:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-02-03 16:44:22.546 -05:00 [INF] Executed DbCommand (32ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_getapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session', @LockMode = 'Exclusive';
+SELECT @result
+2025-02-03 16:44:22.644 -05:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF OBJECT_ID(N'[__EFMigrationsHistory]') IS NULL
+BEGIN
+    CREATE TABLE [__EFMigrationsHistory] (
+        [MigrationId] nvarchar(150) NOT NULL,
+        [ProductVersion] nvarchar(32) NOT NULL,
+        CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+    );
+END;
+2025-02-03 16:44:22.661 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-02-03 16:44:22.664 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-02-03 16:44:22.670 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-02-03 16:44:22.701 -05:00 [INF] Applying migration '20250120233630_CreationBdd2'.
+2025-02-03 16:44:22.808 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Adresses] (
+    [Id] uniqueidentifier NOT NULL,
+    [Rue] nvarchar(100) NOT NULL,
+    [Ville] nvarchar(40) NOT NULL,
+    [CodePostal] varchar(20) NOT NULL,
+    [Pays] nvarchar(40) NOT NULL,
+    [Region] nvarchar(40) NULL,
+    [Tel] varchar(20) NULL,
+    CONSTRAINT [PK_Adresses] PRIMARY KEY ([Id])
+);
+2025-02-03 16:44:22.811 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Categories] (
+    [Id] uniqueidentifier NOT NULL,
+    [Nom] nvarchar(40) NOT NULL,
+    [Description] nvarchar(1000) NULL,
+    CONSTRAINT [PK_Categories] PRIMARY KEY ([Id])
+);
+2025-02-03 16:44:22.817 -05:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Livreurs] (
+    [Id] int NOT NULL IDENTITY,
+    [NomSociete] nvarchar(40) NOT NULL,
+    [Telephone] nvarchar(20) NOT NULL,
+    CONSTRAINT [PK_Livreurs] PRIMARY KEY ([Id])
+);
+2025-02-03 16:44:22.819 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Regions] (
+    [Id] int NOT NULL,
+    [Nom] nvarchar(40) NOT NULL,
+    CONSTRAINT [PK_Regions] PRIMARY KEY ([Id])
+);
+2025-02-03 16:44:22.916 -05:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Clients] (
+    [Id] varchar(20) NOT NULL,
+    [IdAdresse] uniqueidentifier NOT NULL,
+    [NomSociete] nvarchar(100) NOT NULL,
+    [NomContact] nvarchar(100) NULL,
+    [FonctionContact] nvarchar(100) NULL,
+    CONSTRAINT [PK_Clients] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Clients_Adresses_IdAdresse] FOREIGN KEY ([IdAdresse]) REFERENCES [Adresses] ([Id])
+);
+2025-02-03 16:44:22.925 -05:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Employes] (
+    [Id] int NOT NULL IDENTITY,
+    [IdAdresse] uniqueidentifier NOT NULL,
+    [IdManager] int NULL,
+    [Nom] nvarchar(40) NOT NULL,
+    [Prenom] nvarchar(40) NOT NULL,
+    [Fonction] nvarchar(40) NULL,
+    [Civilite] nvarchar(40) NULL,
+    [DateNaissance] datetime2 NULL,
+    [DateEmbauche] datetime2 NULL,
+    [Photo] image NULL,
+    [Notes] nvarchar(1000) NULL,
+    CONSTRAINT [PK_Employes] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Employes_Adresses_IdAdresse] FOREIGN KEY ([IdAdresse]) REFERENCES [Adresses] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Employes_Employes_IdManager] FOREIGN KEY ([IdManager]) REFERENCES [Employes] ([Id])
+);
+2025-02-03 16:44:22.928 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Fournisseurs] (
+    [Id] int NOT NULL IDENTITY,
+    [IdAdresse] uniqueidentifier NOT NULL,
+    [NomSociete] nvarchar(100) NOT NULL,
+    [NomContact] nvarchar(100) NULL,
+    [FonctionContact] nvarchar(100) NULL,
+    [UrlSiteWeb] nvarchar(100) NULL,
+    CONSTRAINT [PK_Fournisseurs] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Fournisseurs_Adresses_IdAdresse] FOREIGN KEY ([IdAdresse]) REFERENCES [Adresses] ([Id])
+);
+2025-02-03 16:44:24.535 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Territoires] (
+    [Id] varchar(20) NOT NULL,
+    [IdRegion] int NOT NULL,
+    [Nom] nvarchar(40) NOT NULL,
+    CONSTRAINT [PK_Territoires] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Territoires_Regions_IdRegion] FOREIGN KEY ([IdRegion]) REFERENCES [Regions] ([Id]) ON DELETE CASCADE
+);
+2025-02-03 16:44:24.541 -05:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Commandes] (
+    [Id] int NOT NULL IDENTITY,
+    [IdAdresse] uniqueidentifier NOT NULL,
+    [IdClient] varchar(20) NOT NULL,
+    [IdEmploye] int NOT NULL,
+    [IdLivreur] int NOT NULL,
+    [DateCommande] datetime2 NOT NULL,
+    [DateLivMaxi] datetime2 NULL,
+    [DateLivraison] datetime2 NULL,
+    [FraisLivraison] decimal(6,2) NULL,
+    CONSTRAINT [PK_Commandes] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Commandes_Adresses_IdAdresse] FOREIGN KEY ([IdAdresse]) REFERENCES [Adresses] ([Id]),
+    CONSTRAINT [FK_Commandes_Clients_IdClient] FOREIGN KEY ([IdClient]) REFERENCES [Clients] ([Id]),
+    CONSTRAINT [FK_Commandes_Employes_IdEmploye] FOREIGN KEY ([IdEmploye]) REFERENCES [Employes] ([Id]),
+    CONSTRAINT [FK_Commandes_Livreurs_IdLivreur] FOREIGN KEY ([IdLivreur]) REFERENCES [Livreurs] ([Id])
+);
+2025-02-03 16:44:24.547 -05:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Produits] (
+    [Id] int NOT NULL IDENTITY,
+    [IdCategorie] uniqueidentifier NOT NULL,
+    [IdFournisseur] int NOT NULL,
+    [Nom] nvarchar(40) NOT NULL,
+    [PU] decimal(8,2) NOT NULL,
+    [UnitesEnStock] smallint NOT NULL,
+    [NiveauReappro] smallint NOT NULL,
+    [Arrete] bit NOT NULL DEFAULT CAST(0 AS bit),
+    CONSTRAINT [PK_Produits] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Produits_Categories_IdCategorie] FOREIGN KEY ([IdCategorie]) REFERENCES [Categories] ([Id]),
+    CONSTRAINT [FK_Produits_Fournisseurs_IdFournisseur] FOREIGN KEY ([IdFournisseur]) REFERENCES [Fournisseurs] ([Id])
+);
+2025-02-03 16:44:26.045 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Affectations] (
+    [IdEmploye] int NOT NULL,
+    [IdTerritoire] varchar(20) NOT NULL,
+    CONSTRAINT [PK_Affectations] PRIMARY KEY ([IdEmploye], [IdTerritoire]),
+    CONSTRAINT [FK_Affectations_Employes_IdEmploye] FOREIGN KEY ([IdEmploye]) REFERENCES [Employes] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Affectations_Territoires_IdTerritoire] FOREIGN KEY ([IdTerritoire]) REFERENCES [Territoires] ([Id]) ON DELETE CASCADE
+);
+2025-02-03 16:44:26.048 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [LignesCommandes] (
+    [IdCommande] int NOT NULL,
+    [IdProduit] int NOT NULL,
+    [PU] decimal(8,2) NOT NULL,
+    [Quantite] smallint NOT NULL,
+    [TauxReduc] real NOT NULL DEFAULT CAST(0 AS real),
+    CONSTRAINT [PK_LignesCommandes] PRIMARY KEY ([IdCommande], [IdProduit]),
+    CONSTRAINT [FK_LignesCommandes_Commandes_IdCommande] FOREIGN KEY ([IdCommande]) REFERENCES [Commandes] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_LignesCommandes_Produits_IdProduit] FOREIGN KEY ([IdProduit]) REFERENCES [Produits] ([Id])
+);
+2025-02-03 16:44:26.057 -05:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Affectations_IdTerritoire] ON [Affectations] ([IdTerritoire]);
+2025-02-03 16:44:26.058 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Clients_IdAdresse] ON [Clients] ([IdAdresse]);
+2025-02-03 16:44:26.060 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Commandes_IdAdresse] ON [Commandes] ([IdAdresse]);
+2025-02-03 16:44:27.667 -05:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Commandes_IdClient] ON [Commandes] ([IdClient]);
+2025-02-03 16:44:27.670 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Commandes_IdEmploye] ON [Commandes] ([IdEmploye]);
+2025-02-03 16:44:27.674 -05:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Commandes_IdLivreur] ON [Commandes] ([IdLivreur]);
+2025-02-03 16:44:27.676 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [IX_Employes_IdAdresse] ON [Employes] ([IdAdresse]);
+2025-02-03 16:44:27.678 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Employes_IdManager] ON [Employes] ([IdManager]);
+2025-02-03 16:44:27.679 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Fournisseurs_IdAdresse] ON [Fournisseurs] ([IdAdresse]);
+2025-02-03 16:44:27.681 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_LignesCommandes_IdProduit] ON [LignesCommandes] ([IdProduit]);
+2025-02-03 16:44:27.683 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Produits_IdCategorie] ON [Produits] ([IdCategorie]);
+2025-02-03 16:44:27.684 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Produits_IdFournisseur] ON [Produits] ([IdFournisseur]);
+2025-02-03 16:44:27.685 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Territoires_IdRegion] ON [Territoires] ([IdRegion]);
+2025-02-03 16:44:27.690 -05:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20250120233630_CreationBdd2', N'9.0.0');
+2025-02-03 16:44:27.691 -05:00 [INF] Applying migration '20250203214343_AjoutTestApi'.
+2025-02-03 16:44:27.725 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20250203214343_AjoutTestApi', N'9.0.0');
+2025-02-03 16:44:28.596 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_releaseapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session';
+SELECT @result
+2025-02-03 17:02:08.479 -05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-02-03 17:02:25.601 -05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-02-03 17:02:28.842 -05:00 [INF] Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-02-03 17:02:28.871 -05:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-02-03 17:02:28.924 -05:00 [INF] Executed DbCommand (47ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_getapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session', @LockMode = 'Exclusive';
+SELECT @result
+2025-02-03 17:02:30.624 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF OBJECT_ID(N'[__EFMigrationsHistory]') IS NULL
+BEGIN
+    CREATE TABLE [__EFMigrationsHistory] (
+        [MigrationId] nvarchar(150) NOT NULL,
+        [ProductVersion] nvarchar(32) NOT NULL,
+        CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+    );
+END;
+2025-02-03 17:02:30.645 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-02-03 17:02:30.648 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-02-03 17:02:30.656 -05:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-02-03 17:02:30.682 -05:00 [INF] Applying migration '20250203220210_CreationClasseTest'.
+2025-02-03 17:02:30.709 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20250203220210_CreationClasseTest', N'9.0.0');
+2025-02-03 17:02:30.722 -05:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_releaseapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session';
+SELECT @result
+2025-02-03 17:04:11.680 -05:00 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-03 17:04:12.080 -05:00 [INF] Now listening on: https://localhost:7195
+2025-02-03 17:04:12.090 -05:00 [INF] Now listening on: http://localhost:5121
+2025-02-03 17:04:12.098 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-03 17:04:12.103 -05:00 [INF] Hosting environment: Development
+2025-02-03 17:04:12.105 -05:00 [INF] Content root path: C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\ApiProjetVersion3
+2025-02-03 17:04:13.318 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger - null null
+2025-02-03 17:04:13.644 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger - 302 0 null 333.4349ms
+2025-02-03 17:04:13.684 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-02-03 17:04:13.947 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html; charset=utf-8 262.7918ms
+2025-02-03 17:04:13.991 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-03 17:04:14.021 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 30.1944ms
+2025-02-03 17:04:15.194 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-02-03 17:04:15.276 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 82.6307ms
+2025-02-03 17:04:25.829 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/SmartEmployeBy Tresor_Ngola_v1/swagger.json - null null
+2025-02-03 17:04:26.775 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/SmartEmployeBy Tresor_Ngola_v1/swagger.json - 200 null application/json; charset=utf-8 945.5556ms
+2025-02-03 17:04:38.729 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/api/Employes - null null
+2025-02-03 17:04:38.753 -05:00 [INF] Executing endpoint 'ApiProjetVersion3.Controllers.EmployesController.GetEmployes (ApiProjetVersion3)'
+2025-02-03 17:04:38.793 -05:00 [INF] Route matched with {action = "GetEmployes", controller = "Employes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ApiProjetVersion3.Entities.Employe]]] GetEmployes(System.String, System.Nullable`1[System.DateTime]) on controller ApiProjetVersion3.Controllers.EmployesController (ApiProjetVersion3).
+2025-02-03 17:04:40.088 -05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-02-03 17:04:41.592 -05:00 [INF] Executed DbCommand (64ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[Civilite], [e].[Nom], [e].[Prenom], [e].[Fonction], [e].[DateEmbauche], [a].[Id], [a].[CodePostal], [a].[Pays], [a].[Region], [a].[Rue], [a].[Tel], [a].[Ville], [s].[Id], [s].[IdRegion], [s].[Nom], [s].[IdEmploye], [s].[IdTerritoire]
+FROM [Employes] AS [e]
+INNER JOIN [Adresses] AS [a] ON [e].[IdAdresse] = [a].[Id]
+LEFT JOIN (
+    SELECT [t].[Id], [t].[IdRegion], [t].[Nom], [a0].[IdEmploye], [a0].[IdTerritoire]
+    FROM [Affectations] AS [a0]
+    INNER JOIN [Territoires] AS [t] ON [a0].[IdTerritoire] = [t].[Id]
+) AS [s] ON [e].[Id] = [s].[IdEmploye]
+ORDER BY [e].[Nom], [e].[Prenom], [e].[Id], [a].[Id], [s].[IdEmploye], [s].[IdTerritoire]
+2025-02-03 17:04:41.641 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ApiProjetVersion3.Entities.Employe, ApiProjetVersion3, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-03 17:04:41.773 -05:00 [INF] Executed action ApiProjetVersion3.Controllers.EmployesController.GetEmployes (ApiProjetVersion3) in 2967.3438ms
+2025-02-03 17:04:41.776 -05:00 [INF] Executed endpoint 'ApiProjetVersion3.Controllers.EmployesController.GetEmployes (ApiProjetVersion3)'
+2025-02-03 17:04:41.795 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/api/Employes - 200 null application/json; charset=utf-8 3065.8945ms
+2025-02-03 17:09:15.256 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-02-03 17:09:15.282 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html; charset=utf-8 26.1237ms
+2025-02-03 17:09:15.350 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-03 17:09:15.350 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-02-03 17:09:15.355 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 5.2505ms
+2025-02-03 17:09:15.396 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 46.1436ms
+2025-02-03 17:09:15.525 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/SmartEmployeBy Tresor_Ngola_v1/swagger.json - null null
+2025-02-03 17:09:15.663 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/SmartEmployeBy Tresor_Ngola_v1/swagger.json - 200 null application/json; charset=utf-8 138.1308ms
+2025-02-03 17:09:50.313 -05:00 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-03 17:09:50.681 -05:00 [INF] Now listening on: https://localhost:7195
+2025-02-03 17:09:50.685 -05:00 [INF] Now listening on: http://localhost:5121
+2025-02-03 17:09:50.693 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-03 17:09:50.695 -05:00 [INF] Hosting environment: Development
+2025-02-03 17:09:50.696 -05:00 [INF] Content root path: C:\Users\HP\Desktop\projet\asp.net.mvc6\gestion_employeV2\ApiProjetVersion3
+2025-02-03 17:09:51.561 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-02-03 17:09:52.017 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html; charset=utf-8 462.1397ms
+2025-02-03 17:09:52.099 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-02-03 17:09:52.099 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-03 17:09:52.169 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 70.0963ms
+2025-02-03 17:09:52.220 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 121.4198ms
+2025-02-03 17:09:52.447 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/SmartEmployeBy Tresor_Ngola_v1/swagger.json - null null
+2025-02-03 17:09:53.486 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/SmartEmployeBy Tresor_Ngola_v1/swagger.json - 200 null application/json; charset=utf-8 1038.5602ms

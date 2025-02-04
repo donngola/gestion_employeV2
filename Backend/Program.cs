@@ -103,7 +103,7 @@ app.MapControllers()
     .AsBffApiEndpoint();
 
 // Mappe les points de terminaison de l'API externe sur l'API locale
-app.MapRemoteBffApiEndpoint("/Regions", builder.Configuration["ApiUrl"] + "Regions")
+app.MapRemoteBffApiEndpoint("/Employes", builder.Configuration["ApiUrl"] + "Employes")
        .RequireAccessToken(TokenType.User);
 
 app.MapFallbackToFile("index.html");

@@ -56,7 +56,7 @@ namespace ApiProjetVersion3
             builder.Services.AddOpenApiDocument(options => {
 
                 options.Title = "API SmartEmploye";
-                options.Description = "<strong>Projet fournisseur ID par <br/><a href='#'>Ngola Tresor</a></strong>";
+                options.Description = "<strong>Projet Gestion Employes par Tresor Ngola <br/><a href='https://github.com/donngola/gestion_employeV2'>voir code sur GitHub</a></strong>";
               
                 options.Version = "V_Ngola";
                 options.DocumentName = "SmartEmployeBy Tresor_Ngola_v1";

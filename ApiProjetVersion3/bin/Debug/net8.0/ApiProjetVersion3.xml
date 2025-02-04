@@ -59,5 +59,17 @@
         <member name="M:ApiProjetVersion3.Data.Migrations.CreationBdd2.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
             <inheritdoc />
         </member>
+        <member name="T:ApiProjetVersion3.Data.Migrations.AjoutTestApi">
+            <inheritdoc />
+        </member>
+        <member name="M:ApiProjetVersion3.Data.Migrations.AjoutTestApi.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ApiProjetVersion3.Data.Migrations.AjoutTestApi.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ApiProjetVersion3.Data.Migrations.AjoutTestApi.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
     </members>
 </doc>

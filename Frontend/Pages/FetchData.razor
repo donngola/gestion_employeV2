@@ -5,15 +5,16 @@
 
 @attribute [Authorize]
 
-<PageTitle>Test API</PageTitle>
+<PageTitle>Test API Employe</PageTitle>
 
-<h1>Test de l'API Northwind</h1>
+<h1>Gestion des employes</h1>
+<strong>Voir le code de l'API sur GitHub<br /><a href='https://github.com/donngola/gestion_employeV2'> voir code</a></strong>
 
-<p>Requête GET sur le point de terminaison <id>api/Regions/3</id></p>
+<p>Requête GET sur le point de terminaison <id>api/Employes/4</id></p>
 
 @if (reponse == null)
 {
-	<p><em>Loading...</em></p>
+	<p><em>Chargement...</em></p>
 }
 else
 {
@@ -28,7 +29,7 @@ else
 	{
 		try
 		{
-			reponse = await Http.GetStringAsync("/Regions/3");
+			reponse = await Http.GetStringAsync("/Employes/4");
 			reponse = JsonSerializer.Serialize(JsonDocument.Parse(reponse),
 							new JsonSerializerOptions { WriteIndented = true });
 		}
